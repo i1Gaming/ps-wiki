@@ -1,5 +1,5 @@
 function getSouls() {
-    $.getJSON("/js/souls.json", function (data) {
+    $.getJSON("../js/souls.json", function (data) {
         var souls = data.souls;
         var soulsHTML = [];
         $.each(souls, function (key, soul) {
