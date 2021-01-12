@@ -1,0 +1,64 @@
+{
+    "souls": [
+        {
+            "name": "Душа кошмара",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "Сопротивляемость сну +25",
+            "drop": [
+                {
+                    "mobName": "Кошмар",
+                    "mobLvl": "35",
+                    "mobLink": "nightmare.html",
+                    "mobLocation" : "muldian"
+                }
+            ]
+        },
+        {
+            "name": "Душа кошмара",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "Сопротивляемость сну +25",
+            "drop": [
+                {
+                    "mobName": "Кошмар",
+                    "mobLvl": "35",
+                    "mobLink": "nightmare.html",
+                    "mobLocation" : "muldian"
+                },
+                {
+                    "mobName": "Кошмар",
+                    "mobLvl": "35",
+                    "mobLink": "nightmare.html",
+                    "mobLocation" : "muldian"
+                },
+                {
+                    "mobName": "Кошмар",
+                    "mobLvl": "35",
+                    "mobLink": "nightmare.html",
+                    "mobLocation" : "muldian"
+                },
+                {
+                    "mobName": "Кошмар",
+                    "mobLvl": "35",
+                    "mobLink": "nightmare.html",
+                    "mobLocation" : "muldian"
+                },
+                {
+                    "mobName": "Кошмар",
+                    "mobLvl": "35",
+                    "mobLink": "nightmare.html",
+                    "mobLocation" : "muldian"
+                },
+                {
+                    "mobName": "Кошмар",
+                    "mobLvl": "35",
+                    "mobLink": "nightmare.html",
+                    "mobLocation" : "muldian"
+                }
+            ]
+        }
+    ]
+}
