@@ -10,8 +10,9 @@
                 {
                     "mobName": "Кошмар",
                     "mobLvl": "35",
-                    "mobLink": "nightmare.html",
-                    "mobLocation" : "muldian"
+                    "mobLink": "nightmare35.html",
+                    "mobLocationMain" : "muldian",
+                    "mobLocationAll" : ["muldian"]
                 }
             ]
         },
@@ -25,8 +26,9 @@
                 {
                     "mobName": "Темный борец",
                     "mobLvl": "41",
-                    "mobLink": "dark-wrestler.html",
-                    "mobLocation" : "muldian"
+                    "mobLink": "dark-wrestler41.html",
+                    "mobLocationMain" : "muldian",
+                    "mobLocationAll" : ["muldian"]
                 }
             ]
         },
@@ -40,8 +42,9 @@
                 {
                     "mobName": "Призрачный солдат",
                     "mobLvl": "43",
-                    "mobLink": "ghost-soldier.html",
-                    "mobLocation" : "muldian"
+                    "mobLink": "ghost-soldier43.html",
+                    "mobLocationMain" : "muldian",
+                    "mobLocationAll" : ["muldian"]
                 }
             ]
         },
@@ -55,8 +58,9 @@
                 {
                     "mobName": "Адский паук",
                     "mobLvl": "51",
-                    "mobLink": "hell-spider.html",
-                    "mobLocation" : "muldian"
+                    "mobLink": "hell-spider51.html",
+                    "mobLocationMain" : "muldian",
+                    "mobLocationAll" : ["muldian"]
                 }
             ]
         },
@@ -70,8 +74,9 @@
                 {
                     "mobName": "Адский паук",
                     "mobLvl": "51",
-                    "mobLink": "hell-spider.html",
-                    "mobLocation" : "muldian"
+                    "mobLink": "hell-spider51.html",
+                    "mobLocationMain" : "muldian",
+                    "mobLocationAll" : ["muldian"]
                 }
             ]
         },
@@ -85,8 +90,199 @@
                 {
                     "mobName": "Земляной демон",
                     "mobLvl": "53",
-                    "mobLink": "earth-demon.html",
-                    "mobLocation" : "muldian"
+                    "mobLink": "earth-demon53.html",
+                    "mobLocationMain" : "muldian",
+                    "mobLocationAll" : ["muldian"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Магии",
+            "part": "Доспех, Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Ом +6",
+            "drop": [
+                {
+                    "mobName": "Тушканчик",
+                    "mobLvl": "3",
+                    "mobLink": "tushkanchik3.html",
+                    "mobLocationMain" : "east-road",
+                    "mobLocationAll" : ["east-road","west-road","north-road"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Яда",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "4% вероятность отравить врага при атаке",
+            "drop": [
+                {
+                    "mobName": "Гремучая змея",
+                    "mobLvl": "6",
+                    "mobLink": "rattlesnake.html",
+                    "mobLocationMain" : "east-road",
+                    "mobLocationAll" : ["east-road","west-road","north-road"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Труда",
+            "part": "Голова",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "Оз +30, Ом +20",
+            "drop": [
+                {
+                    "mobName": "Муравей строитель",
+                    "mobLvl": "7",
+                    "mobLink": "ant7.html",
+                    "mobLocationMain" : "west-road",
+                    "mobLocationAll" : ["west-road"]
+                },
+                {
+                    "mobName": "Рогатый слизень",
+                    "mobLvl": "31",
+                    "mobLink": "slug31.html",
+                    "mobLocationMain" : "nelstadt",
+                    "mobLocationAll" : ["himurartu","gorda","nelstadt"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Фонтана",
+            "part": "Доспех, Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Ом +13",
+            "drop": [
+                {
+                    "mobName": "Пожиратель душ",
+                    "mobLvl": "8",
+                    "mobLink": "gluttony-ghost8.html",
+                    "mobLocationMain" : "east-road",
+                    "mobLocationAll" : ["east-road","west-road","north-road"]
+                },
+                {
+                    "mobName": "Живой Мертвец",
+                    "mobLvl": "8",
+                    "mobLink": "living-dead8.html",
+                    "mobLocationMain" : "east-road",
+                    "mobLocationAll" : ["east-road"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Счастья",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Вероятность критического урона +2%",
+            "drop": [
+                {
+                    "mobName": "Голубая змея",
+                    "mobLvl": "17",
+                    "mobLink": "blue-snake17.html",
+                    "mobLocationMain" : "north-road",
+                    "mobLocationAll" : ["north-road"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Мощи",
+            "part": "Пояс",
+            "color": "black",
+            "img": "black-soul.JPG",
+            "effect": "СИЛ +1",
+            "drop": [
+                {
+                    "mobName": "Крысолак с топором",
+                    "mobLvl": "23",
+                    "mobLink": "rat23.html",
+                    "mobLocationMain" : "west-road",
+                    "mobLocationAll" : ["west-road","himurartu"]
+                }
+            ]
+        },
+        {
+            "name": "Волшебная душа",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Магическая атака +2%",
+            "drop": [
+                {
+                    "mobName": "Крысолак с топором",
+                    "mobLvl": "23",
+                    "mobLink": "rat23.html",
+                    "mobLocationMain" : "west-road",
+                    "mobLocationAll" : ["west-road","himurartu"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Власти",
+            "part": "Доспех/Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Оз +30",
+            "drop": [
+                {
+                    "mobName": "Раптор",
+                    "mobLvl": "24",
+                    "mobLink": "raptor24.html",
+                    "mobLocationMain" : "himurartu",
+                    "mobLocationAll" : ["himurartu","gorda"]
+                }
+            ]
+        },
+        {
+            "name": "Душа Иглы",
+            "part": "Пояс",
+            "color": "black",
+            "img": "black-soul.JPG",
+            "effect": "ЛВК +1",
+            "drop": [
+                {
+                    "mobName": "Вурдалак",
+                    "mobLvl": "28",
+                    "mobLink": "ghoul28.html",
+                    "mobLocationMain" : "nelstadt",
+                    "mobLocationAll" : ["himurartu","gorda","nelstadt"]
+                }
+            ]
+        },
+        {
+            "name": "Спящая душа",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "4% вероятность усыпить врага при атаке",
+            "drop": [
+                {
+                    "mobName": "Скелет убийца",
+                    "mobLvl": "32",
+                    "mobLink": "skeleton32.html",
+                    "mobLocationMain" : "nelstadt",
+                    "mobLocationAll" : ["himurartu","nelstadt"]
+                }
+            ]
+        },
+        {
+            "name": "Душа улитки",
+            "part": "Доспех, Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Защита +1, уклонение -1",
+            "drop": [
+                {
+                    "mobName": "Муравей солдат",
+                    "mobLvl": "40",
+                    "mobLink": "ant40.html",
+                    "mobLocationMain" : "nelstadt",
+                    "mobLocationAll" : ["himurartu","nelstadt"]
                 }
             ]
         }
