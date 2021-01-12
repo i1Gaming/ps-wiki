@@ -1,7 +1,7 @@
 {
     "souls": [
         {
-            "name": "Душа кошмара",
+            "name": "Душа Кошмара",
             "part": "Шлем",
             "color": "yellow",
             "img": "yellow-soul.JPG",
@@ -16,46 +16,76 @@
             ]
         },
         {
-            "name": "Душа кошмара",
-            "part": "Шлем",
-            "color": "yellow",
-            "img": "yellow-soul.JPG",
-            "effect": "Сопротивляемость сну +25",
+            "name": "Душа Обороны",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Защита +3 атака -2",
             "drop": [
                 {
-                    "mobName": "Кошмар",
-                    "mobLvl": "35",
-                    "mobLink": "nightmare.html",
+                    "mobName": "Темный борец",
+                    "mobLvl": "41",
+                    "mobLink": "dark-wrestler.html",
                     "mobLocation" : "muldian"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Душа Следопыта",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Точность +4",
+            "drop": [
                 {
-                    "mobName": "Кошмар",
-                    "mobLvl": "35",
-                    "mobLink": "nightmare.html",
+                    "mobName": "Призрачный солдат",
+                    "mobLvl": "43",
+                    "mobLink": "ghost-soldier.html",
                     "mobLocation" : "muldian"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Душа Послушника",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "ИНТ +1, Ом +80",
+            "drop": [
                 {
-                    "mobName": "Кошмар",
-                    "mobLvl": "35",
-                    "mobLink": "nightmare.html",
+                    "mobName": "Адский паук",
+                    "mobLvl": "51",
+                    "mobLink": "hell-spider.html",
                     "mobLocation" : "muldian"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Душа Гладиатора",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "ВЫН +1, Оз +100",
+            "drop": [
                 {
-                    "mobName": "Кошмар",
-                    "mobLvl": "35",
-                    "mobLink": "nightmare.html",
+                    "mobName": "Адский паук",
+                    "mobLvl": "51",
+                    "mobLink": "hell-spider.html",
                     "mobLocation" : "muldian"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Душа Колдовства",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Скорость применения умений +2%",
+            "drop": [
                 {
-                    "mobName": "Кошмар",
-                    "mobLvl": "35",
-                    "mobLink": "nightmare.html",
-                    "mobLocation" : "muldian"
-                },
-                {
-                    "mobName": "Кошмар",
-                    "mobLvl": "35",
-                    "mobLink": "nightmare.html",
+                    "mobName": "Земляной демон",
+                    "mobLvl": "53",
+                    "mobLink": "earth-demon.html",
                     "mobLocation" : "muldian"
                 }
             ]
