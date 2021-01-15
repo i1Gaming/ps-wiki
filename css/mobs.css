@@ -1,0 +1,122 @@
+.mobs {
+    margin-top: 34px;
+}
+
+.mob {
+    background-color: rgba(240, 240, 240, 0.85);
+    border-radius: 6px;
+}
+
+.mob__img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.mob__img {
+    height: 100%;
+    max-height: 250px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.mob__title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.mob__title::before {
+    position: absolute;
+    content: "";
+    bottom: -6px;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: 50px;
+    height: 1px;
+    background-color: black;
+}
+
+.mob__location-title {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mob__location-name {
+    display: block;
+    text-align: center;
+}
+
+.mob__location-coordinates {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.mob__location-life {
+    display: flex;
+    justify-content: center;
+}
+
+.mob__location-day {
+    background-image: url(../img/sun-icon.png);
+}
+
+.mob__location-night {
+    background-image: url(../img/moon-icon.png);
+}
+
+.mob__location-day,
+.mob__location-night {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center center;
+}
+
+.mob__location {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.mob__location::before {
+    position: absolute;
+    content: "";
+    bottom: -12px;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: 50px;
+    height: 1px;
+    background-color: black;
+}
+
+.mob__drop-title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mob__drop-easy {
+    color: #006400;
+    font-size: 17px;
+}
+
+.mob__drop-medium {
+    color: #FF8C00;
+    font-size: 17px;
+}
+
+.mob__drop-hard {
+    color: #8B0000;
+    font-size: 17px;
+}
+
+.mob__drop-item {
+    display: inline;
+}

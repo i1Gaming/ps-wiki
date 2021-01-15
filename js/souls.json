@@ -219,6 +219,13 @@
                     "mobLink": "rat23.html",
                     "mobLocationMain" : "west-road",
                     "mobLocationAll" : ["west-road","himurartu"]
+                },
+                {
+                    "mobName": "Призрачный воин",
+                    "mobLvl": "33",
+                    "mobLink": "ghost-warrior33.html",
+                    "mobLocationMain" : "muldian",
+                    "mobLocationAll" : ["muldian"]
                 }
             ]
         },

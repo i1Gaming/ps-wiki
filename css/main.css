@@ -1,0 +1,195 @@
+* {
+    font-family: GothamPro;
+}
+
+body {
+    background: linear-gradient(142.96deg, #E9DEFA 1.19%, rgba(251, 252, 219, 0.48) 92.88%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    line-height: 13px;
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #BBBBBB;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link.active::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #F8A533;
+    border-radius: 50%;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.title-text {
+    font-family: GothamPro;
+    font-size: 16px;
+    line-height: 13px;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 13px;
+}
+
+.subtitle-text {
+    font-family: GothamPro;
+    font-size: 40px;
+    line-height: 38px;
+    font-weight: lighter;
+    display: inline;
+    position: relative;
+}
+
+.subtitle-text::before {
+    position: absolute;
+    content: "Wiki";
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    right: -75px;
+    top: 80%;
+}
+
+.text-main {
+    font-family: GothamPro;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 107px;
+}
+
+.category-text {
+    font-size: 40px;
+    line-height: 38px;
+    margin-top: 138px;
+}
+
+.main-page {
+    position: relative;
+}
+
+.fixed-bg-box {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    height: 450px;
+    width: 100%;
+    background-image: url(../img/bg-slider.png);
+    background-size: cover;
+    background-position: top top;
+    opacity: 0.7;
+}
+
+.fixed-lapin {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.main-title {
+    margin-bottom: 30px;
+}
+
+.search-container {
+    height: 45px;
+    background-color: #C4C4C4;
+    border-radius: 2px;
+    margin-top: 90px;
+}
+
+.search-container__text {
+    font-size: 18px;
+    color: black;
+}
+
+.search-container__text:hover {
+    color: black;
+}
+
+.mob-search {
+    background-color: transparent;
+    padding-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.mob-search-wrapper {
+    position: relative;
+    padding-right: 30px;
+}
+
+.mob-search-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-image: url(../img/search-512.webp);
+    background-size: contain;
+    background-position: center center;
+}
+
+.mob-search:focus {
+    outline: none;
+    width: 350px;
+}
+
+.page-title {
+    font-size: 40px;
+    font-weight: 300;
+    position: relative;
+    padding-top: 50px;
+}
+
+.page-title::before {
+    position: absolute;
+    content: "Wiki";
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    right: -75px;
+    top: 27px;
+}
+
+.filter-title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form-check {
+    padding-left: 25px;
+}
+
+.form-check-label {
+    font-size: 18px;
+    position: relative;
+}
+
+.form-check-label::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -25px;
+    transform: translate(0, -50%);
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.form-check-input:checked~.form-check-label::before {
+    border: 1px solid #F8A533;
+    background-color: #F8A533;
+}
+
+.form-check-input:checked~.form-check-label {
+    font-weight: bold;
+}
