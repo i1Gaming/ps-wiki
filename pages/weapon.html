@@ -5,65 +5,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PS wiki Legacy</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/badges.css">
+    <link rel="stylesheet" href="../css/weapon.css">
 </head>
 
 <body>
-    <div class="container py-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="../index.html">
-                Pandora Saga Wiki
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/souls.html">Души</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/armor.html">Броня</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../pages/weapon.html">Оружие</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/bijouterie.html">Бижутерия</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/mobs.html">Существа</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/locations.html">Локации</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/quests.html">Квесты</a>
-                        </li>
-                    </ul>
-                </ul>
+    <div class="main-page">
+        <div class="container-fluid fixed-bg-box">
+        </div>
+        <div class="container sticky-top py-2">
+            <nav class="navbar navbar-expand-lg navbar-light row">
+                <div class="col-8 col-lg-4">
+                    <a class="navbar-brand" href="../index.html">
+                        <img class="mw-100" src="../img/ps-logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-4 col-lg-8 d-flex justify-content-end">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav w-100 d-flex justify-content-around">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/souls.html">Души</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/armor.html">Броня</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/weapon.html">Оружие</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/bijouterie.html">Бижутерия</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/mobs.html">Существа</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/locations.html">Локации</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/quests.html">Квесты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container text-center main-title">
+            <span class="text-center title-text">Добро пожаловать на информационный проект</span>
+            <h1 class="text-center my-0 subtitle-text">Pandora Saga Legacy </h1>
+        </div>
+        <div class="container d-flex align-items-center justify-content-between search-container">
+            <div><a class="search-container__text" href="../pages/contacts.html">Обратная связь</a></div>
+            <div class="mob-search-wrapper">
+                <input class="mob-search" type="search" placeholder="Поиск по оружию" id="mob-search">
             </div>
-        </nav>
-    </div>
-    <div class="container mt-4">
-        <h4 class="text-center">Раздел с Оружием находится в режиме разработки</h4>  
-        <p class="text-center mb-4">Приходи попозже и тут станет красиво</p>
-        <div class="text-center">
-            <img src="../img/lapin.jpg" alt="" srcset="" style="max-width: 400px; height: auto;"> 
-        </div>   
+        </div>
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center my-0 page-title">Оружие </h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 filter-title">Фильтр по оружию:</div>
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-sword">
+                        <label class="form-check-label" for="one-handed-sword">
+                            Одноручные мечи
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-sword">
+                        <label class="form-check-label" for="two-handed-sword">
+                            Двуручные мечи
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-ax">
+                        <label class="form-check-label" for="one-hand-ax">
+                            Одноручные топоры
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-ax">
+                        <label class="form-check-label" for="two-handed-ax">
+                            Двуручные топоры
+                        </label>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-blunt">
+                        <label class="form-check-label" for="one-handed-blunt">
+                            Одноручные палицы
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-blunt">
+                        <label class="form-check-label" for="two-handed-blunt">
+                            Двуручные палицы
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-spear">
+                        <label class="form-check-label" for="one-hand-spear">
+                            Одноручные копья
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-spear">
+                        <label class="form-check-label" for="two-hand-spear">
+                            Двуручные копья
+                        </label>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="dagger">
+                        <label class="form-check-label" for="dagger">
+                            Ножи
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="fighting">
+                        <label class="form-check-label" for="fighting">
+                            Кастеты
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="bow">
+                        <label class="form-check-label" for="bow">
+                            Луки
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="crossbow">
+                        <label class="form-check-label" for="crossbow">
+                            Арбалеты
+                        </label>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-cane">
+                        <label class="form-check-label" for="one-hand-cane">
+                            Одноручные посохи
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-cane">
+                        <label class="form-check-label" for="two-hand-cane">
+                            Двуручные посохи
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4 weapon">
+            <div class="one-hand-sword-weapon my-3">
+                <h5 class="pb-1">Одноручные мечи</h5>
+            </div>
+            <div class="two-hand-sword-weapon my-3">
+                <h5 class="pb-1">Двуручные мечи</h5>
+            </div>
+            <div class="one-hand-ax-weapon my-3">
+                <h5 class="pb-1">Одноручные топоры</h5>
+            </div>
+            <div class="two-hand-ax-weapon my-3">
+                <h5 class="pb-1">Двуручные топоры</h5>
+            </div>
+            <div class="one-hand-blunt-weapon my-3">
+                <h5 class="pb-1">Одноручные палицы</h5>
+            </div>
+            <div class="two-hand-blunt-weapon">
+                <h5 class="pb-1">Двуручные палицы</h5>
+            </div>
+            <div class="one-hand-spear-weapon">
+                <h5 class="pb-1">Одноручные копья</h5>
+            </div>
+            <div class="two-hand-spear-weapon">
+                <h5 class="pb-1">Двуручные копья</h5>
+            </div>
+            <div class="dagger-weapon">
+                <h5 class="pb-1">Ножи</h5>
+            </div>
+            <div class="fighting-weapon">
+                <h5 class="pb-1">Кастеты</h5>
+            </div>
+            <div class="bow-weapon">
+                <h5 class="pb-1">Луки</h5>
+            </div>
+            <div class="crossbow-weapon">
+                <h5 class="pb-1">Арбалеты</h5>
+            </div>
+            <div class="two-hand-cane-weapon">
+                <h5 class="pb-1">Одноручные посохи</h5>
+            </div>
+            <div class="two-hande-cane-weapon">
+                <h5 class="pb-1">Двуручные посохи</h5>
+            </div>
+        </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="../js/souls.js"></script>
 </body>
 
 </html>
