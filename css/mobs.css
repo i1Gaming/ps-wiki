@@ -5,6 +5,8 @@
 .mob {
     background-color: rgba(240, 240, 240, 0.85);
     border-radius: 6px;
+    padding: 8px;
+    min-height: 100%;
 }
 
 .mob__img-container {
@@ -123,4 +125,10 @@
 
 .mob__lvl {
     font-size: 18px;
+}
+
+.mob__drop-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
 }

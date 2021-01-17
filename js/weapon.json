@@ -1,0 +1,10 @@
+{
+    "weapon": [{
+        "name": "knuckle3",
+        "nameRU": "Кастет",
+        "lvl": 3,
+        "maxSlots": 1,
+        "equip": ["warrior", "gladiator", "knight", "scout", "archer", "agent"],
+        "drop": ["snake6"]
+    }]
+}

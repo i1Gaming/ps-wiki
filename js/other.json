@@ -1,0 +1,27 @@
+{
+    "other": [{
+            "name": "small-fangs",
+            "nameRU": "Маленький клык",
+            "img": "small-fangs.PNG",
+            "drop": ["snake6"]
+        },
+        {
+            "name": "painkiller",
+            "nameRU": "Легкое исцеляющее зелье",
+            "img": "painkiller.PNG",
+            "drop": ["snake6"]
+        },
+        {
+            "name": "pyroxene-whelk",
+            "nameRU": "Кусок жадеита",
+            "img": "pyroxene-whelk.PNG",
+            "drop": ["snake6"]
+        },
+        {
+            "name": "poisonous-grass",
+            "nameRU": "Ядовитый корень",
+            "img": "poisonous-grass.PNG",
+            "drop": ["snake6"]
+        }
+    ]
+}

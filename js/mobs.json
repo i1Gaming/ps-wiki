@@ -1,0 +1,153 @@
+{
+    "mobs": [{
+            "name": "snake6",
+            "nameRU": "Гремучая змея",
+            "lvl": 6,
+            "img": "snake6.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "D-6,7,8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "I, J-12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-10,11 / K, L-11,12 / M-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }],
+                "hard": [{ "type": "soul", "name": "poison-soul" }, { "type": "weapon", "name": "knuckle3", "slots": "1" }]
+            }
+        },
+        {
+            "name": "nightmare36",
+            "nameRU": "Кошмар",
+            "lvl": 36,
+            "img": "nightmare36.PNG",
+            "habitat": [{
+                    "location": "muldian",
+                    "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,12 /",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "I, J-12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-10,11 / K, L-11,12 / M-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }],
+                "hard": [{ "type": "soul", "name": "poison-soul" }, { "type": "weapon", "name": "knuckle3", "slots": "1" }]
+            }
+        },
+        {
+            "name": "snake6",
+            "nameRU": "Гремучая змея",
+            "lvl": 6,
+            "img": "snake6.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "D-6,7,8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "I, J-12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-10,11 / K, L-11,12 / M-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }],
+                "hard": [{ "type": "soul", "name": "poison-soul" }, { "type": "weapon", "name": "knuckle3", "slots": "1" }]
+            }
+        },
+        {
+            "name": "snake6",
+            "nameRU": "Гремучая змея",
+            "lvl": 6,
+            "img": "snake6.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "D-6,7,8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "I, J-12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-10,11 / K, L-11,12 / M-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }],
+                "hard": [{ "type": "soul", "name": "poison-soul" }, { "type": "weapon", "name": "knuckle3", "slots": "1" }]
+            }
+        },
+        {
+            "name": "snake6",
+            "nameRU": "Гремучая змея",
+            "lvl": 6,
+            "img": "snake6.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "D-6,7,8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "I, J-12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-10,11 / K, L-11,12 / M-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }],
+                "hard": [{ "type": "soul", "name": "poison-soul" }, { "type": "weapon", "name": "knuckle3", "slots": "1" }]
+            }
+        }
+    ]
+}
