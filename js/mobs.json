@@ -1,0 +1,402 @@
+{
+    "mobs": [{
+            "name": "snake6",
+            "nameRU": "Гремучая змея",
+            "lvl": 6,
+            "img": "snake6.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "D-6,7,8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "I, J-12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-10,11 / K, L-11,12 / M-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "poisonlvl1" }],
+                "hard": [{ "type": "soul", "name": "poison-soul" }, { "type": "weapon", "name": "knuckle3", "slots": "1" }]
+            }
+        },
+        {
+            "name": "nightmare36",
+            "nameRU": "Кошмар",
+            "lvl": 36,
+            "img": "nightmare36.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "obsessed-soul" }],
+                "medium": [{ "type": "other", "name": "bat-feathers" }, { "type": "other", "name": "muldian-medal" }],
+                "hard": [{ "type": "soul", "name": "nightmare-soul" }]
+            }
+        },
+        {
+            "name": "ghost41",
+            "nameRU": "Темный борец",
+            "lvl": 41,
+            "img": "ghost41.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "obsessed-soul" }, { "type": "other", "name": "alive-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": [{ "type": "soul", "name": "defense-soul" }]
+            }
+        },
+        {
+            "name": "ghost43",
+            "nameRU": "Призрачный солдат",
+            "lvl": 43,
+            "img": "ghost43.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "alive-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "lightlvl2" }],
+                "hard": [{ "type": "soul", "name": "ranger-soul" }]
+            }
+        },
+        {
+            "name": "hell-spider51",
+            "nameRU": "Адский паук",
+            "lvl": 51,
+            "img": "hell-spider51.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "E-14 / F-11,12 / H-7 / I-7,10,11 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": [{ "type": "soul", "name": "ranger-soul" }, { "type": "soul", "name": "gladiator-soul" }]
+            }
+        },
+        {
+            "name": "earth-demon53",
+            "nameRU": "Земляной демон",
+            "lvl": 53,
+            "img": "earth-demon53.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "F-13 / G-7 / I-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": [{ "type": "soul", "name": "witchcraft-soul" }]
+            }
+        },
+        {
+            "name": "tushkanchik3",
+            "nameRU": "Тушканчик",
+            "lvl": 3,
+            "img": "tushkanchik3.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "B, C, D, E-10,11,12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "L, M-8,9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "G, H, I-11,12,13",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "painkiller" }],
+                "medium": [{ "type": "other", "name": "replenishment-potion" }],
+                "hard": [{ "type": "soul", "name": "magic-soul" }, { "type": "armor", "name": "quilt-boots1", "slots": "0" }]
+            }
+        },
+        {
+            "name": "ant7",
+            "nameRU": "Муравей строитель",
+            "lvl": 7,
+            "img": "ant7.PNG",
+            "habitat": [{
+                "location": "west-road",
+                "coordinates": "J-5,6,7,8 / H-3,4",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "viscous-bile" }],
+                "medium": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "empty-bottle" }, { "type": "other", "name": "acid-bile" }],
+                "hard": [{ "type": "soul", "name": "labor-soul" }, { "type": "other", "name": "firelvl1" }]
+            }
+        },
+        {
+            "name": "slug31",
+            "nameRU": "Рогатый слизень",
+            "lvl": 31,
+            "img": "slug31.PNG",
+            "habitat": [{
+                    "location": "himurartu",
+                    "coordinates": "I-7,8 / H, I-13,14",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "I-9 / H, I-2,3",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "O-13, F-5,6,7",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "acid-bile" }, { "type": "other", "name": "multicolored-bile" }],
+                "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "empty-bottle" }, { "type": "other", "name": "painkiller" }],
+                "hard": [{ "type": "soul", "name": "labor-soul" }]
+            }
+        },
+        {
+            "name": "living-dead8",
+            "nameRU": "Живой Мертвец",
+            "lvl": 8,
+            "img": "living-dead8.PNG",
+            "habitat": [{
+                "location": "east-road",
+                "coordinates": "G, H-9,10,11,12,13",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "replenishment-potion" }],
+                "medium": [{ "type": "other", "name": "wormy-meat" }, { "type": "other", "name": "rotten-meat" }],
+                "hard": [{ "type": "soul", "name": "fountain-soul" }]
+            }
+        },
+        {
+            "name": "gluttony-ghost8",
+            "nameRU": "Пожиратель душ",
+            "lvl": 8,
+            "img": "gluttony-ghost8.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "E, F-5,6",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "J, K, L-12,13",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "K, L-11,12",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "helpless-soul" }, { "type": "other", "name": "saved-soul" }],
+                "medium": [{ "type": "other", "name": "fire-root" }],
+                "hard": [{ "type": "soul", "name": "fountain-soul" }]
+            }
+        },
+        {
+            "name": "snake17",
+            "nameRU": "Голубая змея",
+            "lvl": 17,
+            "img": "snake17.PNG",
+            "habitat": [{
+                "location": "north-road",
+                "coordinates": "I-4,5,6 / I, J-8,9,10",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "broken-fang" }],
+                "medium": [{ "type": "other", "name": "poisonlvl1" }, { "type": "other", "name": "poison" }],
+                "hard": [{ "type": "soul", "name": "happiness-soul" }]
+            }
+        },
+        {
+            "name": "rat23",
+            "nameRU": "Крысолак с топором",
+            "lvl": 23,
+            "img": "rat23.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "D-5,6",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "G-4,5 / J-4 / I-11",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "dirty-fur" }],
+                "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "gold-pyroxene" }, { "type": "other", "name": "injury" }],
+                "hard": [{ "type": "soul", "name": "power-soul" }, { "type": "soul", "name": "wizard-soul" }]
+            }
+        },
+        {
+            "name": "ghost33",
+            "nameRU": "Призрачный воин",
+            "lvl": 33,
+            "img": "ghost33.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "alive-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": [{ "type": "soul", "name": "wizard-soul" }]
+            }
+        },
+        {
+            "name": "raptor24",
+            "nameRU": "Раптор",
+            "lvl": 24,
+            "img": "raptor24.PNG",
+            "habitat": [{
+                    "location": "himurartu",
+                    "coordinates": "H-3,4",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-14",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "healing-root" }, { "type": "other", "name": "little-claw" }, { "type": "other", "name": "rounded-claw" }],
+                "medium": [{ "type": "other", "name": "red-pyroxene" }],
+                "hard": [{ "type": "soul", "name": "vitality-soul" }]
+            }
+        },
+        {
+            "name": "ghoul28",
+            "nameRU": "Вурдалак",
+            "lvl": 28,
+            "img": "ghoul28.PNG",
+            "habitat": [{
+                    "location": "himurartu",
+                    "coordinates": "G-5 / I-13",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "J-10",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "E,F-9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "wormy-meat" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "rotten-meat" }, { "type": "other", "name": "replenishment-potion-60" }],
+                "medium": [{ "type": "other", "name": "decaying-meat" }],
+                "hard": [{ "type": "soul", "name": "needle-soul" }]
+            }
+        },
+        {
+            "name": "skeleton32",
+            "nameRU": "Скелет убийца",
+            "lvl": 32,
+            "img": "skeleton32.PNG",
+            "habitat": [{
+                    "location": "himurartu",
+                    "coordinates": "H, I-7",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "G, H, I-5,6,7 / I-8,9,10",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "rotting-bone" }, { "type": "other", "name": "strong-bone" }, { "type": "other", "name": "thick-bone" }],
+                "medium": [],
+                "hard": [{ "type": "soul", "name": "sleeping-soul" }]
+            }
+        },
+        {
+            "name": "ant40",
+            "nameRU": "Муравей солдат",
+            "lvl": 40,
+            "img": "ant40.PNG",
+            "habitat": [{
+                    "location": "himurartu",
+                    "coordinates": "H,I, J-6",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "I, J, K-6,7",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "sweet-bile" }, { "type": "other", "name": "volatile-bile" }, { "type": "other", "name": "acid-bile" }],
+                "medium": [{ "type": "other", "name": "empty-bottle" }],
+                "hard": [{ "type": "soul", "name": "snail-soul" }]
+            }
+        }
+    ]
+}

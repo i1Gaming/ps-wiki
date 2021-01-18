@@ -1,0 +1,11 @@
+{
+    "armor": [{
+        "name": "quilt-boots1",
+        "nameRU": "Стеганые сапоги",
+        "img": "quilt-boots1",
+        "lvl": 1,
+        "maxSlots": 1,
+        "equip": ["all"],
+        "drop": ["tushkanchik3"]
+    }]
+}
