@@ -69,7 +69,7 @@ function getRuLocation(locationName) {
             locationRU = 'Западная дорога ветров'
             break;
         case 'gorda':
-            locationRU = 'Горда'
+            locationRU = 'Подножье Горды'
             break;
         case 'nelstadt':
             locationRU = 'Долина Нельштадт'
@@ -132,7 +132,7 @@ function getDrops(drop, dropInfo) {
                 dropNameRU = dropInfo.allOther.find(element => element.name == dropItem.name).nameRU
                 break;
             case "armor":
-                dropNameRU = dropInfo.allArmor.find(element => element.name == dropItem.name).nameRU
+                dropNameRU = `${dropInfo.allArmor.find(element => element.name == dropItem.name).nameRU} (${dropItem.slots} сл.)`
                 break;
             case "bijouterie":
                 dropNameRU = dropInfo.allBijouterie.find(element => element.name == dropItem.name).nameRU
@@ -141,7 +141,7 @@ function getDrops(drop, dropInfo) {
                 dropNameRU = dropInfo.allSouls.find(element => element.name == dropItem.name).nameRU
                 break;
             case "weapon":
-                dropNameRU = dropInfo.allWeapon.find(element => element.name == dropItem.name).nameRU
+                dropNameRU = `${dropInfo.allWeapon.find(element => element.name == dropItem.name).nameRU} (${dropItem.slots} сл.)`
                 break;
             default:
                 break;
@@ -163,7 +163,6 @@ function getDrops(drop, dropInfo) {
 
 function renderMobs() {
     getData().then(function(data) {
-        console.log(data);
         var allMobs = sortByName(data.allMobs);
 
         $.each(allMobs, function(key, mob) {
