@@ -152,13 +152,103 @@ function getDrops(drop, dropInfo) {
         ${dropNameRU}, 
         </a>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="${dropItem.name}" tabindex="-1" aria-labelledby="${dropItem.name}Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered"></div>
-        </div>`
+        ${getModal(dropItem, dropInfo)}`;
+
         allDrop.push(dropHTML);
     });
     return allDrop.join('');
+}
+
+function getImgPath(item, itemType) {
+    var path = '';
+    switch (itemType) {
+        case 'soul':
+            path = `${item.img}`
+            break;
+        default:
+            path = `${itemType}/${item.name}.PNG`
+            break;
+    }
+    return path;
+}
+
+function getAllMobsNames(dropList, allMobs) {
+    var allMobsHTML = [];
+    $.each(dropList, function(key, drop) {
+        var curMobHTML = '';
+        curMobName = allMobs.find(element => element.name == drop).nameRU;
+        curMobHTML = `<div class="${drop}__drop d-block">
+        <span> ${curMobName}, </span>
+    </div>`;
+        allMobsHTML.push(curMobHTML);
+    });
+
+    return allMobsHTML.join('');
+}
+
+function getSoulEffect(soul) {
+    return (
+        `<div class="text-center">${soul.effect}</div>`
+    );
+}
+
+function getModal(dropItem, dropInfo) {
+    console.log(dropItem);
+    console.log(dropInfo);
+    var item;
+
+    switch (dropItem.type) {
+        case "other":
+            item = dropInfo.allOther.find(element => element.name == dropItem.name);
+            break;
+        case "armor":
+            item = dropInfo.allArmor.find(element => element.name == dropItem.name);
+            break;
+        case "bijouterie":
+            item = dropInfo.allBijouterie.find(element => element.name == dropItem.name);
+            break;
+        case "soul":
+            item = dropInfo.allSouls.find(element => element.name == dropItem.name);
+            break;
+        case "weapon":
+            item = dropInfo.allWeapon.find(element => element.name == dropItem.name);
+            break;
+        default:
+            break;
+    }
+    console.log(item);
+
+    var modalHTML = `<!-- Modal -->
+    <div class="modal fade" id="${item.name}" tabindex="-1" aria-labelledby="${item.name}Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modal-logo-title">Pandora Saga Legacy</span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">X</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="modal-img__container col-5">
+                            <img class="modal-img" src="../img/${getImgPath(item, dropItem.type)}" alt="" srcset="">
+                        </div>
+                        <div class="info__container col-7">
+                            <div class="modal-name mob__title">
+                                <span class="modal-title mob__name" id="${item.name}ModalLabel">${item.nameRU}</span>
+                            </div>
+                            ${dropItem.type == "soul" ? getSoulEffect(item) : ''}
+                            <div class="mob__location d-flex align-items-center flex-column">
+                                <span class="mob__location-title">С кого добывается: </span> ${getAllMobsNames(item.drop, dropInfo.allMobs)}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->`;
+    return modalHTML;
 }
 
 function renderMobs() {

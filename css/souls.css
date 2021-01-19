@@ -1,0 +1,28 @@
+.soul__container .soul__item:nth-child(2n) li {
+    background-color: #E7E7E7;
+}
+
+.soul__container .soul__item:nth-child(2n+1) li {
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+.list-group-item {
+    padding: 4px 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 0;
+}
+
+.soul__img {
+    max-height: 63px;
+    max-width: 57px;
+}
+
+.soul__mobs a:hover {
+    color: black;
+    font-weight: bold;
+}
