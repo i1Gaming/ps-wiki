@@ -163,7 +163,7 @@
         },
         {
             "name": "broken-fang",
-            "nameRU": "Яд",
+            "nameRU": "Сломанный клык",
             "img": "broken-fang.PNG",
             "drop": ["snake17"]
         },

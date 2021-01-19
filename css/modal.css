@@ -1,0 +1,75 @@
+.modal {
+    cursor: default;
+}
+
+.modal-dialog {
+    max-width: 900px;
+}
+
+.modal-content {
+    background: linear-gradient(113.23deg, #CFD9DF -2.53%, #E2EBF0 105.32%);
+    position: relative;
+    border-radius: 25px;
+}
+
+.modal-content::before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-image: url(../img/modal-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 25px;
+}
+
+.modal-header {
+    border: none;
+    border-radius: 0;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.modal-header .close {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: -25px;
+    right: -25px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal-logo-title {
+    font-family: GothamPro;
+    font-size: 22px;
+    font-weight: lighter;
+    display: inline;
+    position: relative;
+}
+
+.modal-logo-title::before {
+    position: absolute;
+    content: "Wiki";
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    right: -40px;
+    top: 50%;
+}
+
+.modal-img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-img {
+    height: auto;
+    max-height: 200px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 25px;
+}

@@ -181,7 +181,7 @@ body {
     width: 16px;
     height: 16px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid #F8A533;
     border-radius: 50%;
 }
 
@@ -193,27 +193,35 @@ body {
 .form-check-input:checked~.form-check-label {
     font-weight: bold;
 }
-footer{
-    background-color:  #B1B7C5;
- }
- .ft-icon{
-     margin-right: 10px;
- }
- .ft-icon:hover{
-     color: #F8A533;
- }
- .ft-link{
-     color: #6C6C6C;
- }
- .ft-link:hover{
-     color: #F8A533;
- }
- .btn-span{
-     transform: skewY(20deg);
- }
- .btn-up{
-     color: #FEFEFE;
- }
- .btn-up:hover{
-     color: #F8A533;
- }
+
+footer {
+    background-color: #B1B7C5;
+}
+
+.ft-icon {
+    margin-right: 10px;
+}
+
+.ft-icon:hover {
+    color: #F8A533;
+}
+
+.ft-link {
+    color: #6C6C6C;
+}
+
+.ft-link:hover {
+    color: #F8A533;
+}
+
+.btn-span {
+    transform: skewY(20deg);
+}
+
+.btn-up {
+    color: #FEFEFE;
+}
+
+.btn-up:hover {
+    color: #F8A533;
+}
