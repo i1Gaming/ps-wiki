@@ -219,3 +219,38 @@ footer {
 .btn-up:hover {
     color: #F8A533;
 }
+
+.card {
+    border-radius: 25px;
+    background-color: rgba(240, 240, 240, 0.85);
+    border: none;
+    min-height: 100%;
+}
+
+.card img {
+    border-radius: 25px 25px 0 0;
+}
+
+.card .btn {
+    color: black;
+    background-color: #F8A533;
+    border: 2px solid #F8A533;
+}
+
+.card .btn:hover {
+    color: black;
+    background-color: #F8A533;
+    border: 2px solid black;
+}
+
+.card .card-title {
+    font-size: 30px;
+}
+
+.card .card-text {
+    font-size: 18px;
+}
+
+footer .subtitle-text::before {
+    color: #F8A533;
+}
