@@ -65,43 +65,43 @@ function renderSoul(color, soulItem) {
     switch (color) {
         case 'aqua':
             $('<div/>', {
-                "class": "row soul__item",
+                "class": "row soul__item js-mob",
                 html: soulItem
             }).appendTo(".aqua-souls");
             break;
         case 'black':
             $('<div/>', {
-                "class": "row soul__item",
+                "class": "row soul__item js-mob",
                 html: soulItem
             }).appendTo(".black-souls");
             break;
         case 'blue':
             $('<div/>', {
-                "class": "row soul__item",
+                "class": "row soul__item js-mob",
                 html: soulItem
-            }).appendTo(".blue-souls");
+            }).appendTo(".blue-souls ");
             break;
         case 'green':
             $('<div/>', {
-                "class": "row soul__item",
+                "class": "row soul__item js-mob",
                 html: soulItem
             }).appendTo(".green-souls");
             break;
         case 'purple':
             $('<div/>', {
-                "class": "row soul__item",
+                "class": "row soul__item js-mob",
                 html: soulItem
             }).appendTo(".purple-souls");
             break;
         case 'red':
             $('<div/>', {
-                "class": "row soul__item",
+                "class": "row soul__item js-mob",
                 html: soulItem
             }).appendTo(".red-souls");
             break;
         case 'yellow':
             $('<div/>', {
-                "class": "row soul__item",
+                "class": "row soul__item js-mob",
                 html: soulItem
             }).appendTo(".yellow-souls");
             break;
@@ -327,7 +327,7 @@ function getSouls() {
                         "<li class ='list-group-item col-1 soul__img-container'>" +
                         "<img class='soul__img' src='../img/" + soul.img + "' alt='" + soul.color + "'>" +
                         "</li>" +
-                        "<li class ='list-group-item soul__name col-2'>" + soul.nameRU + "</li>" +
+                        "<li class ='list-group-item soul__name col-2 js-mob__name'>" + soul.nameRU + "</li>" +
                         "<li class ='list-group-item soul__part col-2'>" + soul.part + "</li>" +
                         "<li class ='list-group-item soul__effect col-4'>" + soul.effect + "</li>" +
                         "<li class ='list-group-item soul__mobs col-3'>" + mobs.join("") + "</li>" +
@@ -340,4 +340,20 @@ function getSouls() {
     })
 };
 
+function searchByName() {
+    var input = $("#mob-search");
+    input.keyup(function() {
+        var items = $(".js-mob");
+        var inputValue = input.val();
+        $.each(items, function(key, item) {
+            if (item.getElementsByClassName("js-mob__name")[0].innerText.toLowerCase().includes(inputValue.toLowerCase())) {
+                item.classList.remove("d-none");
+            } else {
+                item.classList.add("d-none");
+            }
+        })
+    });
+};
+
 getSouls();
+searchByName();

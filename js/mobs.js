@@ -12,6 +12,21 @@ function sortByName(mobs) {
     return mobs
 };
 
+function searchByName() {
+    var input = $("#mob-search");
+    input.keyup(function() {
+        var items = $(".js-mob");
+        var inputValue = input.val();
+        $.each(items, function(key, item) {
+            if (item.getElementsByClassName("js-mob__name")[0].innerText.toLowerCase().includes(inputValue.toLowerCase())) {
+                item.classList.remove("d-none");
+            } else {
+                item.classList.add("d-none");
+            }
+        })
+    });
+};
+
 function getData() {
     var allMobs, allArmor, allBijouterie, allOther, allSouls, allWeapon;
     var allData = {};
@@ -193,8 +208,6 @@ function getSoulEffect(soul) {
 }
 
 function getModal(dropItem, dropInfo) {
-    console.log(dropItem);
-    console.log(dropInfo);
     var item;
 
     switch (dropItem.type) {
@@ -216,7 +229,6 @@ function getModal(dropItem, dropInfo) {
         default:
             break;
     }
-    console.log(item);
 
     var modalHTML = `<!-- Modal -->
     <div class="modal fade" id="${item.name}" tabindex="-1" aria-labelledby="${item.name}Label" aria-hidden="true">
@@ -262,7 +274,7 @@ function renderMobs() {
                 <img class="mob__img" src="../img/mobs/${mob.img}" alt="${mob.nameRU}" srcset="">
             </div>
             <div class="mob__title">
-                <div class="mob__name">${mob.nameRU}</div>
+                <div class="mob__name js-mob__name">${mob.nameRU}</div>
                 <div class="mob__lvl">(${mob.lvl} Ур.)</div>
             </div>
             <div class="mob__location">
@@ -287,7 +299,7 @@ function renderMobs() {
             </div>`;
 
             $('<div/>', {
-                "class": "col-12 col-sm-6 col-md-4 col-lg-3 my-2",
+                "class": "col-12 col-sm-6 col-md-4 col-lg-3 my-2 js-mob",
                 html: mobCartHTML
             }).appendTo(".mobs-container");
         });
@@ -295,3 +307,4 @@ function renderMobs() {
 };
 
 renderMobs();
+searchByName();

@@ -26,3 +26,9 @@
     color: black;
     font-weight: bold;
 }
+
+.mob__drop-item:hover {
+    cursor: default;
+    text-decoration: none;
+    font-weight: normal;
+}

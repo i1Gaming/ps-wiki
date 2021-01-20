@@ -3,6 +3,8 @@
         "name": "quilt-boots1",
         "nameRU": "Стеганые сапоги",
         "img": "quilt-boots1",
+        "imgBig": "quilt-boots1Big",
+        "def": 3,
         "lvl": 1,
         "maxSlots": 1,
         "equip": ["all"],
