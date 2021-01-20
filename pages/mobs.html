@@ -19,7 +19,7 @@
     <div class="main-page">
         <div class="container-fluid fixed-bg-box">
         </div>
-        <div class="container sticky-top py-2">
+        <div class="container py-2">
             <nav class="navbar navbar-expand-lg navbar-light row">
                 <div class="col-8 col-lg-4">
                     <a class="navbar-brand" href="../index.html">
@@ -73,24 +73,24 @@
                 <h1 class="text-center my-0 page-title">Существа </h1>
             </div>
         </div>
-        <div class="container">
+        <div class="container js-loc-filter">
             <div class="row">
                 <div class="col-12 filter-title">Фильтр по локации:</div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="east-road">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="east-road">
                         <label class="form-check-label" for="east-road">
                             Восточная дорога ветров
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="west-road">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="west-road">
                         <label class="form-check-label" for="west-road">
                             Западная дорогая ветров
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="north-road">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="north-road">
                         <label class="form-check-label" for="north-road">
                             Северная дорога ветров
                         </label>
@@ -98,19 +98,19 @@
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="himurartu">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="himurartu">
                         <label class="form-check-label" for="himurartu">
                             Пустыня Химурарту
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="gorda">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="gorda">
                         <label class="form-check-label" for="gorda">
                             Подножье Горды
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="nelstadt">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="nelstadt">
                         <label class="form-check-label" for="nelstadt">
                             Долина Нельдштат
                         </label>
@@ -118,19 +118,19 @@
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="montori">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="montori">
                         <label class="form-check-label" for="montori">
                             Долина Монтори
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="tambrin">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="tambrin">
                         <label class="form-check-label" for="tambrin">
                             Север великой Тамбринской Пустыни 
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="gorge">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="gorge">
                         <label class="form-check-label" for="gorge">
                             Лейбгольские Теснины
                         </label>
@@ -138,19 +138,19 @@
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="el-bed">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="el-bed">
                         <label class="form-check-label" for="el-bed">
                             Потерянный рай Эль-Ведд
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="muldian">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="muldian">
                         <label class="form-check-label" for="muldian">
                             Покинутые земли Мальдии
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="other">
+                        <input class="form-check-input d-none" type="checkbox" value="" onchange="filter()" id="other">
                         <label class="form-check-label" for="other">
                             Прочее
                         </label>

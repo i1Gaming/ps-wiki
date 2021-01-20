@@ -3,9 +3,9 @@
         "name": "quilt-boots1",
         "nameRU": "Стеганые сапоги",
         "img": "quilt-boots1",
-        "imgBig": "quilt-boots1Big",
         "def": 3,
         "lvl": 1,
+        "effect": "adfasfsdfsf sd fs f a",
         "maxSlots": 1,
         "equip": ["all"],
         "drop": ["tushkanchik3"]

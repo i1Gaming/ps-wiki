@@ -327,7 +327,7 @@ function getSouls() {
                         "<li class ='list-group-item col-1 soul__img-container'>" +
                         "<img class='soul__img' src='../img/" + soul.img + "' alt='" + soul.color + "'>" +
                         "</li>" +
-                        "<li class ='list-group-item soul__name col-2 js-mob__name'>" + soul.nameRU + "</li>" +
+                        "<li class ='list-group-item soul__name col-2 js-mob__name' data-location='" + soul.color + "'>" + soul.nameRU + "</li>" +
                         "<li class ='list-group-item soul__part col-2'>" + soul.part + "</li>" +
                         "<li class ='list-group-item soul__effect col-4'>" + soul.effect + "</li>" +
                         "<li class ='list-group-item soul__mobs col-3'>" + mobs.join("") + "</li>" +
@@ -354,6 +354,41 @@ function searchByName() {
         })
     });
 };
+
+function filter(event) {
+
+    var chosenLoc = [];
+    $.each($(".js-loc-filter").find(".form-check-input"), function(key, value) {
+        if (value.checked) {
+            chosenLoc.push(value.id);
+        }
+    });
+
+    var allMobs = $(".js-mob");
+
+
+    $.each(allMobs, function(key, item) {
+        var itemLocations = item.querySelectorAll('[data-location]');
+        var allLocations = [];
+        $.each(itemLocations, function(key, location) {
+            allLocations.push(location.dataset.location);
+        });
+
+        console.log(allLocations);
+        var showStatus = true;
+        $.each(chosenLoc, function(key, curLoc) {
+            if (!allLocations.includes(curLoc)) {
+                showStatus = false;
+            };
+        });
+
+        if (showStatus) {
+            item.classList.remove("d-none");
+        } else {
+            item.classList.add("d-none");
+        };
+    });
+}
 
 getSouls();
 searchByName();

@@ -125,7 +125,7 @@ function getAllHabitatsHTML(habitats) {
         var curLocationRU = getRuLocation(location.location);
         var curLifeCycleHTML = getLifeCycle(location.day, location.night);
         var locationHTML = `<div class="mob__location-detail">
-        <span class="mob__location-name">${curLocationRU}</span>
+        <span class="mob__location-name" data-location="${location.location}">${curLocationRU}</span>
         <span class="mob__location-coordinates">(<span class="font-weight-bold">${location.coordinates}</span>)</span>
         <span class="mob__location-life">
             ${curLifeCycleHTML}
@@ -261,6 +261,41 @@ function getModal(dropItem, dropInfo) {
     </div>
     <!-- Modal -->`;
     return modalHTML;
+}
+
+function filter(event) {
+
+    var chosenLoc = [];
+    $.each($(".js-loc-filter").find(".form-check-input"), function(key, value) {
+        if (value.checked) {
+            chosenLoc.push(value.id);
+        }
+    });
+
+    var allMobs = $(".js-mob");
+
+
+    $.each(allMobs, function(key, item) {
+        var itemLocations = item.querySelectorAll('[data-location]');
+        var allLocations = [];
+        $.each(itemLocations, function(key, location) {
+            allLocations.push(location.dataset.location);
+        });
+
+        console.log(allLocations);
+        var showStatus = true;
+        $.each(chosenLoc, function(key, curLoc) {
+            if (!allLocations.includes(curLoc)) {
+                showStatus = false;
+            };
+        });
+
+        if (showStatus) {
+            item.classList.remove("d-none");
+        } else {
+            item.classList.add("d-none");
+        };
+    });
 }
 
 function renderMobs() {
