@@ -1,9 +1,9 @@
-function sortByName(mobs) {
+function sortByLvl(mobs) {
     mobs.sort(function(a, b) {
-        if (a.nameRU > b.nameRU) {
+        if (a.lvl > b.lvl) {
             return 1;
         }
-        if (a.nameRU < b.nameRU) {
+        if (a.lvl < b.lvl) {
             return -1;
         }
         return 0;
@@ -101,6 +101,18 @@ function getRuLocation(locationName) {
         case 'tambrin':
             locationRU = 'Север великой Тамбринской Пустыни'
             break;
+        case 'astir':
+            locationRU = 'Астир'
+            break;
+        case 'kingdom':
+            locationRU = 'Королевство Сэнт-Фальстайн'
+            break;
+        case 'empire':
+            locationRU = 'Лотарская империя'
+            break;
+        case 'union':
+            locationRU = 'Союз северных племен Ванриг'
+            break;
         default:
             break;
     }
@@ -190,8 +202,13 @@ function getImgPath(item, itemType) {
 function getAllMobsNames(dropList, allMobs) {
     var allMobsHTML = [];
     $.each(dropList, function(key, drop) {
+        var err = allMobs.find(element => element.name == drop.name)
+        if (!err) {
+            debugger
+        };
+
         var curMobHTML = '';
-        curMobName = allMobs.find(element => element.name == drop).nameRU;
+        curMobName = allMobs.find(element => element.name == drop.name).nameRU;
         curMobHTML = `<div class="${drop}__drop d-block">
         <span> ${curMobName}, </span>
     </div>`;
@@ -282,7 +299,6 @@ function filter(event) {
             allLocations.push(location.dataset.location);
         });
 
-        console.log(allLocations);
         var showStatus = true;
         $.each(chosenLoc, function(key, curLoc) {
             if (!allLocations.includes(curLoc)) {
@@ -300,7 +316,7 @@ function filter(event) {
 
 function renderMobs() {
     getData().then(function(data) {
-        var allMobs = sortByName(data.allMobs);
+        var allMobs = sortByLvl(data.allMobs);
 
         $.each(allMobs, function(key, mob) {
 

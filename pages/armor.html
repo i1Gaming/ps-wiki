@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/mobs.css">
     <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="../css/armor.css">
+    <link rel="stylesheet" href="../css/badges.css">
 </head>
 
 <body>
@@ -50,10 +51,7 @@
                                 <a class="nav-link" href="../pages/mobs.html">Существа</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/locations.html">Локации</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/quests.html">Квесты</a>
+                                <a class="nav-link" href="../pages/resources.html">Ресурсы</a>
                             </li>
                         </ul>
                     </div>
@@ -75,24 +73,24 @@
                 <h1 class="text-center my-0 page-title">Броня </h1>
             </div>
         </div>
-        <div class="container">
+        <div class="container js-loc-filter">
             <div class="row">
                 <div class="col-12 filter-title">Фильтр по броне:</div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="helmet">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="helmet" onchange="filter()">
                         <label class="form-check-label" for="helmet">
                             Шлем
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="body">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="body" onchange="filter()">
                         <label class="form-check-label" for="body">
                             Торс
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="leg">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="leg" onchange="filter()">
                         <label class="form-check-label" for="leg">
                             Штаны
                         </label>
@@ -100,19 +98,19 @@
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="arm">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="arm" onchange="filter()">
                         <label class="form-check-label" for="arm">
                             Руки
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="foot">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="foot" onchange="filter()">
                         <label class="form-check-label" for="foot">
                             Обувь
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="shield">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="shield" onchange="filter()">
                         <label class="form-check-label" for="shield">
                             Щит
                         </label>
@@ -120,31 +118,96 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-4 armor">
-            <div class="helmet-armor my-3">
-                <h5 class="pb-1">Шлемы</h5>
+        <div class="container armor">
+            <h5 class="pb-1">Шлемы</h5>
+            <div class="helmet-armor row my-3">
             </div>
-            <div class="body-armor my-3">
-                <h5 class="pb-1">Торсы</h5>
+            <h5 class="pb-1">Торсы</h5>
+            <div class="body-armor row my-3">
             </div>
-            <div class="leg-armor my-3">
-                <h5 class="pb-1">Штаны</h5>
+            <h5 class="pb-1">Штаны</h5>
+            <div class="leg-armor row my-3">
             </div>
-            <div class="arm-armor my-3">
-                <h5 class="pb-1">Перчатки</h5>
+            <h5 class="pb-1">Перчатки</h5>
+            <div class="arm-armor row my-3">
             </div>
-            <div class="foot-armor my-3">
-                <h5 class="pb-1">Обувь</h5>
+            <h5 class="pb-1">Обувь</h5>
+            <div class="foot-armor row my-3">
             </div>
-            <div class="shield-armor">
-                <h5 class="pb-1">Щиты</h5>
+            <h5 class="pb-1">Щиты</h5>
+            <div class="shield-armor row">
             </div>
         </div>
     </div>
+    <footer class="container-fluid pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="../img/ps-logo 3.png" class="justify-content-center" alt="Pandora">
+                </div>
+                <div class="col-6">
+                    <p class="text-center">Информационный проект</p>
+                    <h3 class="text-center my-0 subtitle-text">Pandora Saga Legacy <span class="ft-">Wiki</span></h3>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <button type="button" class="btn btn-link btn-up" onclick="scrollToTop()">ВВЕРХ<span class="btn-span">&#9650;</span></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-start justify-content-center">Наша команда собрала самую актуальную информацию и данные, практически на каждый пиксель, чтобы всем было приятней играть, не тратя время на изобретения “велосипеда”.</p>
+                </div>
+                <div class="col-6">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/souls.html">Души</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/armor.html">Броня</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/weapon.html">Оружие</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/bijouterie.html">Бижутерия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/mobs.html">Существа</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/resources.html">Ресурсы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
 
+                </div>
+            </div>
+        </div>
+        <div class="container border-top border-dark"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="col-6 col-md ">
+                        <img src="../img/K3 Des 1.png" alt="K3Design">
+                        <p>©2021 K3Design</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <div class="col-6 col-md d-flex flex-row-reverse  ">
+                        <a href="https://vk.com/pandoralegacy" target="blank"><img src="../img/VectorVK.png" alt="VK" class="ft-icon" title="VK"></a>
+                        <!-- <a href="https://web.telegram.org/#/login" target="blank"><img src="../img/VectorTG (1).png" alt="Telegram" class="ft-icon" title="Telegram"></a> -->
+                        <a href="https://discord.gg/AQ5hQxwDHA" target="blank"><img src="../img/VectorDS(2).png" alt="Discord" class="ft-icon" title="Discord"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="../js/souls.js"></script>
+    <script src="../js/armor.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

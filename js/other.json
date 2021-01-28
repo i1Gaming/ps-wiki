@@ -3,259 +3,259 @@
             "name": "small-fangs",
             "nameRU": "Маленький клык",
             "img": "small-fangs.PNG",
-            "drop": ["snake6", "tushkanchik3", "snake17"]
+            "drop": [{ "name": "snake6" }, { "name": "tushkanchik3" }, { "name": "snake17" }]
         },
         {
             "name": "painkiller",
             "nameRU": "Легкое исцеляющее зелье",
             "img": "painkiller.PNG",
-            "drop": ["snake6", "tushkanchik3", "slug31"]
+            "drop": [{ "name": "snake6" }, { "name": "tushkanchik3" }, { "name": "slug31" }]
         },
         {
             "name": "replenishment-potion",
             "nameRU": "Легкое восстонавливающее зелье",
             "img": "replenishment-potion.PNG",
-            "drop": ["tushkanchik3", "living-dead8"]
+            "drop": [{ "name": "tushkanchik3" }, { "name": "living-dead8" }]
         },
         {
             "name": "pyroxene-whelk",
             "nameRU": "Кусок жадеита",
             "img": "pyroxene-whelk.PNG",
-            "drop": ["snake6", "slug31", "rat23"]
+            "drop": [{ "name": "snake6" }, { "name": "slug31" }, { "name": "rat23" }]
         },
         {
             "name": "poisonous-grass",
             "nameRU": "Ядовитый корень",
             "img": "poisonous-grass.PNG",
-            "drop": ["snake6", "snake17"]
+            "drop": [{ "name": "snake6" }, { "name": "snake17" }]
         },
         {
             "name": "pure-soul",
             "nameRU": "Чистая душа",
             "img": "pure-soul.PNG",
-            "drop": ["nightmare36", "ghost41", "ghost43", "ghost33"]
+            "drop": [{ "name": "nightmare36" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost33" }]
         },
         {
             "name": "evil-soul",
             "nameRU": "Злая душа",
             "img": "evil-soul.PNG",
-            "drop": ["nightmare36", "ghost43"]
+            "drop": [{ "name": "nightmare36" }, { "name": "ghost43" }]
         },
         {
             "name": "obsessed-soul",
             "nameRU": "Одержимая душа",
             "img": "obsessed-soul.PNG",
-            "drop": ["nightmare36", "ghost41"]
+            "drop": [{ "name": "nightmare36" }, { "name": "ghost41" }]
         },
         {
             "name": "alive-soul",
             "nameRU": "Живая душа",
             "img": "alive-soul.PNG",
-            "drop": ["ghost41", "ghost43", "ghost33"]
+            "drop": [{ "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost33" }]
         },
         {
             "name": "bat-feathers",
             "nameRU": "Крылья летучей мыши",
             "img": "bat-feathers.PNG",
-            "drop": ["nightmare36"]
+            "drop": [{ "name": "nightmare36" }]
         },
         {
             "name": "muldian-medal",
             "nameRU": "Имперская медаль Мальдии",
             "img": "muldian-medal.PNG",
-            "drop": ["nightmare36", "hell-spider51", "ghost41", "ghost43", "earth-demon53", "ghost33"]
+            "drop": [{ "name": "nightmare36" }, { "name": "hell-spider51" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "earth-demon53" }, { "name": "ghost33" }]
         },
         {
             "name": "lightlvl2",
             "nameRU": "Цитрин",
             "img": "lightlvl2.PNG",
-            "drop": ["ghost43"]
+            "drop": [{ "name": "ghost43" }]
         },
         {
             "name": "poisonlvl1",
             "nameRU": "Малахит",
             "img": "poisonlvl1.PNG",
-            "drop": ["snake6", "snake17"]
+            "drop": [{ "name": "snake6" }, { "name": "snake17" }]
         },
         {
             "name": "сloudy-bile",
             "nameRU": "Мутная желчь",
             "img": "сloudy-bile.PNG",
-            "drop": ["ant7", "slug31"]
+            "drop": [{ "name": "ant7" }, { "name": "slug31" }]
         },
         {
             "name": "viscous-bile",
             "nameRU": "Вязкая желчь",
             "img": "viscous-bile.PNG",
-            "drop": ["ant7"]
+            "drop": [{ "name": "ant7" }]
         },
         {
             "name": "pyroxene",
             "nameRU": "Жадеит",
             "img": "pyroxene.PNG",
-            "drop": ["ant7"]
+            "drop": [{ "name": "ant7" }]
         },
         {
             "name": "empty-bottle",
             "nameRU": "Пустая бутыль",
             "img": "empty-bottle.PNG",
-            "drop": ["ant7", "slug31", "ant40"]
+            "drop": [{ "name": "ant7" }, { "name": "slug31" }, { "name": "ant40" }]
         },
         {
             "name": "acid-bile",
             "nameRU": "Кислотная желчь",
             "img": "acid-bile.PNG",
-            "drop": ["ant7", "slug31", "ant40"]
+            "drop": [{ "name": "ant7" }, { "name": "slug31" }, { "name": "ant40" }]
         },
         {
             "name": "firelvl1",
             "nameRU": "Кровавик",
             "img": "firelvl1.PNG",
-            "drop": ["ant7"]
+            "drop": [{ "name": "ant7" }]
         },
         {
             "name": "multicolored-bile",
             "nameRU": "Разноцветная желчь",
             "img": "multicolored-bile.PNG",
-            "drop": ["slug31"]
+            "drop": [{ "name": "slug31" }]
         },
         {
             "name": "meat",
             "nameRU": "Мясо",
             "img": "meat.PNG",
-            "drop": ["living-dead8"]
+            "drop": [{ "name": "living-dead8" }]
         },
         {
             "name": "wormy-meat",
             "nameRU": "Червивое мясо",
             "img": "wormy-meat.PNG",
-            "drop": ["living-dead8", "ghoul28"]
+            "drop": [{ "name": "living-dead8" }, { "name": "ghoul28" }]
         },
         {
             "name": "rotten-meat",
             "nameRU": "Гнилое мясо",
             "img": "rotten-meat.PNG",
-            "drop": ["living-dead8", "ghoul28"]
+            "drop": [{ "name": "living-dead8" }, { "name": "ghoul28" }]
         },
         {
             "name": "helpless-soul",
             "nameRU": "Беспомощная душа",
             "img": "helpless-soul.PNG",
-            "drop": ["gluttony-ghost8"]
+            "drop": [{ "name": "gluttony-ghost8" }]
         },
         {
             "name": "saved-soul",
             "nameRU": "Спасенная душа",
             "img": "saved-soul.PNG",
-            "drop": ["gluttony-ghost8"]
+            "drop": [{ "name": "gluttony-ghost8" }]
         },
         {
             "name": "fire-root",
             "nameRU": "Огненный корень",
             "img": "fire-root.PNG",
-            "drop": ["gluttony-ghost8"]
+            "drop": [{ "name": "gluttony-ghost8" }]
         },
         {
             "name": "poison",
             "nameRU": "Яд",
             "img": "poison.PNG",
-            "drop": ["snake17"]
+            "drop": [{ "name": "snake17" }]
         },
         {
             "name": "broken-fang",
             "nameRU": "Сломанный клык",
             "img": "broken-fang.PNG",
-            "drop": ["snake17"]
+            "drop": [{ "name": "snake17" }]
         },
         {
             "name": "dirty-fur",
             "nameRU": "Грязный мех",
             "img": "dirty-fur.PNG",
-            "drop": ["rat23"]
+            "drop": [{ "name": "rat23" }]
         },
         {
             "name": "gold-pyroxene",
             "nameRU": "Золотой жадеит",
             "img": "gold-pyroxene.PNG",
-            "drop": ["rat23"]
+            "drop": [{ "name": "rat23" }]
         },
         {
             "name": "injury",
             "nameRU": "Слабое исцеляющее зелье",
             "img": "injury.PNG",
-            "drop": ["rat23"]
+            "drop": [{ "name": "rat23" }]
         },
         {
             "name": "red-pyroxene",
             "nameRU": "Красный жадеит",
             "img": "red-pyroxene.PNG",
-            "drop": ["raptor24"]
+            "drop": [{ "name": "raptor24" }]
         },
         {
             "name": "healing-root",
             "nameRU": "Исцеляющий корень",
             "img": "healing-root.PNG",
-            "drop": ["raptor24"]
+            "drop": [{ "name": "raptor24" }]
         },
         {
             "name": "little-claw",
             "nameRU": "Маленький коготь",
             "img": "little-claw.PNG",
-            "drop": ["raptor24"]
+            "drop": [{ "name": "raptor24" }]
         },
         {
             "name": "rounded-claw",
             "nameRU": "Закругленный коготь",
             "img": "rounded-claw.PNG",
-            "drop": ["raptor24"]
+            "drop": [{ "name": "raptor24" }]
         },
         {
             "name": "decaying-meat",
             "nameRU": "Разлагающееся мясо",
             "img": "decaying-meat.PNG",
-            "drop": ["ghoul28"]
+            "drop": [{ "name": "ghoul28" }]
         },
         {
             "name": "moonlight-grass",
             "nameRU": "Лунный корень",
             "img": "moonlight-grass.PNG",
-            "drop": ["ghoul28"]
+            "drop": [{ "name": "ghoul28" }]
         },
         {
             "name": "replenishment-potion-60",
             "nameRU": "Слабое восстонавливающее зелье",
             "img": "replenishment-potion-60.PNG",
-            "drop": ["ghoul28"]
+            "drop": [{ "name": "ghoul28" }]
         },
         {
             "name": "rotting-bone",
             "nameRU": "Гниющая кость",
             "img": "rotting-bone.PNG",
-            "drop": ["skeleton32"]
+            "drop": [{ "name": "skeleton32" }]
         },
         {
             "name": "strong-bone",
             "nameRU": "Крепкая кость",
             "img": "strong-bone.PNG",
-            "drop": ["skeleton32"]
+            "drop": [{ "name": "skeleton32" }]
         },
         {
             "name": "thick-bone",
             "nameRU": "Толстая кость",
             "img": "thick-bone.PNG",
-            "drop": ["skeleton32"]
+            "drop": [{ "name": "skeleton32" }]
         },
         {
             "name": "sweet-bile",
             "nameRU": "Сладкая желчь",
             "img": "sweet-bile.PNG",
-            "drop": ["ant40"]
+            "drop": [{ "name": "ant40" }]
         },
         {
             "name": "volatile-bile",
             "nameRU": "Летучая желчь",
             "img": "volatile-bile.PNG",
-            "drop": ["ant40"]
+            "drop": [{ "name": "ant40" }]
         }
     ]
 }

@@ -1,13 +1,16 @@
 {
     "armor": [{
-        "name": "quilt-boots1",
-        "nameRU": "Стеганые сапоги",
-        "img": "quilt-boots1",
-        "def": 3,
-        "lvl": 1,
-        "effect": "adfasfsdfsf sd fs f a",
-        "maxSlots": 1,
-        "equip": ["all"],
-        "drop": ["tushkanchik3"]
-    }]
+            "name": "quilt-boots1",
+            "nameRU": "Стеганые сапоги",
+            "type": "foot",
+            "lvl": 1,
+            "drop": [{ "name": "tushkanchik3", "slot": "0" }, { "name": "shin", "slot": "0" }]
+        },
+        {
+            "name": "light-shield3",
+            "nameRU": "Легкий щит",
+            "type": "shield",
+            "drop": [{ "name": "shin", "slot": "0" }]
+        }
+    ]
 }

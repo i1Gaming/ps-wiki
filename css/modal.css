@@ -68,8 +68,12 @@
 
 .modal-img {
     height: auto;
-    max-height: 200px;
+    max-height: 400px;
     width: auto;
     max-width: 100%;
     border-radius: 25px;
+}
+
+.img-pop-up {
+    max-width: 500px;
 }

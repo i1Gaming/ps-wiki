@@ -6,7 +6,7 @@
             "color": "green",
             "img": "green-soul.JPG",
             "effect": "4% вероятность отравить врага при атаке",
-            "drop": ["snake6"]
+            "drop": [{ "name": "snake6" }]
         },
         {
             "name": "nightmare-soul",
@@ -15,7 +15,7 @@
             "color": "yellow",
             "img": "yellow-soul.JPG",
             "effect": "Сопротивляемость сну +25",
-            "drop": ["nightmare36"]
+            "drop": [{ "name": "nightmare36" }]
         },
         {
             "name": "defense-soul",
@@ -24,7 +24,7 @@
             "color": "green",
             "img": "green-soul.JPG",
             "effect": "Защита +3 атака -2",
-            "drop": ["ghost41"]
+            "drop": [{ "name": "ghost41" }]
         },
         {
             "name": "ranger-soul",
@@ -33,7 +33,7 @@
             "color": "green",
             "img": "green-soul.JPG",
             "effect": "Точность +4",
-            "drop": ["ghost43"]
+            "drop": [{ "name": "ghost43" }]
         },
         {
             "name": "acolyte-soul",
@@ -42,7 +42,7 @@
             "color": "red",
             "img": "red-soul.JPG",
             "effect": "ИНТ +1, Ом +80",
-            "drop": ["hell-spider51"]
+            "drop": [{ "name": "hell-spider51" }]
         },
         {
             "name": "gladiator-soul",
@@ -51,7 +51,7 @@
             "color": "red",
             "img": "red-soul.JPG",
             "effect": "ВЫН +1, Оз +100",
-            "drop": ["hell-spider51"]
+            "drop": [{ "name": "hell-spider51" }]
         },
         {
             "name": "witchcraft-soul",
@@ -60,7 +60,7 @@
             "color": "green",
             "img": "green-soul.JPG",
             "effect": "Скорость применения умений +2%",
-            "drop": ["earth-demon53"]
+            "drop": [{ "name": "earth-demon53" }]
         },
         {
             "name": "magic-soul",
@@ -69,7 +69,7 @@
             "color": "blue",
             "img": "blue-soul.JPG",
             "effect": "Ом +6",
-            "drop": ["tushkanchik3"]
+            "drop": [{ "name": "tushkanchik3" }]
         },
         {
             "name": "labor-soul",
@@ -78,7 +78,7 @@
             "color": "yellow",
             "img": "yellow-soul.JPG",
             "effect": "Оз +30, Ом +20",
-            "drop": ["ant7", "slug31"]
+            "drop": [{ "name": "ant7" }, { "name": "slug31" }]
         },
         {
             "name": "fountain-soul",
@@ -87,7 +87,7 @@
             "color": "blue",
             "img": "blue-soul.JPG",
             "effect": "Ом +13",
-            "drop": ["gluttony-ghost8", "living-dead8"]
+            "drop": [{ "name": "gluttony-ghost8" }, { "name": "living-dead8" }]
         },
         {
             "name": "happiness-soul",
@@ -96,7 +96,7 @@
             "color": "green",
             "img": "green-soul.JPG",
             "effect": "Вероятность критического урона +2%",
-            "drop": ["snake17"]
+            "drop": [{ "name": "snake17" }]
         },
         {
             "name": "power-soul",
@@ -105,7 +105,7 @@
             "color": "black",
             "img": "black-soul.JPG",
             "effect": "СИЛ +1",
-            "drop": ["rat23"]
+            "drop": [{ "name": "rat23" }]
         },
         {
             "name": "wizard-soul",
@@ -114,16 +114,16 @@
             "color": "green",
             "img": "green-soul.JPG",
             "effect": "Магическая атака +2%",
-            "drop": ["rat23", "ghost33"]
+            "drop": [{ "name": "rat23" }, { "name": "ghost33" }]
         },
         {
             "name": "vitality-soul",
             "nameRU": "Душа Власти",
-            "part": "Доспех/Ноги",
+            "part": "Доспех, Ноги",
             "color": "blue",
             "img": "blue-soul.JPG",
             "effect": "Оз +30",
-            "drop": ["raptor24"]
+            "drop": [{ "name": "raptor24" }]
         },
         {
             "name": "needle-soul",
@@ -132,7 +132,7 @@
             "color": "black",
             "img": "black-soul.JPG",
             "effect": "ЛВК +1",
-            "drop": ["ghoul28"]
+            "drop": [{ "name": "ghoul28" }]
         },
         {
             "name": "sleeping-soul",
@@ -141,7 +141,7 @@
             "color": "green",
             "img": "green-soul.JPG",
             "effect": "4% вероятность усыпить врага при атаке",
-            "drop": ["skeleton32"]
+            "drop": [{ "name": "skeleton32" }]
         },
         {
             "name": "snail-soul",
@@ -150,7 +150,7 @@
             "color": "blue",
             "img": "blue-soul.JPG",
             "effect": "Защита +1, уклонение -1",
-            "drop": ["ant40"]
+            "drop": [{ "name": "ant40" }]
         }
     ]
 }

@@ -1,0 +1,9 @@
+{
+    "bijouterie": [{
+        "name": "necklace30",
+        "nameRU": "Ожерелье",
+        "type": "amulet",
+        "lvl": 30,
+        "drop": [{ "name": "merchant" }]
+    }]
+}

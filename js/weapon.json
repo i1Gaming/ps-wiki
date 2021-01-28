@@ -2,10 +2,8 @@
     "weapon": [{
         "name": "knuckle3",
         "nameRU": "Кастет",
-        "img": "knuckle3",
         "lvl": 3,
-        "maxSlots": 1,
-        "equip": ["warrior", "gladiator", "knight", "scout", "archer", "agent"],
-        "drop": ["snake6"]
+        "type": "fighting",
+        "drop": [{ "name": "snake6", "slot": "1" }, { "name": "yalumi", "slot": "0" }]
     }]
 }

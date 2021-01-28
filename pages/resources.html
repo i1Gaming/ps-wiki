@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/badges.css">
     <link rel="stylesheet" href="../css/mobs.css">
-    <link rel="stylesheet" href="../css/souls.css">
     <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/badges.css">
+    <link rel="stylesheet" href="../css/other.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav w-100 d-flex justify-content-around">
                             <li class="nav-item">
-                                <a class="nav-link active" href="../pages/souls.html">Души</a>
+                                <a class="nav-link" href="../pages/souls.html">Души</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../pages/armor.html">Броня</a>
@@ -51,7 +51,7 @@
                                 <a class="nav-link" href="../pages/mobs.html">Существа</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/resources.html">Ресурсы</a>
+                                <a class="nav-link active" href="../pages/resources.html">Ресурсы</a>
                             </li>
                         </ul>
                     </div>
@@ -65,95 +65,16 @@
         <div class="container d-flex align-items-center justify-content-between search-container">
             <div><a class="search-container__text" href="../pages/contacts.html">Обратная связь</a></div>
             <div class="mob-search-wrapper">
-                <input class="mob-search" type="search" placeholder="Поиск по душам" id="mob-search">
+                <input class="mob-search" type="search" placeholder="Поиск по ресурсам" id="mob-search">
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <h1 class="text-center my-0 page-title">Души </h1>
+                <h1 class="text-center my-0 page-title">Ресурсы </h1>
             </div>
         </div>
-        <div class="container js-loc-filter">
-            <div class="row">
-                <div class="col-12 filter-title">Фильтр по душам:</div>
-                <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="yellow" onchange="filter()">
-                        <label class="form-check-label" for="yellow">
-                            Шлем
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="blue" onchange="filter()">
-                        <label class="form-check-label" for="blue">
-                            Торс / Штаны
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="red" onchange="filter()">
-                        <label class="form-check-label" for="red">
-                            Руки
-                        </label>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="aqua" onchange="filter()">
-                        <label class="form-check-label" for="aqua">
-                            Обувь
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="green" onchange="filter()">
-                        <label class="form-check-label" for="green">
-                            Оружие
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="purple" onchange="filter()">
-                        <label class="form-check-label" for="purple">
-                            Щит
-                        </label>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="black" onchange="filter()">
-                        <label class="form-check-label" for="black">
-                            Пояс
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="multiple" onchange="filter()">
-                        <label class="form-check-label" for="multiple">
-                            Уникальные 
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container souls">
-            <div class="yellow-souls soul__container my-3">
-                <h5 class="pb-1">Души в Голову</h5>
-            </div>
-            <div class="blue-souls soul__container my-3">
-                <h5 class="pb-1">Души в Доспех/Ноги</h5>
-            </div>
-            <div class="red-souls soul__container my-3">
-                <h5 class="pb-1">Души в Руки</h5>
-            </div>
-            <div class="aqua-souls soul__container my-3">
-                <h5 class="pb-1">Души в Обувь</h5>
-            </div>
-            <div class="green-souls soul__container my-3">
-                <h5 class="pb-1">Души в Оружие</h5>
-            </div>
-            <div class="purple-souls soul__container my-3">
-                <h5 class="pb-1">Души в Щит</h5>
-            </div>
-            <div class="black-souls soul__container py-3">
-                <h5 class="pb-1">Души в Пояс</h5>
-            </div>
+        <div class="container">
+            <div class="row resources"></div>
         </div>
     </div>
     <footer class="container-fluid pt-3">
@@ -223,7 +144,7 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="../js/souls.js"></script>
+    <script src="../js/other.js"></script>
     <script src="../js/main.js"></script>
 </body>
 

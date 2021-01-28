@@ -262,7 +262,7 @@ function getSouls() {
                     var soulItem = '';
 
                     $.each(soul.drop, function(key, mobName) {
-                        var curMob = allMobs.find(element => element.name == mobName);
+                        var curMob = allMobs.find(element => element.name == mobName.name);
                         var curMobHabitats = [];
                         $.each(curMob.habitat, function(key, location) {
                             curMobHabitats.push(location.location);

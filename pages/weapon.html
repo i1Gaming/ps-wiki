@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/badges.css">
+    <link rel="stylesheet" href="../css/mobs.css">
+    <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="../css/weapon.css">
 </head>
 
@@ -49,10 +51,7 @@
                                 <a class="nav-link" href="../pages/mobs.html">Существа</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/locations.html">Локации</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/quests.html">Квесты</a>
+                                <a class="nav-link" href="../pages/resources.html">Ресурсы</a>
                             </li>
                         </ul>
                     </div>
@@ -74,56 +73,56 @@
                 <h1 class="text-center my-0 page-title">Оружие </h1>
             </div>
         </div>
-        <div class="container">
+        <div class="container js-loc-filter">
             <div class="row">
                 <div class="col-12 filter-title">Фильтр по оружию:</div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-sword">
-                        <label class="form-check-label" for="one-handed-sword">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-sword" onchange="filter()">
+                        <label class="form-check-label" for="one-hand-sword">
                             Одноручные мечи
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-sword">
-                        <label class="form-check-label" for="two-handed-sword">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-sword" onchange="filter()">
+                        <label class="form-check-label" for="two-hand-sword">
                             Двуручные мечи
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-ax">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-ax" onchange="filter()">
                         <label class="form-check-label" for="one-hand-ax">
                             Одноручные топоры
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-ax">
-                        <label class="form-check-label" for="two-handed-ax">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-ax" onchange="filter()">
+                        <label class="form-check-label" for="two-hand-ax">
                             Двуручные топоры
                         </label>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-blunt">
-                        <label class="form-check-label" for="one-handed-blunt">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-blunt" onchange="filter()">
+                        <label class="form-check-label" for="one-hand-blunt">
                             Одноручные палицы
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-blunt">
-                        <label class="form-check-label" for="two-handed-blunt">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-blunt" onchange="filter()">
+                        <label class="form-check-label" for="two-hand-blunt">
                             Двуручные палицы
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-spear">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-spear" onchange="filter()">
                         <label class="form-check-label" for="one-hand-spear">
                             Одноручные копья
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-spear">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-spear" onchange="filter()">
                         <label class="form-check-label" for="two-hand-spear">
                             Двуручные копья
                         </label>
@@ -131,25 +130,25 @@
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="dagger">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="dagger" onchange="filter()">
                         <label class="form-check-label" for="dagger">
                             Ножи
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="fighting">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="fighting" onchange="filter()">
                         <label class="form-check-label" for="fighting">
                             Кастеты
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="bow">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="bow" onchange="filter()">
                         <label class="form-check-label" for="bow">
                             Луки
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="crossbow">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="crossbow" onchange="filter()">
                         <label class="form-check-label" for="crossbow">
                             Арбалеты
                         </label>
@@ -157,13 +156,13 @@
                 </div>
                 <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-cane">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="one-hand-cane" onchange="filter()">
                         <label class="form-check-label" for="one-hand-cane">
                             Одноручные посохи
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-cane">
+                        <input class="form-check-input d-none" type="checkbox" value="" id="two-hand-cane" onchange="filter()">
                         <label class="form-check-label" for="two-hand-cane">
                             Двуручные посохи
                         </label>
@@ -171,55 +170,120 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-4 weapon">
+        <div class="container weapon">
+            <h5 class="pb-1">Одноручные мечи</h5>
             <div class="one-hand-sword-weapon my-3">
-                <h5 class="pb-1">Одноручные мечи</h5>
             </div>
+            <h5 class="pb-1">Двуручные мечи</h5>
             <div class="two-hand-sword-weapon my-3">
-                <h5 class="pb-1">Двуручные мечи</h5>
             </div>
+            <h5 class="pb-1">Одноручные топоры</h5>
             <div class="one-hand-ax-weapon my-3">
-                <h5 class="pb-1">Одноручные топоры</h5>
             </div>
+            <h5 class="pb-1">Двуручные топоры</h5>
             <div class="two-hand-ax-weapon my-3">
-                <h5 class="pb-1">Двуручные топоры</h5>
             </div>
+            <h5 class="pb-1">Одноручные палицы</h5>
             <div class="one-hand-blunt-weapon my-3">
-                <h5 class="pb-1">Одноручные палицы</h5>
             </div>
+            <h5 class="pb-1">Двуручные палицы</h5>
             <div class="two-hand-blunt-weapon">
-                <h5 class="pb-1">Двуручные палицы</h5>
             </div>
+            <h5 class="pb-1">Одноручные копья</h5>
             <div class="one-hand-spear-weapon">
-                <h5 class="pb-1">Одноручные копья</h5>
             </div>
+            <h5 class="pb-1">Двуручные копья</h5>
             <div class="two-hand-spear-weapon">
-                <h5 class="pb-1">Двуручные копья</h5>
             </div>
+            <h5 class="pb-1">Ножи</h5>
             <div class="dagger-weapon">
-                <h5 class="pb-1">Ножи</h5>
             </div>
+            <h5 class="pb-1">Кастеты</h5>
             <div class="fighting-weapon">
-                <h5 class="pb-1">Кастеты</h5>
             </div>
+            <h5 class="pb-1">Луки</h5>
             <div class="bow-weapon">
-                <h5 class="pb-1">Луки</h5>
             </div>
+            <h5 class="pb-1">Арбалеты</h5>
             <div class="crossbow-weapon">
-                <h5 class="pb-1">Арбалеты</h5>
             </div>
+            <h5 class="pb-1">Одноручные посохи</h5>
             <div class="two-hand-cane-weapon">
-                <h5 class="pb-1">Одноручные посохи</h5>
             </div>
+            <h5 class="pb-1">Двуручные посохи</h5>
             <div class="two-hande-cane-weapon">
-                <h5 class="pb-1">Двуручные посохи</h5>
             </div>
         </div>
     </div>
+    <footer class="container-fluid pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="../img/ps-logo 3.png" class="justify-content-center" alt="Pandora">
+                </div>
+                <div class="col-6">
+                    <p class="text-center">Информационный проект</p>
+                    <h3 class="text-center my-0 subtitle-text">Pandora Saga Legacy <span class="ft-">Wiki</span></h3>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <button type="button" class="btn btn-link btn-up" onclick="scrollToTop()">ВВЕРХ<span class="btn-span">&#9650;</span></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-start justify-content-center">Наша команда собрала самую актуальную информацию и данные, практически на каждый пиксель, чтобы всем было приятней играть, не тратя время на изобретения “велосипеда”.</p>
+                </div>
+                <div class="col-6">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/souls.html">Души</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/armor.html">Броня</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/weapon.html">Оружие</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/bijouterie.html">Бижутерия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/mobs.html">Существа</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ft-link" href="../pages/resources.html">Ресурсы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
 
+                </div>
+            </div>
+        </div>
+        <div class="container border-top border-dark"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="col-6 col-md ">
+                        <img src="../img/K3 Des 1.png" alt="K3Design">
+                        <p>©2021 K3Design</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <div class="col-6 col-md d-flex flex-row-reverse  ">
+                        <a href="https://vk.com/pandoralegacy" target="blank"><img src="../img/VectorVK.png" alt="VK" class="ft-icon" title="VK"></a>
+                        <!-- <a href="https://web.telegram.org/#/login" target="blank"><img src="../img/VectorTG (1).png" alt="Telegram" class="ft-icon" title="Telegram"></a> -->
+                        <a href="https://discord.gg/AQ5hQxwDHA" target="blank"><img src="../img/VectorDS(2).png" alt="Discord" class="ft-icon" title="Discord"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="../js/souls.js"></script>
+    <script src="../js/weapon.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

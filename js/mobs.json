@@ -87,14 +87,14 @@
             "img": "hell-spider51.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "E-14 / F-11,12 / H-7 / I-7,10,11 / J-11",
+                "coordinates": "E-14 / F-11 / H-7 / I-7,10,11 / J-11",
                 "day": true,
                 "night": true
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "soul", "name": "ranger-soul" }, { "type": "soul", "name": "gladiator-soul" }]
+                "hard": [{ "type": "soul", "name": "acolyte-soul" }, { "type": "soul", "name": "gladiator-soul" }]
             }
         },
         {
@@ -396,6 +396,84 @@
                 "easy": [{ "type": "other", "name": "sweet-bile" }, { "type": "other", "name": "volatile-bile" }, { "type": "other", "name": "acid-bile" }],
                 "medium": [{ "type": "other", "name": "empty-bottle" }],
                 "hard": [{ "type": "soul", "name": "snail-soul" }]
+            }
+        },
+        {
+            "name": "shin",
+            "nameRU": "Торговец доспехами Шин",
+            "lvl": "-",
+            "img": "shin.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "E-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "quilt-boots1", "slots": "0" }]
+            }
+        },
+        {
+            "name": "yalumi",
+            "nameRU": "Торговец оружием Ялуми",
+            "lvl": "-",
+            "img": "yalumi.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "E-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "knuckle3", "slots": "0" }]
+            }
+        },
+        {
+            "name": "merchant",
+            "nameRU": "Купец",
+            "lvl": "-",
+            "img": "merchant.PNG",
+            "habitat": [{
+                    "location": "kingdom",
+                    "coordinates": "H-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "empire",
+                    "coordinates": "G-8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "union",
+                    "coordinates": "G-12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "bijouterie", "name": "necklace30" }]
             }
         }
     ]
