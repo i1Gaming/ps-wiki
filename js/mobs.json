@@ -81,6 +81,40 @@
             }
         },
         {
+            "name": "ghost45",
+            "nameRU": "Рыцарь фантом",
+            "lvl": 45,
+            "img": "ghost45.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "alive-soul" }, { "type": "other", "name": "desperate-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "small-silver-pyroxene" }],
+                "hard": [{ "type": "other", "name": "rainbowlvl1" }]
+            }
+        },
+        {
+            "name": "gilia48",
+            "nameRU": "Гильотинщик",
+            "lvl": 48,
+            "img": "gilia48.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": [{ "type": "soul", "name": "dawn-soul" }, { "type": "armor", "name": "dark-crown35", "slots": "1" }, { "type": "armor", "name": "horse-helmet35", "slots": "1" }]
+            }
+        },
+        {
             "name": "hell-spider51",
             "nameRU": "Адский паук",
             "lvl": 51,
@@ -347,7 +381,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "wormy-meat" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "rotten-meat" }, { "type": "other", "name": "replenishment-potion-60" }],
                 "medium": [{ "type": "other", "name": "decaying-meat" }],
-                "hard": [{ "type": "soul", "name": "needle-soul" }]
+                "hard": [{ "type": "soul", "name": "needle-soul" }, { "type": "soul", "name": "fountain-soul" }]
             }
         },
         {
@@ -417,7 +451,78 @@
                 }
             ],
             "drop": {
-                "easy": [{ "type": "armor", "name": "quilt-boots1", "slots": "0" }]
+                "easy": [{ "type": "armor", "name": "leather-helmet3", "slots": "0" }, { "type": "armor", "name": "iron-helmet6", "slots": "0" },
+                    { "type": "armor", "name": "plain-tunic1", "slots": "0" }, { "type": "armor", "name": "cotton-tunic1", "slots": "0" }, { "type": "armor", "name": "durable-vest7", "slots": "0" },
+                    { "type": "armor", "name": "leather-armor15", "slots": "0" }, { "type": "armor", "name": "leather-vest20", "slots": "0" }, { "type": "armor", "name": "linen-tunic15", "slots": "0" },
+                    { "type": "armor", "name": "trousers1", "slots": "0" }, { "type": "armor", "name": "quilted-pants1", "slots": "0" }, { "type": "armor", "name": "silk-pants5", "slots": "0" },
+                    { "type": "armor", "name": "magical-pants5", "slots": "0" }, { "type": "armor", "name": "leather-pants13", "slots": "0" }, { "type": "armor", "name": "leather-leggings20", "slots": "0" },
+                    { "type": "armor", "name": "linen-pants20", "slots": "0" }, { "type": "armor", "name": "quilted-mittens1", "slots": "0" }, { "type": "armor", "name": "suede-gloves5", "slots": "0" },
+                    { "type": "armor", "name": "silk-gloves11", "slots": "0" }, { "type": "armor", "name": "fighting-gloves11", "slots": "0" }, { "type": "armor", "name": "fur-gloves18", "slots": "0" },
+                    { "type": "armor", "name": "quilt-boots1", "slots": "0" }, { "type": "armor", "name": "linen-shoes1", "slots": "0" }, { "type": "armor", "name": "ordinary-shoes6", "slots": "0" },
+                    { "type": "armor", "name": "regular-boots16", "slots": "0" }, { "type": "armor", "name": "light-shield3", "slots": "0" }, { "type": "armor", "name": "wooden-shield7", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "kester",
+            "nameRU": "Торговец доспехами Кестер",
+            "lvl": "-",
+            "img": "kester.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "H-5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "leather-helmet3", "slots": "0" }, { "type": "armor", "name": "iron-helmet6", "slots": "0" },
+                    { "type": "armor", "name": "plain-tunic1", "slots": "0" }, { "type": "armor", "name": "cotton-tunic1", "slots": "0" }, { "type": "armor", "name": "durable-vest7", "slots": "0" },
+                    { "type": "armor", "name": "leather-armor15", "slots": "0" }, { "type": "armor", "name": "leather-vest20", "slots": "0" }, { "type": "armor", "name": "linen-tunic15", "slots": "0" },
+                    { "type": "armor", "name": "trousers1", "slots": "0" }, { "type": "armor", "name": "quilted-pants1", "slots": "0" }, { "type": "armor", "name": "silk-pants5", "slots": "0" },
+                    { "type": "armor", "name": "magical-pants5", "slots": "0" }, { "type": "armor", "name": "leather-pants13", "slots": "0" }, { "type": "armor", "name": "leather-leggings20", "slots": "0" },
+                    { "type": "armor", "name": "linen-pants20", "slots": "0" }, { "type": "armor", "name": "quilted-mittens1", "slots": "0" }, { "type": "armor", "name": "suede-gloves5", "slots": "0" },
+                    { "type": "armor", "name": "silk-gloves11", "slots": "0" }, { "type": "armor", "name": "fighting-gloves11", "slots": "0" }, { "type": "armor", "name": "fur-gloves18", "slots": "0" },
+                    { "type": "armor", "name": "quilt-boots1", "slots": "0" }, { "type": "armor", "name": "linen-shoes1", "slots": "0" }, { "type": "armor", "name": "ordinary-shoes6", "slots": "0" },
+                    { "type": "armor", "name": "regular-boots16", "slots": "0" }, { "type": "armor", "name": "light-shield3", "slots": "0" }, { "type": "armor", "name": "wooden-shield7", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "david",
+            "nameRU": "Торговец доспехами Давид",
+            "lvl": "-",
+            "img": "david.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "L-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "leather-helmet3", "slots": "0" }, { "type": "armor", "name": "iron-helmet6", "slots": "0" },
+                    { "type": "armor", "name": "plain-tunic1", "slots": "0" }, { "type": "armor", "name": "cotton-tunic1", "slots": "0" }, { "type": "armor", "name": "durable-vest7", "slots": "0" },
+                    { "type": "armor", "name": "leather-armor15", "slots": "0" }, { "type": "armor", "name": "leather-vest20", "slots": "0" }, { "type": "armor", "name": "linen-tunic15", "slots": "0" },
+                    { "type": "armor", "name": "trousers1", "slots": "0" }, { "type": "armor", "name": "quilted-pants1", "slots": "0" }, { "type": "armor", "name": "silk-pants5", "slots": "0" },
+                    { "type": "armor", "name": "magical-pants5", "slots": "0" }, { "type": "armor", "name": "leather-pants13", "slots": "0" }, { "type": "armor", "name": "leather-leggings20", "slots": "0" },
+                    { "type": "armor", "name": "linen-pants20", "slots": "0" }, { "type": "armor", "name": "quilted-mittens1", "slots": "0" }, { "type": "armor", "name": "suede-gloves5", "slots": "0" },
+                    { "type": "armor", "name": "silk-gloves11", "slots": "0" }, { "type": "armor", "name": "fighting-gloves11", "slots": "0" }, { "type": "armor", "name": "fur-gloves18", "slots": "0" },
+                    { "type": "armor", "name": "quilt-boots1", "slots": "0" }, { "type": "armor", "name": "linen-shoes1", "slots": "0" }, { "type": "armor", "name": "ordinary-shoes6", "slots": "0" },
+                    { "type": "armor", "name": "regular-boots16", "slots": "0" }, { "type": "armor", "name": "light-shield3", "slots": "0" }, { "type": "armor", "name": "wooden-shield7", "slots": "0" }
+                ]
             }
         },
         {
@@ -439,7 +544,84 @@
                 }
             ],
             "drop": {
-                "easy": [{ "type": "weapon", "name": "knuckle3", "slots": "0" }]
+                "easy": [{ "type": "weapon", "name": "knuckle3", "slots": "0" }, { "type": "weapon", "name": "short-sword1", "slots": "0" }, { "type": "weapon", "name": "heavy-sword7", "slots": "0" },
+                    { "type": "weapon", "name": "rapier14", "slots": "0" }, { "type": "weapon", "name": "double-strike-sword4", "slots": "0" }, { "type": "weapon", "name": "horse-sword16", "slots": "0" },
+                    { "type": "weapon", "name": "ax3", "slots": "0" }, { "type": "weapon", "name": "hand-ax16", "slots": "0" }, { "type": "weapon", "name": "battle-scythe7", "slots": "0" },
+                    { "type": "weapon", "name": "executioner-ax18", "slots": "0" }, { "type": "weapon", "name": "wooden-club1", "slots": "0" }, { "type": "weapon", "name": "club6", "slots": "0" },
+                    { "type": "weapon", "name": "scepter12", "slots": "0" }, { "type": "weapon", "name": "wooden-dze5", "slots": "0" }, { "type": "weapon", "name": "metal-mace25", "slots": "0" },
+                    { "type": "weapon", "name": "wooden-spear5", "slots": "0" }, { "type": "weapon", "name": "tournament-spear19", "slots": "0" }, { "type": "weapon", "name": "soldier-lance3", "slots": "0" },
+                    { "type": "weapon", "name": "trident9", "slots": "0" }, { "type": "weapon", "name": "roccob-halberd18", "slots": "0" }, { "type": "weapon", "name": "tekko20", "slots": "0" },
+                    { "type": "weapon", "name": "knife1", "slots": "0" }, { "type": "weapon", "name": "assassin-dagger6", "slots": "0" }, { "type": "weapon", "name": "stylet14", "slots": "0" },
+                    { "type": "weapon", "name": "bow4", "slots": "0" }, { "type": "weapon", "name": "short-bow14", "slots": "0" }, { "type": "weapon", "name": "crossbow10", "slots": "0" },
+                    { "type": "weapon", "name": "light-crossbow16", "slots": "0" }, { "type": "weapon", "name": "magic-wand1", "slots": "0" }, { "type": "weapon", "name": "wand-magical-distortion5", "slots": "0" },
+                    { "type": "weapon", "name": "whirlpool-wand17", "slots": "0" }, { "type": "weapon", "name": "mysterious-staff6", "slots": "0" }, { "type": "weapon", "name": "red-crystal-staff12", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "galo",
+            "nameRU": "Торговец оружием Гало",
+            "lvl": "-",
+            "img": "galo.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "H-5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "knuckle3", "slots": "0" }, { "type": "weapon", "name": "short-sword1", "slots": "0" }, { "type": "weapon", "name": "heavy-sword7", "slots": "0" },
+                    { "type": "weapon", "name": "rapier14", "slots": "0" }, { "type": "weapon", "name": "double-strike-sword4", "slots": "0" }, { "type": "weapon", "name": "horse-sword16", "slots": "0" },
+                    { "type": "weapon", "name": "ax3", "slots": "0" }, { "type": "weapon", "name": "hand-ax16", "slots": "0" }, { "type": "weapon", "name": "battle-scythe7", "slots": "0" },
+                    { "type": "weapon", "name": "executioner-ax18", "slots": "0" }, { "type": "weapon", "name": "wooden-club1", "slots": "0" }, { "type": "weapon", "name": "club6", "slots": "0" },
+                    { "type": "weapon", "name": "scepter12", "slots": "0" }, { "type": "weapon", "name": "wooden-dze5", "slots": "0" }, { "type": "weapon", "name": "metal-mace25", "slots": "0" },
+                    { "type": "weapon", "name": "wooden-spear5", "slots": "0" }, { "type": "weapon", "name": "tournament-spear19", "slots": "0" }, { "type": "weapon", "name": "soldier-lance3", "slots": "0" },
+                    { "type": "weapon", "name": "trident9", "slots": "0" }, { "type": "weapon", "name": "roccob-halberd18", "slots": "0" }, { "type": "weapon", "name": "tekko20", "slots": "0" },
+                    { "type": "weapon", "name": "knife1", "slots": "0" }, { "type": "weapon", "name": "assassin-dagger6", "slots": "0" }, { "type": "weapon", "name": "stylet14", "slots": "0" },
+                    { "type": "weapon", "name": "bow4", "slots": "0" }, { "type": "weapon", "name": "short-bow14", "slots": "0" }, { "type": "weapon", "name": "crossbow10", "slots": "0" },
+                    { "type": "weapon", "name": "light-crossbow16", "slots": "0" }, { "type": "weapon", "name": "magic-wand1", "slots": "0" }, { "type": "weapon", "name": "wand-magical-distortion5", "slots": "0" },
+                    { "type": "weapon", "name": "whirlpool-wand17", "slots": "0" }, { "type": "weapon", "name": "mysterious-staff6", "slots": "0" }, { "type": "weapon", "name": "red-crystal-staff12", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "lu",
+            "nameRU": "Торговец оружием Лу",
+            "lvl": "-",
+            "img": "lu.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "L-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "knuckle3", "slots": "0" }, { "type": "weapon", "name": "short-sword1", "slots": "0" }, { "type": "weapon", "name": "heavy-sword7", "slots": "0" },
+                    { "type": "weapon", "name": "rapier14", "slots": "0" }, { "type": "weapon", "name": "double-strike-sword4", "slots": "0" }, { "type": "weapon", "name": "horse-sword16", "slots": "0" },
+                    { "type": "weapon", "name": "ax3", "slots": "0" }, { "type": "weapon", "name": "hand-ax16", "slots": "0" }, { "type": "weapon", "name": "battle-scythe7", "slots": "0" },
+                    { "type": "weapon", "name": "executioner-ax18", "slots": "0" }, { "type": "weapon", "name": "wooden-club1", "slots": "0" }, { "type": "weapon", "name": "club6", "slots": "0" },
+                    { "type": "weapon", "name": "scepter12", "slots": "0" }, { "type": "weapon", "name": "wooden-dze5", "slots": "0" }, { "type": "weapon", "name": "metal-mace25", "slots": "0" },
+                    { "type": "weapon", "name": "wooden-spear5", "slots": "0" }, { "type": "weapon", "name": "tournament-spear19", "slots": "0" }, { "type": "weapon", "name": "soldier-lance3", "slots": "0" },
+                    { "type": "weapon", "name": "trident9", "slots": "0" }, { "type": "weapon", "name": "roccob-halberd18", "slots": "0" }, { "type": "weapon", "name": "tekko20", "slots": "0" },
+                    { "type": "weapon", "name": "knife1", "slots": "0" }, { "type": "weapon", "name": "assassin-dagger6", "slots": "0" }, { "type": "weapon", "name": "stylet14", "slots": "0" },
+                    { "type": "weapon", "name": "bow4", "slots": "0" }, { "type": "weapon", "name": "short-bow14", "slots": "0" }, { "type": "weapon", "name": "crossbow10", "slots": "0" },
+                    { "type": "weapon", "name": "light-crossbow16", "slots": "0" }, { "type": "weapon", "name": "magic-wand1", "slots": "0" }, { "type": "weapon", "name": "wand-magical-distortion5", "slots": "0" },
+                    { "type": "weapon", "name": "whirlpool-wand17", "slots": "0" }, { "type": "weapon", "name": "mysterious-staff6", "slots": "0" }, { "type": "weapon", "name": "red-crystal-staff12", "slots": "0" }
+                ]
             }
         },
         {
@@ -473,7 +655,78 @@
                 }
             ],
             "drop": {
-                "easy": [{ "type": "bijouterie", "name": "necklace30" }]
+                "easy": [{ "type": "bijouterie", "name": "necklace30" }, { "type": "bijouterie", "name": "hunter-necklace30" }, { "type": "bijouterie", "name": "ancient-necklace30" },
+                    { "type": "bijouterie", "name": "war-necklace30" }, { "type": "bijouterie", "name": "earring30" }, { "type": "bijouterie", "name": "silicon-earring30" },
+                    { "type": "bijouterie", "name": "hunter-ring30" }, { "type": "bijouterie", "name": "belt30", "slots": "2" }, { "type": "bijouterie", "name": "leather-belt30", "slots": "2" }
+                ]
+            }
+        },
+        {
+            "name": "skeleton50",
+            "nameRU": "Доблестный рыцарь",
+            "lvl": 50,
+            "img": "skeleton50.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "F-7,12 / I-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "calm-soul" }]
+            }
+        },
+        {
+            "name": "ghost55",
+            "nameRU": "Призрак героя",
+            "lvl": 55,
+            "img": "ghost55.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "F-7,12 / I-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": [{ "type": "other", "name": "hero-charm" }]
+            }
+        },
+        {
+            "name": "ghost31",
+            "nameRU": "Призрачный рекрут",
+            "lvl": 31,
+            "img": "ghost31.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "desperate-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "ghost39",
+            "nameRU": "Призрачный страж",
+            "lvl": 39,
+            "img": "ghost39.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "obsessed-soul" }, { "type": "other", "name": "alive-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "firelvl2" }],
+                "hard": []
             }
         }
     ]

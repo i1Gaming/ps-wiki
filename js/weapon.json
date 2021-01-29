@@ -1,9 +1,234 @@
 {
     "weapon": [{
-        "name": "knuckle3",
-        "nameRU": "Кастет",
-        "lvl": 3,
-        "type": "fighting",
-        "drop": [{ "name": "snake6", "slot": "1" }, { "name": "yalumi", "slot": "0" }]
-    }]
+            "name": "knuckle3",
+            "nameRU": "Кастет",
+            "lvl": 3,
+            "type": "fighting",
+            "drop": [{ "name": "snake6", "slot": "1" }, { "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "short-sword1",
+            "nameRU": "Короткий меч",
+            "lvl": 3,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "heavy-sword7",
+            "nameRU": "Тяжелый меч",
+            "lvl": 7,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "rapier14",
+            "nameRU": "Рапира",
+            "lvl": 14,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "double-strike-sword4",
+            "nameRU": "Меч двойного удара",
+            "lvl": 4,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "horse-sword16",
+            "nameRU": "Меч конебой",
+            "lvl": 16,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "ax3",
+            "nameRU": "Топор",
+            "lvl": 3,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "hand-ax16",
+            "nameRU": "Ручной топор",
+            "lvl": 16,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "battle-scythe7",
+            "nameRU": "Боевая коса",
+            "lvl": 7,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "executioner-ax18",
+            "nameRU": "Топор палача",
+            "lvl": 18,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "wooden-club1",
+            "nameRU": "Деревянная палица",
+            "lvl": 1,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "club6",
+            "nameRU": "Палица",
+            "lvl": 6,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "scepter12",
+            "nameRU": "Скипетр",
+            "lvl": 12,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "wooden-dze5",
+            "nameRU": "Деревянный дзё",
+            "lvl": 5,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "metal-mace25",
+            "nameRU": "Металлическая булава",
+            "lvl": 25,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "wooden-spear5",
+            "nameRU": "Деревянное копье",
+            "lvl": 5,
+            "type": "one-hand-spear",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "tournament-spear19",
+            "nameRU": "Турнирное копье",
+            "lvl": 19,
+            "type": "one-hand-spear",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "soldier-lance3",
+            "nameRU": "Солдатская пика",
+            "lvl": 3,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "trident9",
+            "nameRU": "Трезубец",
+            "lvl": 9,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "roccob-halberd18",
+            "nameRU": "Роккобская алебарда",
+            "lvl": 18,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "tekko20",
+            "nameRU": "Тэкко",
+            "lvl": 20,
+            "type": "fighting",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "knife1",
+            "nameRU": "Нож",
+            "lvl": 1,
+            "type": "dagger",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "assassin-dagger6",
+            "nameRU": "Кинжал убийцы",
+            "lvl": 6,
+            "type": "dagger",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "stylet14",
+            "nameRU": "Стилет",
+            "lvl": 14,
+            "type": "dagger",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "bow4",
+            "nameRU": "Лук",
+            "lvl": 4,
+            "type": "bow",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "short-bow14",
+            "nameRU": "Короткий лук",
+            "lvl": 14,
+            "type": "bow",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "crossbow10",
+            "nameRU": "Арбалет",
+            "lvl": 10,
+            "type": "crossbow",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "light-crossbow16",
+            "nameRU": "Легкий арбалет",
+            "lvl": 16,
+            "type": "crossbow",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "magic-wand1",
+            "nameRU": "Волшебный жезл",
+            "lvl": 1,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "wand-magical-distortion5",
+            "nameRU": "Жезл магического искажения",
+            "lvl": 5,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "whirlpool-wand17",
+            "nameRU": "Жезл водоворотов",
+            "lvl": 17,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "mysterious-staff6",
+            "nameRU": "Таинственный посох",
+            "lvl": 6,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "red-crystal-staff12",
+            "nameRU": "Посох с красным кристаллом",
+            "lvl": 12,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        }
+    ]
 }

@@ -129,6 +129,14 @@ function getLifeCycle(day, night) {
     return curLifeCycleHTML.join('');
 }
 
+function getSlots(slots) {
+    if (slots) {
+        return `(${slots} сл.)`;
+    } else {
+        return ``;
+    }
+}
+
 function getDrops(drop, dropInfo) {
     var allDrop = [];
 
@@ -143,7 +151,7 @@ function getDrops(drop, dropInfo) {
                 dropNameRU = `${dropInfo.allArmor.find(element => element.name == dropItem.name).nameRU} (${dropItem.slots} сл.)`
                 break;
             case "bijouterie":
-                dropNameRU = dropInfo.allBijouterie.find(element => element.name == dropItem.name).nameRU
+                dropNameRU = `${dropInfo.allBijouterie.find(element => element.name == dropItem.name).nameRU} ${getSlots(dropItem.slots)}`
                 break;
             case "soul":
                 dropNameRU = dropInfo.allSouls.find(element => element.name == dropItem.name).nameRU
@@ -243,7 +251,7 @@ function getDrop(armor, data) {
         var badges = getSoulBadges(curMobHabitats);
         var curMobHTML = `<div class='d-flex align-items-center mb-2 ${curMob.name}__drop' role="button">
         <a class="text-secondary" data-toggle="modal" data-target="#${armor.name}_${curMob.name}">
-            ${curMob.nameRU} (${curMob.lvl} ур.)
+            ${curMob.nameRU} (${curMob.lvl} ур.) ${getSlots(mobName.slot)}
         </a> 
         ${badges.join('')}
         </div>

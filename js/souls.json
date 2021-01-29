@@ -87,7 +87,7 @@
             "color": "blue",
             "img": "blue-soul.JPG",
             "effect": "Ом +13",
-            "drop": [{ "name": "gluttony-ghost8" }, { "name": "living-dead8" }]
+            "drop": [{ "name": "gluttony-ghost8" }, { "name": "living-dead8" }, { "name": "ghoul28" }]
         },
         {
             "name": "happiness-soul",
@@ -151,6 +151,24 @@
             "img": "blue-soul.JPG",
             "effect": "Защита +1, уклонение -1",
             "drop": [{ "name": "ant40" }]
+        },
+        {
+            "name": "calm-soul",
+            "nameRU": "Спокойная душа",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "Сопротивляемость сбою применения умений +20",
+            "drop": [{ "name": "skeleton50" }]
+        },
+        {
+            "name": "dawn-soul",
+            "nameRU": "Душа рассвета",
+            "part": "Обувь",
+            "color": "aqua",
+            "img": "aqua-soul.JPG",
+            "effect": "Скорость восстановления ОМ +10%",
+            "drop": [{ "name": "gilia48" }]
         }
     ]
 }

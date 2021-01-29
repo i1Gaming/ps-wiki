@@ -1,9 +1,66 @@
 {
     "bijouterie": [{
-        "name": "necklace30",
-        "nameRU": "Ожерелье",
-        "type": "amulet",
-        "lvl": 30,
-        "drop": [{ "name": "merchant" }]
-    }]
+            "name": "necklace30",
+            "nameRU": "Ожерелье",
+            "type": "amulet",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "hunter-necklace30",
+            "nameRU": "Ожерелье охотника",
+            "type": "amulet",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "ancient-necklace30",
+            "nameRU": "Древнее ожерелье",
+            "type": "amulet",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "war-necklace30",
+            "nameRU": "Ожерелье войны",
+            "type": "amulet",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "earring30",
+            "nameRU": "Серьга",
+            "type": "earring",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "silicon-earring30",
+            "nameRU": "Кремниевая серьга",
+            "type": "earring",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "hunter-ring30",
+            "nameRU": "Охотничье кольцо",
+            "type": "ring",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "belt30",
+            "nameRU": "Пояс",
+            "type": "belt",
+            "lvl": 30,
+            "drop": [{ "name": "merchant", "slot": "2" }]
+        },
+        {
+            "name": "leather-belt30",
+            "nameRU": "Кожаный пояс",
+            "type": "belt",
+            "lvl": 30,
+            "drop": [{ "name": "merchant", "slot": "2" }]
+        }
+    ]
 }

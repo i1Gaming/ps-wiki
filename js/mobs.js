@@ -148,7 +148,15 @@ function getAllHabitatsHTML(habitats) {
     return allHabitatsHTML.join('');
 }
 
-function getDrops(drop, dropInfo) {
+function getSlots(slots) {
+    if (slots) {
+        return `(${slots} сл.)`;
+    } else {
+        return ``;
+    }
+}
+
+function getDrops(drop, dropInfo, mobName) {
     var allDrop = [];
 
     $.each(drop, function(key, dropItem) {
@@ -162,7 +170,7 @@ function getDrops(drop, dropInfo) {
                 dropNameRU = `${dropInfo.allArmor.find(element => element.name == dropItem.name).nameRU} (${dropItem.slots} сл.)`
                 break;
             case "bijouterie":
-                dropNameRU = dropInfo.allBijouterie.find(element => element.name == dropItem.name).nameRU
+                dropNameRU = `${dropInfo.allBijouterie.find(element => element.name == dropItem.name).nameRU} ${getSlots(dropItem.slots)}`
                 break;
             case "soul":
                 dropNameRU = dropInfo.allSouls.find(element => element.name == dropItem.name).nameRU
@@ -175,11 +183,11 @@ function getDrops(drop, dropInfo) {
         }
 
         dropHTML = `<div class="${dropItem.name}__drop mob__drop-item">
-        <a data-toggle="modal" data-target="#${dropItem.name}">
+        <a data-toggle="modal" data-target="#${dropItem.name}_${mobName}">
         ${dropNameRU}, 
         </a>
         </div>
-        ${getModal(dropItem, dropInfo)}`;
+        ${getModal(dropItem, dropInfo, mobName)}`;
 
         allDrop.push(dropHTML);
     });
@@ -224,9 +232,8 @@ function getSoulEffect(soul) {
     );
 }
 
-function getModal(dropItem, dropInfo) {
+function getModal(dropItem, dropInfo, mobName) {
     var item;
-
     switch (dropItem.type) {
         case "other":
             item = dropInfo.allOther.find(element => element.name == dropItem.name);
@@ -248,7 +255,7 @@ function getModal(dropItem, dropInfo) {
     }
 
     var modalHTML = `<!-- Modal -->
-    <div class="modal fade" id="${item.name}" tabindex="-1" aria-labelledby="${item.name}Label" aria-hidden="true">
+    <div class="modal fade" id="${item.name}_${mobName}" tabindex="-1" aria-labelledby="${item.name}Label" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -336,15 +343,15 @@ function renderMobs() {
                 <div class="mob__drop-title">Добыча:</div>
                 <div class="mob__drop-easy-wrapper">
                     <div class="mob__drop-easy">Легкая: </div>
-                    ${getDrops(mob.drop.easy, data)}
+                    ${getDrops(mob.drop.easy, data, mob.name)}
                 </div>
                 <div class="mob__drop-medium-wrapper">
                     <div class="mob__drop-medium">Средняя: </div>
-                    ${getDrops(mob.drop.medium, data)}
+                    ${getDrops(mob.drop.medium, data, mob.name)}
                 </div>
                 <div class="mob__drop-hard-wrapper">
                     <div class="mob__drop-hard">Тяжелая: </div>
-                    ${getDrops(mob.drop.hard, data)}
+                    ${getDrops(mob.drop.hard, data, mob.name)}
                 </div>
             </div>
             </div>`;

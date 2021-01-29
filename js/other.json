@@ -33,25 +33,31 @@
             "name": "pure-soul",
             "nameRU": "Чистая душа",
             "img": "pure-soul.PNG",
-            "drop": [{ "name": "nightmare36" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost33" }]
+            "drop": [{ "name": "ghost31" }, { "name": "ghost33" }, { "name": "nightmare36" }, { "name": "ghost39" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }]
+        },
+        {
+            "name": "desperate-soul",
+            "nameRU": "Отчаявшаяся душа",
+            "img": "desperate-soul.PNG",
+            "drop": [{ "name": "ghost31" }, { "name": "ghost45" }]
         },
         {
             "name": "evil-soul",
             "nameRU": "Злая душа",
             "img": "evil-soul.PNG",
-            "drop": [{ "name": "nightmare36" }, { "name": "ghost43" }]
+            "drop": [{ "name": "nightmare36" }, { "name": "ghost43" }, { "name": "ghost45" }]
         },
         {
             "name": "obsessed-soul",
             "nameRU": "Одержимая душа",
             "img": "obsessed-soul.PNG",
-            "drop": [{ "name": "nightmare36" }, { "name": "ghost41" }]
+            "drop": [{ "name": "ghost39" }, { "name": "nightmare36" }, { "name": "ghost41" }]
         },
         {
             "name": "alive-soul",
             "nameRU": "Живая душа",
             "img": "alive-soul.PNG",
-            "drop": [{ "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost33" }]
+            "drop": [{ "name": "ghost39" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost33" }, { "name": "ghost45" }]
         },
         {
             "name": "bat-feathers",
@@ -63,7 +69,7 @@
             "name": "muldian-medal",
             "nameRU": "Имперская медаль Мальдии",
             "img": "muldian-medal.PNG",
-            "drop": [{ "name": "nightmare36" }, { "name": "hell-spider51" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "earth-demon53" }, { "name": "ghost33" }]
+            "drop": [{ "name": "ghost31" }, { "name": "nightmare36" }, { "name": "hell-spider51" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }, { "name": "earth-demon53" }, { "name": "ghost33" }, { "name": "skeleton50" }, { "name": "ghost55" }]
         },
         {
             "name": "lightlvl2",
@@ -76,6 +82,12 @@
             "nameRU": "Малахит",
             "img": "poisonlvl1.PNG",
             "drop": [{ "name": "snake6" }, { "name": "snake17" }]
+        },
+        {
+            "name": "rainbowlvl1",
+            "nameRU": "Опал",
+            "img": "rainbowlvl1.PNG",
+            "drop": [{ "name": "ghost45" }]
         },
         {
             "name": "сloudy-bile",
@@ -112,6 +124,12 @@
             "nameRU": "Кровавик",
             "img": "firelvl1.PNG",
             "drop": [{ "name": "ant7" }]
+        },
+        {
+            "name": "firelvl2",
+            "nameRU": "Гранат",
+            "img": "firelvl2.PNG",
+            "drop": [{ "name": "ghost39" }]
         },
         {
             "name": "multicolored-bile",
@@ -192,6 +210,12 @@
             "drop": [{ "name": "raptor24" }]
         },
         {
+            "name": "small-silver-pyroxene",
+            "nameRU": "Небольшой серебряный жадеит",
+            "img": "small-silver-pyroxene.PNG",
+            "drop": [{ "name": "ghost45" }]
+        },
+        {
             "name": "healing-root",
             "nameRU": "Исцеляющий корень",
             "img": "healing-root.PNG",
@@ -256,6 +280,12 @@
             "nameRU": "Летучая желчь",
             "img": "volatile-bile.PNG",
             "drop": [{ "name": "ant40" }]
+        },
+        {
+            "name": "hero-charm",
+            "nameRU": "Оберег героя",
+            "img": "hero-charm.PNG",
+            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }]
         }
     ]
 }
