@@ -657,7 +657,15 @@
             "drop": {
                 "easy": [{ "type": "bijouterie", "name": "necklace30" }, { "type": "bijouterie", "name": "hunter-necklace30" }, { "type": "bijouterie", "name": "ancient-necklace30" },
                     { "type": "bijouterie", "name": "war-necklace30" }, { "type": "bijouterie", "name": "earring30" }, { "type": "bijouterie", "name": "silicon-earring30" },
-                    { "type": "bijouterie", "name": "hunter-ring30" }, { "type": "bijouterie", "name": "belt30", "slots": "2" }, { "type": "bijouterie", "name": "leather-belt30", "slots": "2" }
+                    { "type": "bijouterie", "name": "hunter-ring30" }, { "type": "bijouterie", "name": "belt30", "slots": "2" }, { "type": "bijouterie", "name": "leather-belt30", "slots": "2" },
+                    { "type": "bijouterie", "name": "punch-necklace30" }, { "type": "bijouterie", "name": "vigilance-necklace30" }, { "type": "bijouterie", "name": "light-necklace30" },
+                    { "type": "bijouterie", "name": "fire-earring30" }, { "type": "bijouterie", "name": "power-earring30" }, { "type": "bijouterie", "name": "serenity-earring30" },
+                    { "type": "bijouterie", "name": "indifference-earring30" }, { "type": "bijouterie", "name": "tear30" }, { "type": "bijouterie", "name": "gold-ring30" },
+                    { "type": "bijouterie", "name": "crystal-ring30" }, { "type": "bijouterie", "name": "fire-cloak30" }, { "type": "bijouterie", "name": "skill-cloak30" },
+                    { "type": "bijouterie", "name": "beast-ring30" }, { "type": "bijouterie", "name": "bug-ring30" }, { "type": "bijouterie", "name": "sacred-ring30" },
+                    { "type": "bijouterie", "name": "raptor-ring30" }, { "type": "bijouterie", "name": "magic-belt30", "slots": "2" }, { "type": "bijouterie", "name": "speed-belt30", "slots": "1" },
+                    { "type": "bijouterie", "name": "hunter-belt30", "slots": "1" }, { "type": "bijouterie", "name": "fire-heat-cloak30" }, { "type": "bijouterie", "name": "celestial-mantle30" },
+                    { "type": "bijouterie", "name": "darkness-cloak30" }, { "type": "bijouterie", "name": "gold-cloak30" }
                 ]
             }
         },
