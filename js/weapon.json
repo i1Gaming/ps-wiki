@@ -102,7 +102,7 @@
             "nameRU": "Металлическая булава",
             "lvl": 25,
             "type": "two-hand-blunt",
-            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }, { "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
         },
         {
             "name": "wooden-spear5",
@@ -229,6 +229,202 @@
             "lvl": 12,
             "type": "two-hand-cane",
             "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+        },
+        {
+            "name": "long-knife27",
+            "nameRU": "Длинный нож",
+            "lvl": 27,
+            "type": "dagger",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "stalker-knife21",
+            "nameRU": "Нож ловчего",
+            "lvl": 21,
+            "type": "dagger",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "long-sword20",
+            "nameRU": "Длинный меч",
+            "lvl": 20,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "wide-sword26",
+            "nameRU": "Широкий меч",
+            "lvl": 26,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "skimitar30",
+            "nameRU": "Скимитар",
+            "lvl": 30,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "flaming-blade22",
+            "nameRU": "Пламенный клинок",
+            "lvl": 22,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "balance-sword31",
+            "nameRU": "Меч равновесия",
+            "lvl": 31,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "war-ax24",
+            "nameRU": "Топор войны",
+            "lvl": 24,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "cruel-ax23",
+            "nameRU": "Жестокий топор",
+            "lvl": 23,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "heavenly-halberd29",
+            "nameRU": "Небесная алебарда",
+            "lvl": 29,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "powerful-mace28",
+            "nameRU": "Мощная булава",
+            "lvl": 28,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "long-peak27",
+            "nameRU": "Длинная пика",
+            "lvl": 27,
+            "type": "one-hand-spear",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "reinforced-spear35",
+            "nameRU": "Усиленное копье",
+            "lvl": 35,
+            "type": "one-hand-spear",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "icy-peak35",
+            "nameRU": "Ледяная пика",
+            "lvl": 35,
+            "type": "one-hand-spear",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "executioner27",
+            "nameRU": "Палач",
+            "lvl": 27,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "long-bow26",
+            "nameRU": "Длинный лук",
+            "lvl": 26,
+            "type": "bow",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "hunter-bow34",
+            "nameRU": "Охотничий лук",
+            "lvl": 34,
+            "type": "bow",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "sunshine-bow29",
+            "nameRU": "Лук солнечного света",
+            "lvl": 29,
+            "type": "bow",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "moonlight-wand21",
+            "nameRU": "Жезл лунного света",
+            "lvl": 21,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "sage-staff21",
+            "nameRU": "Посох мудреца",
+            "lvl": 21,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "saber40",
+            "nameRU": "Сабля",
+            "lvl": 40,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "big-two-hand-sword40",
+            "nameRU": "Большой двуручный меч",
+            "lvl": 40,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "mithril-tecubo40",
+            "nameRU": "Мифриловый тэцубо",
+            "lvl": 40,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "icy-spear40",
+            "nameRU": "Ледяное копье",
+            "lvl": 40,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "clawed-paw40",
+            "nameRU": "Когтистая лапа",
+            "lvl": 40,
+            "type": "fighting",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "moonlight-bow40",
+            "nameRU": "Лук лунного света",
+            "lvl": 40,
+            "type": "bow",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "star-wand40",
+            "nameRU": "Звездная палочка",
+            "lvl": 40,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "oracle-eye40",
+            "nameRU": "Глаз оракула",
+            "lvl": 40,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
         }
     ]
 }

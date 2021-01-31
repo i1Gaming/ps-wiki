@@ -33,14 +33,14 @@
             "nameRU": "Легкий щит",
             "type": "shield",
             "lvl": 3,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "wooden-shield7",
             "nameRU": "Деревянный щит",
             "type": "shield",
             "lvl": 7,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "horse-helmet35",
@@ -69,6 +69,20 @@
             "type": "helmet",
             "lvl": 6,
             "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+        },
+        {
+            "name": "viking-helmet16",
+            "nameRU": "Шлем викинга",
+            "type": "helmet",
+            "lvl": 16,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "crown5",
+            "nameRU": "Венец",
+            "type": "helmet",
+            "lvl": 5,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "plain-tunic1",
@@ -103,7 +117,7 @@
             "nameRU": "Кожаный жилет",
             "type": "body",
             "lvl": 20,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "linen-tunic15",
@@ -111,6 +125,41 @@
             "type": "body",
             "lvl": 15,
             "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+        },
+        {
+            "name": "woolen-clothes26",
+            "nameRU": "Шерстяные одежды",
+            "type": "body",
+            "lvl": 26,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "copper-armor35",
+            "nameRU": "Медная броня",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "iron-scales30",
+            "nameRU": "Железная чешуя",
+            "type": "body",
+            "lvl": 30,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "fireheart-armor28",
+            "nameRU": "Доспех огненного сердца",
+            "type": "body",
+            "lvl": 28,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "adventurer-armor22",
+            "nameRU": "Доспех искателя приключений",
+            "type": "body",
+            "lvl": 22,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "trousers1",
@@ -152,7 +201,7 @@
             "nameRU": "Кожаные поножи",
             "type": "leg",
             "lvl": 20,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "linen-pants20",
@@ -195,6 +244,62 @@
             "type": "arm",
             "lvl": 18,
             "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+        },
+        {
+            "name": "long-crags26",
+            "nameRU": "Длинные краги",
+            "type": "arm",
+            "lvl": 26,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "iron-leggings35",
+            "nameRU": "Железные поножи",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "iron-boots26",
+            "nameRU": "Железные сапоги",
+            "type": "foot",
+            "lvl": 26,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "defender-shield35",
+            "nameRU": "Щит защитника",
+            "type": "shield",
+            "lvl": 35,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "metal-gloves30",
+            "nameRU": "Металлические рукавицы",
+            "type": "arm",
+            "lvl": 30,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "woolen-pants26",
+            "nameRU": "Шерстяные штаны",
+            "type": "leg",
+            "lvl": 26,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "metal-leggings35",
+            "nameRU": "Металлические поножи",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "smart-boots20",
+            "nameRU": "Нарядные сапоги",
+            "type": "foot",
+            "lvl": 20,
+            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         }
     ]
 }

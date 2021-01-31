@@ -109,7 +109,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [{ "type": "other", "name": "pure-soul" }],
+                "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
                 "hard": [{ "type": "soul", "name": "dawn-soul" }, { "type": "armor", "name": "dark-crown35", "slots": "1" }, { "type": "armor", "name": "horse-helmet35", "slots": "1" }]
             }
@@ -526,6 +526,93 @@
             }
         },
         {
+            "name": "vargas",
+            "nameRU": "Торговец доспехами Варгас",
+            "lvl": "-",
+            "img": "vargas.PNG",
+            "habitat": [{
+                    "location": "empire",
+                    "coordinates": "J-5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "viking-helmet16", "slots": "0" }, { "type": "armor", "name": "crown5", "slots": "0" }, { "type": "armor", "name": "woolen-clothes26", "slots": "0" },
+                    { "type": "armor", "name": "copper-armor35", "slots": "0" }, { "type": "armor", "name": "iron-scales30", "slots": "0" }, { "type": "armor", "name": "fireheart-armor28", "slots": "0" },
+                    { "type": "armor", "name": "adventurer-armor22", "slots": "0" }, { "type": "armor", "name": "leather-vest20", "slots": "0" }, { "type": "armor", "name": "long-crags26", "slots": "0" },
+                    { "type": "armor", "name": "iron-leggings35", "slots": "0" }, { "type": "armor", "name": "leather-leggings20", "slots": "0" }, { "type": "armor", "name": "iron-boots26", "slots": "0" },
+                    { "type": "armor", "name": "defender-shield35", "slots": "0" }, { "type": "armor", "name": "light-shield3", "slots": "0" }, { "type": "armor", "name": "wooden-shield7", "slots": "0" },
+                    { "type": "armor", "name": "metal-gloves30", "slots": "0" }, { "type": "armor", "name": "woolen-pants26", "slots": "0" }, { "type": "armor", "name": "metal-leggings35", "slots": "0" },
+                    { "type": "armor", "name": "smart-boots20", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "dip",
+            "nameRU": "Торговец доспехами Дип",
+            "lvl": "-",
+            "img": "dip.PNG",
+            "habitat": [{
+                    "location": "union",
+                    "coordinates": "I-12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "viking-helmet16", "slots": "0" }, { "type": "armor", "name": "crown5", "slots": "0" }, { "type": "armor", "name": "woolen-clothes26", "slots": "0" },
+                    { "type": "armor", "name": "copper-armor35", "slots": "0" }, { "type": "armor", "name": "iron-scales30", "slots": "0" }, { "type": "armor", "name": "fireheart-armor28", "slots": "0" },
+                    { "type": "armor", "name": "adventurer-armor22", "slots": "0" }, { "type": "armor", "name": "leather-vest20", "slots": "0" }, { "type": "armor", "name": "long-crags26", "slots": "0" },
+                    { "type": "armor", "name": "iron-leggings35", "slots": "0" }, { "type": "armor", "name": "leather-leggings20", "slots": "0" }, { "type": "armor", "name": "iron-boots26", "slots": "0" },
+                    { "type": "armor", "name": "defender-shield35", "slots": "0" }, { "type": "armor", "name": "light-shield3", "slots": "0" }, { "type": "armor", "name": "wooden-shield7", "slots": "0" },
+                    { "type": "armor", "name": "metal-gloves30", "slots": "0" }, { "type": "armor", "name": "woolen-pants26", "slots": "0" }, { "type": "armor", "name": "metal-leggings35", "slots": "0" },
+                    { "type": "armor", "name": "smart-boots20", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "frederika",
+            "nameRU": "Торговка доспехами Фредерика",
+            "lvl": "-",
+            "img": "frederika.PNG",
+            "habitat": [{
+                    "location": "kingdom",
+                    "coordinates": "I-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "viking-helmet16", "slots": "0" }, { "type": "armor", "name": "crown5", "slots": "0" }, { "type": "armor", "name": "woolen-clothes26", "slots": "0" },
+                    { "type": "armor", "name": "copper-armor35", "slots": "0" }, { "type": "armor", "name": "iron-scales30", "slots": "0" }, { "type": "armor", "name": "fireheart-armor28", "slots": "0" },
+                    { "type": "armor", "name": "adventurer-armor22", "slots": "0" }, { "type": "armor", "name": "leather-vest20", "slots": "0" }, { "type": "armor", "name": "long-crags26", "slots": "0" },
+                    { "type": "armor", "name": "iron-leggings35", "slots": "0" }, { "type": "armor", "name": "leather-leggings20", "slots": "0" }, { "type": "armor", "name": "iron-boots26", "slots": "0" },
+                    { "type": "armor", "name": "defender-shield35", "slots": "0" }, { "type": "armor", "name": "light-shield3", "slots": "0" }, { "type": "armor", "name": "wooden-shield7", "slots": "0" },
+                    { "type": "armor", "name": "metal-gloves30", "slots": "0" }, { "type": "armor", "name": "woolen-pants26", "slots": "0" }, { "type": "armor", "name": "metal-leggings35", "slots": "0" },
+                    { "type": "armor", "name": "smart-boots20", "slots": "0" }
+                ]
+            }
+        },
+        {
             "name": "yalumi",
             "nameRU": "Торговец оружием Ялуми",
             "lvl": "-",
@@ -621,6 +708,277 @@
                     { "type": "weapon", "name": "bow4", "slots": "0" }, { "type": "weapon", "name": "short-bow14", "slots": "0" }, { "type": "weapon", "name": "crossbow10", "slots": "0" },
                     { "type": "weapon", "name": "light-crossbow16", "slots": "0" }, { "type": "weapon", "name": "magic-wand1", "slots": "0" }, { "type": "weapon", "name": "wand-magical-distortion5", "slots": "0" },
                     { "type": "weapon", "name": "whirlpool-wand17", "slots": "0" }, { "type": "weapon", "name": "mysterious-staff6", "slots": "0" }, { "type": "weapon", "name": "red-crystal-staff12", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "kerring",
+            "nameRU": "Торговец оружием Керринг",
+            "lvl": "-",
+            "img": "kerring.PNG",
+            "habitat": [{
+                    "location": "empire",
+                    "coordinates": "J-7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "long-knife27", "slots": "0" }, { "type": "weapon", "name": "stalker-knife21", "slots": "0" }, { "type": "weapon", "name": "long-sword20", "slots": "0" },
+                    { "type": "weapon", "name": "wide-sword26", "slots": "0" }, { "type": "weapon", "name": "skimitar30", "slots": "0" }, { "type": "weapon", "name": "flaming-blade22", "slots": "0" },
+                    { "type": "weapon", "name": "balance-sword31", "slots": "0" }, { "type": "weapon", "name": "war-ax24", "slots": "0" }, { "type": "weapon", "name": "cruel-ax23", "slots": "0" },
+                    { "type": "weapon", "name": "heavenly-halberd29", "slots": "0" }, { "type": "weapon", "name": "powerful-mace28", "slots": "0" }, { "type": "weapon", "name": "metal-mace25", "slots": "0" },
+                    { "type": "weapon", "name": "long-peak27", "slots": "0" }, { "type": "weapon", "name": "reinforced-spear35", "slots": "0" }, { "type": "weapon", "name": "icy-peak35", "slots": "0" },
+                    { "type": "weapon", "name": "executioner27", "slots": "0" }, { "type": "weapon", "name": "long-bow26", "slots": "0" }, { "type": "weapon", "name": "hunter-bow34", "slots": "0" },
+                    { "type": "weapon", "name": "sunshine-bow29", "slots": "0" }, { "type": "weapon", "name": "moonlight-wand21", "slots": "0" }, { "type": "weapon", "name": "sage-staff21", "slots": "0" },
+                    { "type": "weapon", "name": "saber40", "slots": "0" }, { "type": "weapon", "name": "big-two-hand-sword40", "slots": "0" }, { "type": "weapon", "name": "mithril-tecubo40", "slots": "0" },
+                    { "type": "weapon", "name": "icy-spear40", "slots": "0" }, { "type": "weapon", "name": "clawed-paw40", "slots": "0" }, { "type": "weapon", "name": "moonlight-bow40", "slots": "0" },
+                    { "type": "weapon", "name": "star-wand40", "slots": "0" }, { "type": "weapon", "name": "oracle-eye40", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "forks",
+            "nameRU": "Торговец оружием Форкс",
+            "lvl": "-",
+            "img": "forks.PNG",
+            "habitat": [{
+                    "location": "union",
+                    "coordinates": "I-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "long-knife27", "slots": "0" }, { "type": "weapon", "name": "stalker-knife21", "slots": "0" }, { "type": "weapon", "name": "long-sword20", "slots": "0" },
+                    { "type": "weapon", "name": "wide-sword26", "slots": "0" }, { "type": "weapon", "name": "skimitar30", "slots": "0" }, { "type": "weapon", "name": "flaming-blade22", "slots": "0" },
+                    { "type": "weapon", "name": "balance-sword31", "slots": "0" }, { "type": "weapon", "name": "war-ax24", "slots": "0" }, { "type": "weapon", "name": "cruel-ax23", "slots": "0" },
+                    { "type": "weapon", "name": "heavenly-halberd29", "slots": "0" }, { "type": "weapon", "name": "powerful-mace28", "slots": "0" }, { "type": "weapon", "name": "metal-mace25", "slots": "0" },
+                    { "type": "weapon", "name": "long-peak27", "slots": "0" }, { "type": "weapon", "name": "reinforced-spear35", "slots": "0" }, { "type": "weapon", "name": "icy-peak35", "slots": "0" },
+                    { "type": "weapon", "name": "executioner27", "slots": "0" }, { "type": "weapon", "name": "long-bow26", "slots": "0" }, { "type": "weapon", "name": "hunter-bow34", "slots": "0" },
+                    { "type": "weapon", "name": "sunshine-bow29", "slots": "0" }, { "type": "weapon", "name": "moonlight-wand21", "slots": "0" }, { "type": "weapon", "name": "sage-staff21", "slots": "0" },
+                    { "type": "weapon", "name": "saber40", "slots": "0" }, { "type": "weapon", "name": "big-two-hand-sword40", "slots": "0" }, { "type": "weapon", "name": "mithril-tecubo40", "slots": "0" },
+                    { "type": "weapon", "name": "icy-spear40", "slots": "0" }, { "type": "weapon", "name": "clawed-paw40", "slots": "0" }, { "type": "weapon", "name": "moonlight-bow40", "slots": "0" },
+                    { "type": "weapon", "name": "star-wand40", "slots": "0" }, { "type": "weapon", "name": "oracle-eye40", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "servia",
+            "nameRU": "Торговка оружием Сервия",
+            "lvl": "-",
+            "img": "servia.PNG",
+            "habitat": [{
+                    "location": "kingdom",
+                    "coordinates": "I-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "long-knife27", "slots": "0" }, { "type": "weapon", "name": "stalker-knife21", "slots": "0" }, { "type": "weapon", "name": "long-sword20", "slots": "0" },
+                    { "type": "weapon", "name": "wide-sword26", "slots": "0" }, { "type": "weapon", "name": "skimitar30", "slots": "0" }, { "type": "weapon", "name": "flaming-blade22", "slots": "0" },
+                    { "type": "weapon", "name": "balance-sword31", "slots": "0" }, { "type": "weapon", "name": "war-ax24", "slots": "0" }, { "type": "weapon", "name": "cruel-ax23", "slots": "0" },
+                    { "type": "weapon", "name": "heavenly-halberd29", "slots": "0" }, { "type": "weapon", "name": "powerful-mace28", "slots": "0" }, { "type": "weapon", "name": "metal-mace25", "slots": "0" },
+                    { "type": "weapon", "name": "long-peak27", "slots": "0" }, { "type": "weapon", "name": "reinforced-spear35", "slots": "0" }, { "type": "weapon", "name": "icy-peak35", "slots": "0" },
+                    { "type": "weapon", "name": "executioner27", "slots": "0" }, { "type": "weapon", "name": "long-bow26", "slots": "0" }, { "type": "weapon", "name": "hunter-bow34", "slots": "0" },
+                    { "type": "weapon", "name": "sunshine-bow29", "slots": "0" }, { "type": "weapon", "name": "moonlight-wand21", "slots": "0" }, { "type": "weapon", "name": "sage-staff21", "slots": "0" },
+                    { "type": "weapon", "name": "saber40", "slots": "0" }, { "type": "weapon", "name": "big-two-hand-sword40", "slots": "0" }, { "type": "weapon", "name": "mithril-tecubo40", "slots": "0" },
+                    { "type": "weapon", "name": "icy-spear40", "slots": "0" }, { "type": "weapon", "name": "clawed-paw40", "slots": "0" }, { "type": "weapon", "name": "moonlight-bow40", "slots": "0" },
+                    { "type": "weapon", "name": "star-wand40", "slots": "0" }, { "type": "weapon", "name": "oracle-eye40", "slots": "0" }
+                ]
+            }
+        },
+        {
+            "name": "flaren",
+            "nameRU": "Торговец предметами Фларрен",
+            "lvl": "-",
+            "img": "flaren.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "E-12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "injury" },
+                    { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "holy-water" }, { "type": "other", "name": "arrow" },
+                    { "type": "other", "name": "crossbow-bolt" }, { "type": "other", "name": "trap" }, { "type": "other", "name": "pendant-tool" }
+                ]
+            }
+        },
+        {
+            "name": "rita",
+            "nameRU": "Торговка предметами Рита",
+            "lvl": "-",
+            "img": "rita.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "H-6",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "injury" },
+                    { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "holy-water" }, { "type": "other", "name": "arrow" },
+                    { "type": "other", "name": "crossbow-bolt" }, { "type": "other", "name": "trap" }, { "type": "other", "name": "pendant-tool" }
+                ]
+            }
+        },
+        {
+            "name": "uikki",
+            "nameRU": "Торговец предметами Уикки",
+            "lvl": "-",
+            "img": "uikki.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "M-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "injury" },
+                    { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "holy-water" }, { "type": "other", "name": "arrow" },
+                    { "type": "other", "name": "crossbow-bolt" }, { "type": "other", "name": "trap" }, { "type": "other", "name": "pendant-tool" }
+                ]
+            }
+        },
+        {
+            "name": "ben",
+            "nameRU": "Торговец предметами Бен",
+            "lvl": "-",
+            "img": "ben.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "H-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "injury" },
+                    { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "holy-water" }, { "type": "other", "name": "arrow" },
+                    { "type": "other", "name": "crossbow-bolt" }, { "type": "other", "name": "trap" }, { "type": "other", "name": "pendant-tool" }
+                ]
+            }
+        },
+        {
+            "name": "livvi",
+            "nameRU": "Торговец предметами Ливви",
+            "lvl": "-",
+            "img": "livvi.PNG",
+            "habitat": [{
+                    "location": "union",
+                    "coordinates": "F-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "injury" },
+                    { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "holy-water" }, { "type": "other", "name": "arrow" },
+                    { "type": "other", "name": "crossbow-bolt" }, { "type": "other", "name": "trap" }, { "type": "other", "name": "pendant-tool" }
+                ]
+            }
+        },
+        {
+            "name": "givern",
+            "nameRU": "Торговец предметами Гиверн",
+            "lvl": "-",
+            "img": "givern.PNG",
+            "habitat": [{
+                    "location": "kingdom",
+                    "coordinates": "F-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "injury" },
+                    { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "holy-water" }, { "type": "other", "name": "arrow" },
+                    { "type": "other", "name": "crossbow-bolt" }, { "type": "other", "name": "trap" }, { "type": "other", "name": "pendant-tool" }
+                ]
+            }
+        },
+        {
+            "name": "turena",
+            "nameRU": "Торговка предметами Турена",
+            "lvl": "-",
+            "img": "turena.PNG",
+            "habitat": [{
+                    "location": "empire",
+                    "coordinates": "J-5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "injury" },
+                    { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "holy-water" }, { "type": "other", "name": "arrow" },
+                    { "type": "other", "name": "crossbow-bolt" }, { "type": "other", "name": "trap" }, { "type": "other", "name": "pendant-tool" }
                 ]
             }
         },

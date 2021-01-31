@@ -9,13 +9,13 @@
             "name": "painkiller",
             "nameRU": "Легкое исцеляющее зелье",
             "img": "painkiller.PNG",
-            "drop": [{ "name": "snake6" }, { "name": "tushkanchik3" }, { "name": "slug31" }]
+            "drop": [{ "name": "snake6" }, { "name": "tushkanchik3" }, { "name": "slug31" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "replenishment-potion",
             "nameRU": "Легкое восстонавливающее зелье",
             "img": "replenishment-potion.PNG",
-            "drop": [{ "name": "tushkanchik3" }, { "name": "living-dead8" }]
+            "drop": [{ "name": "tushkanchik3" }, { "name": "living-dead8" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "pyroxene-whelk",
@@ -45,7 +45,7 @@
             "name": "evil-soul",
             "nameRU": "Злая душа",
             "img": "evil-soul.PNG",
-            "drop": [{ "name": "nightmare36" }, { "name": "ghost43" }, { "name": "ghost45" }]
+            "drop": [{ "name": "nightmare36" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }]
         },
         {
             "name": "obsessed-soul",
@@ -141,7 +141,7 @@
             "name": "meat",
             "nameRU": "Мясо",
             "img": "meat.PNG",
-            "drop": [{ "name": "living-dead8" }]
+            "drop": [{ "name": "living-dead8" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "wormy-meat",
@@ -201,7 +201,7 @@
             "name": "injury",
             "nameRU": "Слабое исцеляющее зелье",
             "img": "injury.PNG",
-            "drop": [{ "name": "rat23" }]
+            "drop": [{ "name": "rat23" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "red-pyroxene",
@@ -286,6 +286,36 @@
             "nameRU": "Оберег героя",
             "img": "hero-charm.PNG",
             "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }]
+        },
+        {
+            "name": "holy-water",
+            "nameRU": "Святая вода",
+            "img": "holy-water.PNG",
+            "drop": [{ "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+        },
+        {
+            "name": "arrow",
+            "nameRU": "Стрела",
+            "img": "arrow.PNG",
+            "drop": [{ "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+        },
+        {
+            "name": "crossbow-bolt",
+            "nameRU": "Арбалетный болт",
+            "img": "crossbow-bolt.PNG",
+            "drop": [{ "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+        },
+        {
+            "name": "trap",
+            "nameRU": "Ловушка",
+            "img": "trap.PNG",
+            "drop": [{ "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+        },
+        {
+            "name": "pendant-tool",
+            "nameRU": "Инструмент для изготовления кулонов",
+            "img": "pendant-tool.PNG",
+            "drop": [{ "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         }
     ]
 }
