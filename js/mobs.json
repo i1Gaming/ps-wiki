@@ -1028,6 +1028,126 @@
             }
         },
         {
+            "name": "weapon-master",
+            "nameRU": "Мастер оружия",
+            "lvl": "-",
+            "img": "weapon-master.PNG",
+            "habitat": [{
+                    "location": "union",
+                    "coordinates": "K-12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "empire",
+                    "coordinates": "F-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "kingdom",
+                    "coordinates": "I-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "wide-ax40", "slots": "1" }, { "type": "weapon", "name": "guardian-bow40", "slots": "1" }, { "type": "weapon", "name": "meteor-knife40", "slots": "1" },
+                    { "type": "weapon", "name": "darkness-blade40", "slots": "1" }, { "type": "weapon", "name": "military-crossbow40", "slots": "1" }, { "type": "weapon", "name": "spata40", "slots": "1" },
+                    { "type": "weapon", "name": "claymor40", "slots": "1" }, { "type": "weapon", "name": "viking-ax40", "slots": "1" }, { "type": "weapon", "name": "viking-blunt40", "slots": "1" },
+                    { "type": "weapon", "name": "piercing-lance40", "slots": "1" }, { "type": "weapon", "name": "mithril-claws40", "slots": "1" }, { "type": "weapon", "name": "wedge-hammer40", "slots": "1" },
+                    { "type": "weapon", "name": "heavy-spear40", "slots": "1" }, { "type": "weapon", "name": "graceful-wand40", "slots": "1" }, { "type": "weapon", "name": "skeleton-staff40", "slots": "1" }
+                ]
+            }
+        },
+        {
+            "name": "saimon",
+            "nameRU": "Саймон",
+            "lvl": "-",
+            "img": "saimon.PNG",
+            "habitat": [{
+                    "location": "union",
+                    "coordinates": "K-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "icy-sword35", "slots": "1" }, { "type": "weapon", "name": "bloody-sword35", "slots": "1" }, { "type": "weapon", "name": "raven-beak35", "slots": "1" },
+                    { "type": "weapon", "name": "ax-crusher35", "slots": "1" }, { "type": "weapon", "name": "royal-rod35", "slots": "1" }, { "type": "weapon", "name": "silver-dagger35", "slots": "1" },
+                    { "type": "weapon", "name": "killing-claw35", "slots": "1" }, { "type": "weapon", "name": "swift-bow35", "slots": "1" }, { "type": "weapon", "name": "heavy-crossbow35", "slots": "1" },
+                    { "type": "weapon", "name": "fire-rod35", "slots": "1" }, { "type": "weapon", "name": "iron-staff35", "slots": "1" }, { "type": "weapon", "name": "battle-halberd35", "slots": "1" },
+                    { "type": "weapon", "name": "war-spear35", "slots": "1" }
+                ]
+            }
+        },
+        {
+            "name": "ogun8",
+            "nameRU": "Огун VIII",
+            "lvl": "-",
+            "img": "ogun8.PNG",
+            "habitat": [{
+                    "location": "kingdom",
+                    "coordinates": "H-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "icy-sword35", "slots": "1" }, { "type": "weapon", "name": "bloody-sword35", "slots": "1" }, { "type": "weapon", "name": "raven-beak35", "slots": "1" },
+                    { "type": "weapon", "name": "ax-crusher35", "slots": "1" }, { "type": "weapon", "name": "royal-rod35", "slots": "1" }, { "type": "weapon", "name": "silver-dagger35", "slots": "1" },
+                    { "type": "weapon", "name": "killing-claw35", "slots": "1" }, { "type": "weapon", "name": "swift-bow35", "slots": "1" }, { "type": "weapon", "name": "heavy-crossbow35", "slots": "1" },
+                    { "type": "weapon", "name": "fire-rod35", "slots": "1" }, { "type": "weapon", "name": "iron-staff35", "slots": "1" }, { "type": "weapon", "name": "battle-halberd35", "slots": "1" },
+                    { "type": "weapon", "name": "war-spear35", "slots": "1" }
+                ]
+            }
+        },
+        {
+            "name": "sodan",
+            "nameRU": "Содан",
+            "lvl": "-",
+            "img": "sodan.PNG",
+            "habitat": [{
+                    "location": "empire",
+                    "coordinates": "G-9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "weapon", "name": "icy-sword35", "slots": "1" }, { "type": "weapon", "name": "bloody-sword35", "slots": "1" }, { "type": "weapon", "name": "raven-beak35", "slots": "1" },
+                    { "type": "weapon", "name": "ax-crusher35", "slots": "1" }, { "type": "weapon", "name": "royal-rod35", "slots": "1" }, { "type": "weapon", "name": "silver-dagger35", "slots": "1" },
+                    { "type": "weapon", "name": "killing-claw35", "slots": "1" }, { "type": "weapon", "name": "swift-bow35", "slots": "1" }, { "type": "weapon", "name": "heavy-crossbow35", "slots": "1" },
+                    { "type": "weapon", "name": "fire-rod35", "slots": "1" }, { "type": "weapon", "name": "iron-staff35", "slots": "1" }, { "type": "weapon", "name": "battle-halberd35", "slots": "1" },
+                    { "type": "weapon", "name": "war-spear35", "slots": "1" }
+                ]
+            }
+        },
+        {
             "name": "skeleton50",
             "nameRU": "Доблестный рыцарь",
             "lvl": 50,

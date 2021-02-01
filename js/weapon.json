@@ -425,6 +425,202 @@
             "lvl": 40,
             "type": "two-hand-cane",
             "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+        },
+        {
+            "name": "icy-sword35",
+            "nameRU": "Ледяной меч",
+            "lvl": 35,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "bloody-sword35",
+            "nameRU": "Кровавый меч",
+            "lvl": 35,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "raven-beak35",
+            "nameRU": "Клюв ворона",
+            "lvl": 35,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "wide-ax40",
+            "nameRU": "Широкий топор",
+            "lvl": 40,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "ax-crusher35",
+            "nameRU": "Топор крушитель",
+            "lvl": 35,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "royal-rod35",
+            "nameRU": "Королевский жезл",
+            "lvl": 35,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "silver-dagger35",
+            "nameRU": "Серебряный нож",
+            "lvl": 35,
+            "type": "dagger",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "killing-claw35",
+            "nameRU": "Убивающий коготь",
+            "lvl": 35,
+            "type": "fighting",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "swift-bow35",
+            "nameRU": "Стремительный лук",
+            "lvl": 35,
+            "type": "bow",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "heavy-crossbow35",
+            "nameRU": "Тяжелый арбалет",
+            "lvl": 35,
+            "type": "crossbow",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "fire-rod35",
+            "nameRU": "Жезл огня",
+            "lvl": 35,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "iron-staff35",
+            "nameRU": "Железный посох",
+            "lvl": 35,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "battle-halberd35",
+            "nameRU": "Боевая алебарда",
+            "lvl": 35,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "war-spear35",
+            "nameRU": "Боевое копье",
+            "lvl": 35,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "saimon", "slot": "1" }, { "name": "ogun8", "slot": "1" }, { "name": "sodan", "slot": "1" }]
+        },
+        {
+            "name": "guardian-bow40",
+            "nameRU": "Лук стража",
+            "lvl": 40,
+            "type": "bow",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "meteor-knife40",
+            "nameRU": "Метеоритный нож",
+            "lvl": 40,
+            "type": "dagger",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "darkness-blade40",
+            "nameRU": "Клинок тьмы",
+            "lvl": 40,
+            "type": "dagger",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "military-crossbow40",
+            "nameRU": "Военный арбалет",
+            "lvl": 40,
+            "type": "crossbow",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "spata40",
+            "nameRU": "Спата",
+            "lvl": 40,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "claymor40",
+            "nameRU": "Клеймор",
+            "lvl": 40,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "viking-ax40",
+            "nameRU": "Топор викинга",
+            "lvl": 40,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "viking-blunt40",
+            "nameRU": "Палица викинга",
+            "lvl": 40,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "piercing-lance40",
+            "nameRU": "Пронзающая пика",
+            "lvl": 40,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "mithril-claws40",
+            "nameRU": "Мифриловые когти",
+            "lvl": 40,
+            "type": "fighting",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "wedge-hammer40",
+            "nameRU": "Клиновидный молот",
+            "lvl": 40,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "heavy-spear40",
+            "nameRU": "Тяжелое копье",
+            "lvl": 40,
+            "type": "one-hand-spear",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "graceful-wand40",
+            "nameRU": "Изящный жезл",
+            "lvl": 40,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "skeleton-staff40",
+            "nameRU": "Посох скелета",
+            "lvl": 40,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
         }
     ]
 }
