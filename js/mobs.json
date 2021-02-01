@@ -1214,6 +1214,36 @@
                 "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "firelvl2" }],
                 "hard": []
             }
+        },
+        {
+            "name": "mary",
+            "nameRU": "Мэри",
+            "lvl": "-",
+            "img": "mary.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "E-12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "humanmbody35", "slots": "1" }, { "type": "armor", "name": "humanmarm35", "slots": "1" }, { "type": "armor", "name": "humanmleg35", "slots": "1" }, { "type": "armor", "name": "humanmfoot35", "slots": "1" },
+                    { "type": "armor", "name": "humanwbody35", "slots": "1" }, { "type": "armor", "name": "humanwarm35", "slots": "1" }, { "type": "armor", "name": "humanwleg35", "slots": "1" }, { "type": "armor", "name": "humanwfoot35", "slots": "1" },
+                    { "type": "armor", "name": "elfmbody35", "slots": "1" }, { "type": "armor", "name": "elfmarm35", "slots": "1" }, { "type": "armor", "name": "elfmleg35", "slots": "1" }, { "type": "armor", "name": "elfmfoot35", "slots": "1" },
+                    { "type": "armor", "name": "elfwbody35", "slots": "1" }, { "type": "armor", "name": "elfwarm35", "slots": "1" }, { "type": "armor", "name": "elfwleg35", "slots": "1" }, { "type": "armor", "name": "elfwfoot35", "slots": "1" },
+                    { "type": "armor", "name": "cvergbody35", "slots": "1" }, { "type": "armor", "name": "cvergarm35", "slots": "1" }, { "type": "armor", "name": "cvergleg35", "slots": "1" }, { "type": "armor", "name": "cvergfoot35", "slots": "1" },
+                    { "type": "armor", "name": "mirinabody35", "slots": "1" }, { "type": "armor", "name": "mirinaarm35", "slots": "1" }, { "type": "armor", "name": "mirinaleg35", "slots": "1" }, { "type": "armor", "name": "mirinafoot35", "slots": "1" },
+                    { "type": "armor", "name": "enkidubody35", "slots": "1" }, { "type": "armor", "name": "enkiduarm35", "slots": "1" }, { "type": "armor", "name": "enkiduleg35", "slots": "1" }, { "type": "armor", "name": "enkidufoot35", "slots": "1" },
+                    { "type": "armor", "name": "krolbody35", "slots": "1" }, { "type": "armor", "name": "krolarm35", "slots": "1" }, { "type": "armor", "name": "krolleg35", "slots": "1" }, { "type": "armor", "name": "krolfoot35", "slots": "1" }
+                ]
+            }
         }
     ]
 }

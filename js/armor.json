@@ -300,6 +300,230 @@
             "type": "foot",
             "lvl": 20,
             "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "humanmbody35",
+            "nameRU": "Туника для человека (М)",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "humanmarm35",
+            "nameRU": "Браслет для человека (М)",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "humanmleg35",
+            "nameRU": "Штаны для человека (М)",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "humanmfoot35",
+            "nameRU": "Сапоги для человека (М)",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "humanwbody35",
+            "nameRU": "Туника для человека (Ж)",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "humanwarm35",
+            "nameRU": "Браслет для человека (Ж)",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "humanwleg35",
+            "nameRU": "Шорты для человека (Ж)",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "humanwfoot35",
+            "nameRU": "Сапоги для человека (Ж)",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfmbody35",
+            "nameRU": "Жилет для эльфа (М)",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfmarm35",
+            "nameRU": "Перчатки для эльфа (М)",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfmleg35",
+            "nameRU": "Штаны для эльфа (М)",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfmfoot35",
+            "nameRU": "Сапоги для эльфа (М)",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfwbody35",
+            "nameRU": "Жилет для эльфа (Ж)",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfwarm35",
+            "nameRU": "Перчатки для эльфа (Ж)",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfwleg35",
+            "nameRU": "Эльфийская юбка (Ж)",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "elfwfoot35",
+            "nameRU": "Сапоги для эльфа (Ж)",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "cvergbody35",
+            "nameRU": "Туника для цверга",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "cvergarm35",
+            "nameRU": "Рукавицы для цверга",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "cvergleg35",
+            "nameRU": "Шаровары для цверга",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "cvergfoot35",
+            "nameRU": "Башмаки для цверга",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "mirinabody35",
+            "nameRU": "Корсет для мирины",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "mirinaarm35",
+            "nameRU": "Перчатки для мирины",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "mirinaleg35",
+            "nameRU": "Чулки для мирины",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "mirinafoot35",
+            "nameRU": "Сапоги для мирины",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "enkidubody35",
+            "nameRU": "Жилет для энкиду",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "enkiduarm35",
+            "nameRU": "Рукавицы для энкиду",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "enkiduleg35",
+            "nameRU": "Набедренная повязка для энкиду",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "enkidufoot35",
+            "nameRU": "Башмаки для энкиду",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "krolbody35",
+            "nameRU": "Куртка для кроля",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "krolarm35",
+            "nameRU": "Перчатки для кроля",
+            "type": "arm",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "krolleg35",
+            "nameRU": "Штаны для кроля",
+            "type": "leg",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "krolfoot35",
+            "nameRU": "Башмачки для кроля",
+            "type": "foot",
+            "lvl": 35,
+            "drop": [{ "name": "mary", "slot": "1" }]
         }
     ]
 }
