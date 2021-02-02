@@ -1244,6 +1244,36 @@
                     { "type": "armor", "name": "krolbody35", "slots": "1" }, { "type": "armor", "name": "krolarm35", "slots": "1" }, { "type": "armor", "name": "krolleg35", "slots": "1" }, { "type": "armor", "name": "krolfoot35", "slots": "1" }
                 ]
             }
+        },
+        {
+            "name": "djo",
+            "nameRU": "Джо",
+            "lvl": "-",
+            "img": "djo.PNG",
+            "habitat": [{
+                    "location": "astir",
+                    "coordinates": "E-12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "rhumanmbody40", "slots": "1" }, { "type": "armor", "name": "rhumanmarm40", "slots": "1" }, { "type": "armor", "name": "rhumanmleg40", "slots": "1" }, { "type": "armor", "name": "rhumanmfoot40", "slots": "1" }, { "type": "armor", "name": "rhumanmhead40", "slots": "1" },
+                    { "type": "armor", "name": "rhumanwbody40", "slots": "1" }, { "type": "armor", "name": "rhumanwarm40", "slots": "1" }, { "type": "armor", "name": "rhumanwleg40", "slots": "1" }, { "type": "armor", "name": "rhumanwfoot40", "slots": "1" }, { "type": "armor", "name": "rhumanwhead40", "slots": "1" },
+                    { "type": "armor", "name": "relfmbody40", "slots": "1" }, { "type": "armor", "name": "relfmarm40", "slots": "1" }, { "type": "armor", "name": "relfmleg40", "slots": "1" }, { "type": "armor", "name": "relfmfoot40", "slots": "1" }, { "type": "armor", "name": "relfmhead40", "slots": "1" },
+                    { "type": "armor", "name": "relfwbody40", "slots": "1" }, { "type": "armor", "name": "relfwarm40", "slots": "1" }, { "type": "armor", "name": "relfwleg40", "slots": "1" }, { "type": "armor", "name": "relfwfoot40", "slots": "1" }, { "type": "armor", "name": "relfwhead40", "slots": "1" },
+                    { "type": "armor", "name": "rcvergbody40", "slots": "1" }, { "type": "armor", "name": "rcvergarm40", "slots": "1" }, { "type": "armor", "name": "rcvergleg40", "slots": "1" }, { "type": "armor", "name": "rcvergfoot40", "slots": "1" }, { "type": "armor", "name": "rcverghead40", "slots": "1" },
+                    { "type": "armor", "name": "rmirinabody40", "slots": "1" }, { "type": "armor", "name": "rmirinaarm40", "slots": "1" }, { "type": "armor", "name": "rmirinaleg40", "slots": "1" }, { "type": "armor", "name": "rmirinafoot40", "slots": "1" }, { "type": "armor", "name": "rmirinahead40", "slots": "1" },
+                    { "type": "armor", "name": "renkidubody40", "slots": "1" }, { "type": "armor", "name": "renkiduarm40", "slots": "1" }, { "type": "armor", "name": "renkiduleg40", "slots": "1" }, { "type": "armor", "name": "renkidufoot40", "slots": "1" }, { "type": "armor", "name": "renkiduhead40", "slots": "1" },
+                    { "type": "armor", "name": "rkrolbody40", "slots": "1" }, { "type": "armor", "name": "rkrolarm40", "slots": "1" }, { "type": "armor", "name": "rkrolleg40", "slots": "1" }, { "type": "armor", "name": "rkrolfoot40", "slots": "1" }, { "type": "armor", "name": "rkrolhead40", "slots": "1" }
+                ]
+            }
         }
     ]
 }

@@ -241,7 +241,6 @@ function getDrop(armor, data) {
             curMobHabitats.push(location.location);
         });
         var badges = getSoulBadges(curMobHabitats);
-        console.log(badges);
         var curMobHTML = `<div class='d-flex align-items-center mb-2 ${curMob.name}__drop' role="button">
         <a class="text-secondary" data-toggle="modal" data-target="#${armor.name}_${curMob.name}">
             ${curMob.nameRU} (${curMob.lvl} ур.) (${mobName.slot} сл.)

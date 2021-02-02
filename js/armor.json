@@ -524,6 +524,286 @@
             "type": "foot",
             "lvl": 35,
             "drop": [{ "name": "mary", "slot": "1" }]
+        },
+        {
+            "name": "rhumanmhead40",
+            "nameRU": "Рассветная шапка для человека (М)",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanmbody40",
+            "nameRU": "Рассветная туника для человека (М)",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanmarm40",
+            "nameRU": "Рассветный браслет для человека (М)",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanmleg40",
+            "nameRU": "Рассветные штаны для человека (М)",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanmfoot40",
+            "nameRU": "Рассветные сапоги для человека (М)",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanwhead40",
+            "nameRU": "Рассветная шапка для человека (Ж)",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanwbody40",
+            "nameRU": "Жилет зари для человека (Ж)",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanwarm40",
+            "nameRU": "Рассветный браслет для человека (Ж)",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanwleg40",
+            "nameRU": "Рассветные шорты для человека (Ж)",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rhumanwfoot40",
+            "nameRU": "Рассветные сапоги для человека (Ж)",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfmhead40",
+            "nameRU": "Рассветный венец для эльфа (М)",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfmbody40",
+            "nameRU": "Жилет зари для эльфа (М)",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfmarm40",
+            "nameRU": "Рассветные перчатки для эльфа (М)",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfmleg40",
+            "nameRU": "Рассветные штаны для эльфа (М)",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfmfoot40",
+            "nameRU": "Рассветные сапоги для эльфа (М)",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfwhead40",
+            "nameRU": "Рассветный венец для эльфа (Ж)",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfwbody40",
+            "nameRU": "Жилет зари для эльфа (Ж)",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfwarm40",
+            "nameRU": "Рассветные перчатки для эльфа (Ж)",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfwleg40",
+            "nameRU": "Юбка для эльфийки (Ж)",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "relfwfoot40",
+            "nameRU": "Рассветные сапоги для эльфа (Ж)",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rcverghead40",
+            "nameRU": "Рассветный шлем для цверга",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rcvergbody40",
+            "nameRU": "Туника зари для цверга",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rcvergarm40",
+            "nameRU": "Рассветные рукавицы для цверга",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rcvergleg40",
+            "nameRU": "Рассветные штаны для цверга",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rcvergfoot40",
+            "nameRU": "Рассветные башмаки для цверга",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rmirinahead40",
+            "nameRU": "Рассветная вуаль для мирины",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rmirinabody40",
+            "nameRU": "Корсет зари для мирины",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rmirinaarm40",
+            "nameRU": "Рассветные перчатки для мирины",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rmirinaleg40",
+            "nameRU": "Рассветные чулки для мирины",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rmirinafoot40",
+            "nameRU": "Рассветные сапоги для мирины",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "renkiduhead40",
+            "nameRU": "Рассветная маска для энкиду",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "renkidubody40",
+            "nameRU": "Жилет зари для энкиду",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "renkiduarm40",
+            "nameRU": "Рассветные рукавицы для энкиду",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "renkiduleg40",
+            "nameRU": "рассветная повязка для энкиду",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "renkidufoot40",
+            "nameRU": "Рассветные башмаки для энкиду",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rkrolhead40",
+            "nameRU": "Рассветная шапочка для кроля",
+            "type": "helmet",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rkrolbody40",
+            "nameRU": "Куртка зари для кроля",
+            "type": "body",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rkrolarm40",
+            "nameRU": "Рассветные перчатки для кроля",
+            "type": "arm",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rkrolleg40",
+            "nameRU": "Рассветные штаны для кроля",
+            "type": "leg",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "rkrolfoot40",
+            "nameRU": "Рассветные башмачки для кроля",
+            "type": "foot",
+            "lvl": 40,
+            "drop": [{ "name": "djo", "slot": "1" }]
         }
     ]
 }
