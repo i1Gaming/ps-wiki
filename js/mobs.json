@@ -435,7 +435,7 @@
         {
             "name": "shin",
             "nameRU": "Торговец доспехами Шин",
-            "lvl": "-",
+            "lvl": "999",
             "img": "shin.PNG",
             "habitat": [{
                     "location": "astir",
@@ -466,7 +466,7 @@
         {
             "name": "kester",
             "nameRU": "Торговец доспехами Кестер",
-            "lvl": "-",
+            "lvl": "999",
             "img": "kester.PNG",
             "habitat": [{
                     "location": "astir",
@@ -497,7 +497,7 @@
         {
             "name": "david",
             "nameRU": "Торговец доспехами Давид",
-            "lvl": "-",
+            "lvl": "999",
             "img": "david.PNG",
             "habitat": [{
                     "location": "astir",
@@ -528,7 +528,7 @@
         {
             "name": "vargas",
             "nameRU": "Торговец доспехами Варгас",
-            "lvl": "-",
+            "lvl": "999",
             "img": "vargas.PNG",
             "habitat": [{
                     "location": "empire",
@@ -557,7 +557,7 @@
         {
             "name": "dip",
             "nameRU": "Торговец доспехами Дип",
-            "lvl": "-",
+            "lvl": "999",
             "img": "dip.PNG",
             "habitat": [{
                     "location": "union",
@@ -586,7 +586,7 @@
         {
             "name": "frederika",
             "nameRU": "Торговка доспехами Фредерика",
-            "lvl": "-",
+            "lvl": "999",
             "img": "frederika.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -615,7 +615,7 @@
         {
             "name": "yalumi",
             "nameRU": "Торговец оружием Ялуми",
-            "lvl": "-",
+            "lvl": "999",
             "img": "yalumi.PNG",
             "habitat": [{
                     "location": "astir",
@@ -648,7 +648,7 @@
         {
             "name": "galo",
             "nameRU": "Торговец оружием Гало",
-            "lvl": "-",
+            "lvl": "999",
             "img": "galo.PNG",
             "habitat": [{
                     "location": "astir",
@@ -681,7 +681,7 @@
         {
             "name": "lu",
             "nameRU": "Торговец оружием Лу",
-            "lvl": "-",
+            "lvl": "999",
             "img": "lu.PNG",
             "habitat": [{
                     "location": "astir",
@@ -714,7 +714,7 @@
         {
             "name": "kerring",
             "nameRU": "Торговец оружием Керринг",
-            "lvl": "-",
+            "lvl": "999",
             "img": "kerring.PNG",
             "habitat": [{
                     "location": "empire",
@@ -746,7 +746,7 @@
         {
             "name": "forks",
             "nameRU": "Торговец оружием Форкс",
-            "lvl": "-",
+            "lvl": "999",
             "img": "forks.PNG",
             "habitat": [{
                     "location": "union",
@@ -778,7 +778,7 @@
         {
             "name": "servia",
             "nameRU": "Торговка оружием Сервия",
-            "lvl": "-",
+            "lvl": "999",
             "img": "servia.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -810,7 +810,7 @@
         {
             "name": "flaren",
             "nameRU": "Торговец предметами Фларрен",
-            "lvl": "-",
+            "lvl": "999",
             "img": "flaren.PNG",
             "habitat": [{
                     "location": "astir",
@@ -835,7 +835,7 @@
         {
             "name": "rita",
             "nameRU": "Торговка предметами Рита",
-            "lvl": "-",
+            "lvl": "999",
             "img": "rita.PNG",
             "habitat": [{
                     "location": "astir",
@@ -860,7 +860,7 @@
         {
             "name": "uikki",
             "nameRU": "Торговец предметами Уикки",
-            "lvl": "-",
+            "lvl": "999",
             "img": "uikki.PNG",
             "habitat": [{
                     "location": "astir",
@@ -885,7 +885,7 @@
         {
             "name": "ben",
             "nameRU": "Торговец предметами Бен",
-            "lvl": "-",
+            "lvl": "999",
             "img": "ben.PNG",
             "habitat": [{
                     "location": "astir",
@@ -910,7 +910,7 @@
         {
             "name": "livvi",
             "nameRU": "Торговец предметами Ливви",
-            "lvl": "-",
+            "lvl": "999",
             "img": "livvi.PNG",
             "habitat": [{
                     "location": "union",
@@ -935,7 +935,7 @@
         {
             "name": "givern",
             "nameRU": "Торговец предметами Гиверн",
-            "lvl": "-",
+            "lvl": "999",
             "img": "givern.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -960,7 +960,7 @@
         {
             "name": "turena",
             "nameRU": "Торговка предметами Турена",
-            "lvl": "-",
+            "lvl": "999",
             "img": "turena.PNG",
             "habitat": [{
                     "location": "empire",
@@ -985,7 +985,7 @@
         {
             "name": "merchant",
             "nameRU": "Купец",
-            "lvl": "-",
+            "lvl": "999",
             "img": "merchant.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -1030,7 +1030,7 @@
         {
             "name": "weapon-master",
             "nameRU": "Мастер оружия",
-            "lvl": "-",
+            "lvl": "999",
             "img": "weapon-master.PNG",
             "habitat": [{
                     "location": "union",
@@ -1069,7 +1069,7 @@
         {
             "name": "saimon",
             "nameRU": "Саймон",
-            "lvl": "-",
+            "lvl": "999",
             "img": "saimon.PNG",
             "habitat": [{
                     "location": "union",
@@ -1096,7 +1096,7 @@
         {
             "name": "ogun8",
             "nameRU": "Огун VIII",
-            "lvl": "-",
+            "lvl": "999",
             "img": "ogun8.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -1123,7 +1123,7 @@
         {
             "name": "sodan",
             "nameRU": "Содан",
-            "lvl": "-",
+            "lvl": "999",
             "img": "sodan.PNG",
             "habitat": [{
                     "location": "empire",
@@ -1218,7 +1218,7 @@
         {
             "name": "mary",
             "nameRU": "Мэри",
-            "lvl": "-",
+            "lvl": "999",
             "img": "mary.PNG",
             "habitat": [{
                     "location": "astir",
@@ -1248,7 +1248,7 @@
         {
             "name": "djo",
             "nameRU": "Джо",
-            "lvl": "-",
+            "lvl": "999",
             "img": "djo.PNG",
             "habitat": [{
                     "location": "astir",
@@ -1273,6 +1273,114 @@
                     { "type": "armor", "name": "renkidubody40", "slots": "1" }, { "type": "armor", "name": "renkiduarm40", "slots": "1" }, { "type": "armor", "name": "renkiduleg40", "slots": "1" }, { "type": "armor", "name": "renkidufoot40", "slots": "1" }, { "type": "armor", "name": "renkiduhead40", "slots": "1" },
                     { "type": "armor", "name": "rkrolbody40", "slots": "1" }, { "type": "armor", "name": "rkrolarm40", "slots": "1" }, { "type": "armor", "name": "rkrolleg40", "slots": "1" }, { "type": "armor", "name": "rkrolfoot40", "slots": "1" }, { "type": "armor", "name": "rkrolhead40", "slots": "1" }
                 ]
+            }
+        },
+        {
+            "name": "slug1",
+            "nameRU": "Слизень",
+            "lvl": 1,
+            "img": "slug1.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "B, C, D, E-10,11,12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "G, H, I-11,12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "L, M-8,9,10,11",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "meat" }],
+                "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "empty-bottle" }],
+                "hard": [{ "type": "weapon", "name": "wooden-club1", "slots": "0" }]
+            }
+        },
+        {
+            "name": "fly2",
+            "nameRU": "Зеленая муха",
+            "lvl": 2,
+            "img": "fly2.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "B, C, D, E-10,11,12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "G, H, I-11,12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "L, M-8,9,10,11",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "meat" }],
+                "medium": [{ "type": "other", "name": "viscous-bile" }, { "type": "other", "name": "empty-bottle" }, { "type": "other", "name": "painkiller" }],
+                "hard": [{ "type": "other", "name": "pyroxene" }]
+            }
+        },
+        {
+            "name": "bat4",
+            "nameRU": "Плодовый нетопырь",
+            "lvl": 4,
+            "img": "bat4.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "B, C, D, E-10,11,12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "G, H, I-11,12,13",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "cracked-claw" }, { "type": "other", "name": "painkiller" }],
+                "medium": [{ "type": "other", "name": "bat-feathers" }, { "type": "other", "name": "replenishment-potion" }],
+                "hard": [{ "type": "armor", "name": "leather-helmet3", "slots": "0" }]
+            }
+        },
+        {
+            "name": "zombie4",
+            "nameRU": "Зомби",
+            "lvl": 4,
+            "img": "zombie4.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "B, C, D, E-10,11,12",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "L, M-8,9,10,11",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "wormy-meat" }, { "type": "other", "name": "meat" }, { "type": "other", "name": "replenishment-potion" }],
+                "medium": [{ "type": "other", "name": "offensive-bile" }],
+                "hard": []
             }
         }
     ]

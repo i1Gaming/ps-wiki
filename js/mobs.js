@@ -1,12 +1,7 @@
 function sortByLvl(mobs) {
     mobs.sort(function(a, b) {
-        if (a.lvl > b.lvl) {
-            return 1;
-        }
-        if (a.lvl < b.lvl) {
-            return -1;
-        }
-        return 0;
+
+        return a.lvl - b.lvl;
     })
 
     return mobs

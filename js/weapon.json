@@ -74,7 +74,7 @@
             "nameRU": "Деревянная палица",
             "lvl": 1,
             "type": "one-hand-blunt",
-            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+            "drop": [{ "name": "slug1", "slot": "0" }, { "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
         },
         {
             "name": "club6",

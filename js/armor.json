@@ -61,7 +61,7 @@
             "nameRU": "Кожаный шлем",
             "type": "helmet",
             "lvl": 3,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "bat4", "slot": "0" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
         },
         {
             "name": "iron-helmet6",

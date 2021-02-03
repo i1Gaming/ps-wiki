@@ -9,19 +9,19 @@
             "name": "painkiller",
             "nameRU": "Легкое исцеляющее зелье",
             "img": "painkiller.PNG",
-            "drop": [{ "name": "snake6" }, { "name": "tushkanchik3" }, { "name": "slug31" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "bat4" }, { "name": "snake6" }, { "name": "tushkanchik3" }, { "name": "slug31" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "replenishment-potion",
             "nameRU": "Легкое восстонавливающее зелье",
             "img": "replenishment-potion.PNG",
-            "drop": [{ "name": "tushkanchik3" }, { "name": "living-dead8" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "tushkanchik3" }, { "name": "bat4" }, { "name": "living-dead8" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "pyroxene-whelk",
             "nameRU": "Кусок жадеита",
             "img": "pyroxene-whelk.PNG",
-            "drop": [{ "name": "snake6" }, { "name": "slug31" }, { "name": "rat23" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "snake6" }, { "name": "slug31" }, { "name": "rat23" }]
         },
         {
             "name": "poisonous-grass",
@@ -63,7 +63,7 @@
             "name": "bat-feathers",
             "nameRU": "Крылья летучей мыши",
             "img": "bat-feathers.PNG",
-            "drop": [{ "name": "nightmare36" }]
+            "drop": [{ "name": "bat4" }, { "name": "nightmare36" }]
         },
         {
             "name": "muldian-medal",
@@ -93,25 +93,25 @@
             "name": "сloudy-bile",
             "nameRU": "Мутная желчь",
             "img": "сloudy-bile.PNG",
-            "drop": [{ "name": "ant7" }, { "name": "slug31" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug31" }]
         },
         {
             "name": "viscous-bile",
             "nameRU": "Вязкая желчь",
             "img": "viscous-bile.PNG",
-            "drop": [{ "name": "ant7" }]
+            "drop": [{ "name": "fly2" }, { "name": "ant7" }]
         },
         {
             "name": "pyroxene",
             "nameRU": "Жадеит",
             "img": "pyroxene.PNG",
-            "drop": [{ "name": "ant7" }]
+            "drop": [{ "name": "fly2" }, { "name": "ant7" }]
         },
         {
             "name": "empty-bottle",
             "nameRU": "Пустая бутыль",
             "img": "empty-bottle.PNG",
-            "drop": [{ "name": "ant7" }, { "name": "slug31" }, { "name": "ant40" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug31" }, { "name": "ant40" }]
         },
         {
             "name": "acid-bile",
@@ -141,13 +141,13 @@
             "name": "meat",
             "nameRU": "Мясо",
             "img": "meat.PNG",
-            "drop": [{ "name": "living-dead8" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "zombie4" }, { "name": "living-dead8" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "wormy-meat",
             "nameRU": "Червивое мясо",
             "img": "wormy-meat.PNG",
-            "drop": [{ "name": "living-dead8" }, { "name": "ghoul28" }]
+            "drop": [{ "name": "zombie4" }, { "name": "living-dead8" }, { "name": "ghoul28" }]
         },
         {
             "name": "rotten-meat",
@@ -316,6 +316,18 @@
             "nameRU": "Инструмент для изготовления кулонов",
             "img": "pendant-tool.PNG",
             "drop": [{ "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+        },
+        {
+            "name": "cracked-claw",
+            "nameRU": "Треснувший коготь",
+            "img": "cracked-claw.PNG",
+            "drop": [{ "name": "bat4" }]
+        },
+        {
+            "name": "offensive-bile",
+            "nameRU": "Зловонная желчь",
+            "img": "offensive-bile.PNG",
+            "drop": [{ "name": "zombie4" }]
         }
     ]
 }
