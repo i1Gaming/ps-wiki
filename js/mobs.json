@@ -1178,7 +1178,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "hero-charm" }]
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "reason-soul" }]
             }
         },
         {
@@ -1367,7 +1367,7 @@
             "habitat": [{
                     "location": "east-road",
                     "coordinates": "B, C, D, E-10,11,12",
-                    "day": false,
+                    "day": true,
                     "night": true
                 },
                 {
@@ -1380,6 +1380,36 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "wormy-meat" }, { "type": "other", "name": "meat" }, { "type": "other", "name": "replenishment-potion" }],
                 "medium": [{ "type": "other", "name": "offensive-bile" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton7",
+            "nameRU": "Скелет",
+            "lvl": 7,
+            "img": "skeleton7.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "F, G, H-9,10,11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-10,11",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "J-5,6",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "rotting-bone" }, { "type": "other", "name": "dilapidated-bone" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "cracked-skull" }],
+                "medium": [{ "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "painkiller" }],
                 "hard": []
             }
         }

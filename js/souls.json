@@ -145,7 +145,7 @@
         },
         {
             "name": "snail-soul",
-            "nameRU": "Душа улитки",
+            "nameRU": "Душа Улитки",
             "part": "Доспех, Ноги",
             "color": "blue",
             "img": "blue-soul.JPG",
@@ -169,6 +169,15 @@
             "img": "aqua-soul.JPG",
             "effect": "Скорость восстановления ОМ +10%",
             "drop": [{ "name": "gilia48" }]
+        },
+        {
+            "name": "reason-soul",
+            "nameRU": "Душа Разума",
+            "part": "Доспех, Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "ОМ +25",
+            "drop": [{ "name": "ghost55" }]
         }
     ]
 }

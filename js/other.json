@@ -243,7 +243,7 @@
             "name": "moonlight-grass",
             "nameRU": "Лунный корень",
             "img": "moonlight-grass.PNG",
-            "drop": [{ "name": "ghoul28" }]
+            "drop": [{ "name": "skeleton7" }, { "name": "ghoul28" }]
         },
         {
             "name": "replenishment-potion-60",
@@ -255,7 +255,7 @@
             "name": "rotting-bone",
             "nameRU": "Гниющая кость",
             "img": "rotting-bone.PNG",
-            "drop": [{ "name": "skeleton32" }]
+            "drop": [{ "name": "skeleton7" }, { "name": "skeleton32" }]
         },
         {
             "name": "strong-bone",
@@ -328,6 +328,18 @@
             "nameRU": "Зловонная желчь",
             "img": "offensive-bile.PNG",
             "drop": [{ "name": "zombie4" }]
+        },
+        {
+            "name": "dilapidated-bone",
+            "nameRU": "Ветхая кость",
+            "img": "dilapidated-bone.PNG",
+            "drop": [{ "name": "skeleton7" }]
+        },
+        {
+            "name": "cracked-skull",
+            "nameRU": "Треснувший череп",
+            "img": "cracked-skull.PNG",
+            "drop": [{ "name": "skeleton7" }]
         }
     ]
 }
