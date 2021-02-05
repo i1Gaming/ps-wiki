@@ -1384,6 +1384,30 @@
             }
         },
         {
+            "name": "ant5",
+            "nameRU": "Муравей",
+            "lvl": 5,
+            "img": "ant5.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "E, K, L, M-12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "J-5,6,7,8",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
             "name": "skeleton7",
             "nameRU": "Скелет",
             "lvl": 7,
@@ -1410,6 +1434,803 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "rotting-bone" }, { "type": "other", "name": "dilapidated-bone" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "cracked-skull" }],
                 "medium": [{ "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "painkiller" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "fly7",
+            "nameRU": "Молодая мушка",
+            "lvl": 7,
+            "img": "fly7.PNG",
+            "habitat": [{
+                "location": "north-road",
+                "coordinates": "E, F-10,11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "slug8",
+            "nameRU": "Большой слизень",
+            "lvl": 8,
+            "img": "slug8.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "E, F-9,10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "west-road",
+                    "coordinates": "L, M-8,9,10,11 / H-12,13",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake8",
+            "nameRU": "Королевская змея",
+            "lvl": 8,
+            "img": "snake8.PNG",
+            "habitat": [{
+                "location": "north-road",
+                "coordinates": "K, L-11,12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "maroder9",
+            "nameRU": "Мародер",
+            "lvl": 9,
+            "img": "maroder9.PNG",
+            "habitat": [{
+                "location": "west-road",
+                "coordinates": "I-14",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "wolf10",
+            "nameRU": "Койот",
+            "lvl": 10,
+            "img": "wolf10.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "H-11,12,13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E, F-9,10 / K, L-8,9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "F, G-5,6 / H, I-9,10",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "spider14",
+            "nameRU": "Паук птицеед",
+            "lvl": 14,
+            "img": "spider14.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "E, F-9,10,11,12 / G-14,15",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E-8 / K, L-8,9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "H, I-5,6,7",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "fly15",
+            "nameRU": "Гигантская муха",
+            "lvl": 15,
+            "img": "fly15.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "E, F-10,11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "J, K-6,7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "I, J-7",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "tushkanchik16",
+            "nameRU": "Быстрый тушканчик",
+            "lvl": 16,
+            "img": "tushkanchik16.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "L-11 / E-9,10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "L-7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "D-11 / J-5,6",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "ant16",
+            "nameRU": "Страж",
+            "lvl": 16,
+            "img": "ant16.PNG",
+            "habitat": [{
+                "location": "west-road",
+                "coordinates": "H-3",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton17",
+            "nameRU": "Скелет следопыт",
+            "lvl": 17,
+            "img": "skeleton17.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "F, G-7,8,9,10,11",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "I-5,6,7,9,10",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "K,L-7,8,9,10",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "dikobraz17",
+            "nameRU": "Дикобраз",
+            "lvl": 17,
+            "img": "dikobraz17.PNG",
+            "habitat": [{
+                "location": "west-road",
+                "coordinates": "E, F, G-5,6,7",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "kapibara18",
+            "nameRU": "Капибара",
+            "lvl": 18,
+            "img": "kapibara18.PNG",
+            "habitat": [{
+                "location": "west-road",
+                "coordinates": "E, F-9,10,11, F-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton18",
+            "nameRU": "Скелет лучник",
+            "lvl": 18,
+            "img": "skeleton18.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "F, G-4,5,6",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "I-5,6,7,9,10",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "K,L-7,8,9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "wolf20",
+            "nameRU": "Шакал",
+            "lvl": 20,
+            "img": "wolf20.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "E, F, G-3,4",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "H, I, J, K-3,4",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "M, N-7,8,9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "spider31",
+            "nameRU": "Паук мясоед",
+            "lvl": 31,
+            "img": "spider31.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "G-14,15",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "north-road",
+                    "coordinates": "E-8, M-9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "I, J-5,6 / L, M-7,8 / J-9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "volatile-bile" }, { "type": "other", "name": "pyroxene" }, { "type": "other", "name": "poisonous-grass" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "kapibara32",
+            "nameRU": "Огромная капибара",
+            "lvl": 20,
+            "img": "kapibara32.PNG",
+            "habitat": [{
+                "location": "west-road",
+                "coordinates": "F-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "rat33",
+            "nameRU": "Крысолак секирщик",
+            "lvl": 33,
+            "img": "rat33.PNG",
+            "habitat": [{
+                "location": "west-road",
+                "coordinates": "D-5",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "wolf44",
+            "nameRU": "Бродячий волк",
+            "lvl": 44,
+            "img": "wolf44.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "E, F-6 H-3 I-4, 5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "F, G-9,10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "F, G-9,10",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake12",
+            "nameRU": "Огромная куфия",
+            "lvl": 12,
+            "img": "snake12.PNG",
+            "habitat": [{
+                "location": "north-road",
+                "coordinates": "F-11 / L-12 / M-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "small-fangs" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "razboinik-shaman15",
+            "nameRU": "Разбойник шаман",
+            "lvl": 15,
+            "img": "razboinik-shaman15.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "H-7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "L-4",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "razboinik-hunter17",
+            "nameRU": "Разбойник охотник",
+            "lvl": 17,
+            "img": "razboinik-hunter17.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "H-7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "L-4",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "razboinik-vojak19",
+            "nameRU": "Разбойник вожак",
+            "lvl": 19,
+            "img": "razboinik-vojak19.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "H-7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "L-4",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "chiko20",
+            "nameRU": "Чико",
+            "lvl": 20,
+            "img": "chiko20.PNG",
+            "habitat": [{
+                    "location": "west-road",
+                    "coordinates": "E, F-8,9",
+                    "day": true,
+                    "night": true
+                }, {
+                    "location": "north-road",
+                    "coordinates": "I-6, J-7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "H, I-6",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "yacher24",
+            "nameRU": "Ящер",
+            "lvl": 24,
+            "img": "yacher24.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "I-9,10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-12,13 / I-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "krupni-yacher32",
+            "nameRU": "Крупный ящер",
+            "lvl": 32,
+            "img": "krupni-yacher32.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "I-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "I-12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "slug20",
+            "nameRU": "Гигантский слизень",
+            "lvl": 20,
+            "img": "slug20.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "E-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "F-7",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "empty-bottle" }, { "type": "other", "name": "meat" }, { "type": "other", "name": "pyroxene" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "bat18",
+            "nameRU": "Огромный нетопырь",
+            "lvl": 18,
+            "img": "bat18.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "I, J-5,6",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "K-10 / H, I, J-5,6,7,8",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "bat26",
+            "nameRU": "Ночной нетопырь",
+            "lvl": 26,
+            "img": "bat26.PNG",
+            "habitat": [{
+                    "location": "north-road",
+                    "coordinates": "L-8",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "east-road",
+                    "coordinates": "J-7",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "zakl9",
+            "nameRU": "Заклинатель душ",
+            "lvl": 9,
+            "img": "zakl9.PNG",
+            "habitat": [{
+                "location": "east-road",
+                "coordinates": "G, H-9,10,11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "zrica19",
+            "nameRU": "Темная жрица",
+            "lvl": 19,
+            "img": "zrica19.PNG",
+            "habitat": [{
+                "location": "east-road",
+                "coordinates": "L, M-7,8",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "neshit19",
+            "nameRU": "Низкая нежить",
+            "lvl": 19,
+            "img": "neshit19.PNG",
+            "habitat": [{
+                "location": "east-road",
+                "coordinates": "H-13",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton24",
+            "nameRU": "Скелет воин",
+            "lvl": 24,
+            "img": "skeleton24.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "L-4 / M-4,5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "H,I-8",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "I-9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "demon39",
+            "nameRU": "Гигантский демон",
+            "lvl": 39,
+            "img": "demon39.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "G-3",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "H, I-7,8,9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "demon28",
+            "nameRU": "Малый демон",
+            "lvl": 28,
+            "img": "demon28.PNG",
+            "habitat": [{
+                    "location": "east-road",
+                    "coordinates": "G-3",
+                    "day": true,
+                    "night": false
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "G, H-10",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
                 "hard": []
             }
         }

@@ -3,7 +3,7 @@
             "name": "small-fangs",
             "nameRU": "Маленький клык",
             "img": "small-fangs.PNG",
-            "drop": [{ "name": "snake6" }, { "name": "tushkanchik3" }, { "name": "snake17" }]
+            "drop": [{ "name": "snake6" }, { "name": "snake12" }, { "name": "tushkanchik3" }, { "name": "snake17" }]
         },
         {
             "name": "painkiller",
@@ -27,7 +27,7 @@
             "name": "poisonous-grass",
             "nameRU": "Ядовитый корень",
             "img": "poisonous-grass.PNG",
-            "drop": [{ "name": "snake6" }, { "name": "snake17" }]
+            "drop": [{ "name": "spider31" }, { "name": "snake6" }, { "name": "snake17" }]
         },
         {
             "name": "pure-soul",
@@ -105,13 +105,13 @@
             "name": "pyroxene",
             "nameRU": "Жадеит",
             "img": "pyroxene.PNG",
-            "drop": [{ "name": "fly2" }, { "name": "ant7" }]
+            "drop": [{ "name": "fly2" }, { "name": "ant7" }, { "name": "slug20" }, { "name": "spider31" }]
         },
         {
             "name": "empty-bottle",
             "nameRU": "Пустая бутыль",
             "img": "empty-bottle.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug31" }, { "name": "ant40" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug20" }, { "name": "slug31" }, { "name": "ant40" }]
         },
         {
             "name": "acid-bile",
@@ -141,7 +141,7 @@
             "name": "meat",
             "nameRU": "Мясо",
             "img": "meat.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "zombie4" }, { "name": "living-dead8" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "zombie4" }, { "name": "living-dead8" }, { "name": "slug20" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "wormy-meat",
@@ -279,7 +279,7 @@
             "name": "volatile-bile",
             "nameRU": "Летучая желчь",
             "img": "volatile-bile.PNG",
-            "drop": [{ "name": "ant40" }]
+            "drop": [{ "name": "spider31" }, { "name": "ant40" }]
         },
         {
             "name": "hero-charm",
