@@ -197,6 +197,12 @@ footer {
     margin-right: 10px;
 }
 
+.search-dis {
+    margin-left: 5px;
+    height: 35px;
+    width: auto;
+}
+
 .ft-icon:hover {
     color: #F8A533;
 }
