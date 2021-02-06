@@ -117,7 +117,7 @@
             "name": "acid-bile",
             "nameRU": "Кислотная желчь",
             "img": "acid-bile.PNG",
-            "drop": [{ "name": "ant7" }, { "name": "slug31" }, { "name": "ant40" }]
+            "drop": [{ "name": "ant7" }, { "name": "slug31" }, { "name": "ant40" }, { "name": "ant40rb" }]
         },
         {
             "name": "firelvl1",
@@ -201,7 +201,7 @@
             "name": "injury",
             "nameRU": "Слабое исцеляющее зелье",
             "img": "injury.PNG",
-            "drop": [{ "name": "rat23" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "rat23" }, { "name": "enkidu40" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "red-pyroxene",
@@ -214,6 +214,12 @@
             "nameRU": "Небольшой серебряный жадеит",
             "img": "small-silver-pyroxene.PNG",
             "drop": [{ "name": "ghost45" }]
+        },
+        {
+            "name": "small-pyroxene",
+            "nameRU": "Небольшой жадеит",
+            "img": "small-pyroxene.PNG",
+            "drop": [{ "name": "enkidu40" }]
         },
         {
             "name": "healing-root",
@@ -261,25 +267,25 @@
             "name": "strong-bone",
             "nameRU": "Крепкая кость",
             "img": "strong-bone.PNG",
-            "drop": [{ "name": "skeleton32" }]
+            "drop": [{ "name": "skeleton32" }, { "name": "skeleton34" }]
         },
         {
             "name": "thick-bone",
             "nameRU": "Толстая кость",
             "img": "thick-bone.PNG",
-            "drop": [{ "name": "skeleton32" }]
+            "drop": [{ "name": "skeleton32" }, { "name": "skeleton34" }]
         },
         {
             "name": "sweet-bile",
             "nameRU": "Сладкая желчь",
             "img": "sweet-bile.PNG",
-            "drop": [{ "name": "ant40" }]
+            "drop": [{ "name": "ant40" }, { "name": "ant40rb" }]
         },
         {
             "name": "volatile-bile",
             "nameRU": "Летучая желчь",
             "img": "volatile-bile.PNG",
-            "drop": [{ "name": "spider31" }, { "name": "ant40" }]
+            "drop": [{ "name": "spider31" }, { "name": "ant40" }, { "name": "ant40rb" }]
         },
         {
             "name": "hero-charm",
@@ -340,6 +346,18 @@
             "nameRU": "Треснувший череп",
             "img": "cracked-skull.PNG",
             "drop": [{ "name": "skeleton7" }]
+        },
+        {
+            "name": "suffering-soul",
+            "nameRU": "Страждущая душа",
+            "img": "suffering-soul.PNG",
+            "drop": [{ "name": "skeleton34" }]
+        },
+        {
+            "name": "mana90",
+            "nameRU": "Простое восстанавливающее зелье",
+            "img": "mana90.PNG",
+            "drop": [{ "name": "skeleton34" }]
         }
     ]
 }

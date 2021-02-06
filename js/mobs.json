@@ -1735,6 +1735,24 @@
                     "coordinates": "K,L-7,8,9",
                     "day": true,
                     "night": true
+                },
+                {
+                    "location": "nelstadt",
+                    "coordinates": "B, C, D-6,7,8,9, F-6",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-16",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "G, H-3,4,5,6",
+                    "day": false,
+                    "night": true
                 }
             ],
             "drop": {
@@ -2224,6 +2242,926 @@
                 {
                     "location": "nelstadt",
                     "coordinates": "G, H-10",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton34",
+            "nameRU": "Скелет мечник",
+            "lvl": 34,
+            "img": "skeleton34.PNG",
+            "habitat": [{
+                "location": "east-road",
+                "coordinates": "М-5",
+                "day": false,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "strong-bone" }, { "type": "other", "name": "thick-bone" }, { "type": "other", "name": "suffering-soul" }],
+                "medium": [{ "type": "other", "name": "mana90" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "ant20",
+            "nameRU": "Муравей рабочий",
+            "lvl": 20,
+            "img": "ant20.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "B, C, D-6,7,8,9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "I-2,3, J-3 / I-5,6, J-5, J-7",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "slug22",
+            "nameRU": "Падальщик",
+            "lvl": 22,
+            "img": "slug22.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "B, C, D-6,7,8,9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H, I-15",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "J, K-2",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "wellfeed-ghost24",
+            "nameRU": "Сытый душелов",
+            "lvl": 24,
+            "img": "wellfeed-ghost24.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "D, E-7,8,9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "G, H-4,5",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "wolf26",
+            "nameRU": "Полосатый волк",
+            "lvl": 26,
+            "img": "wolf26.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "D, E-8,9,10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "F, G-6 / I, J-10,12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "fly-snake28",
+            "nameRU": "Летучий змей",
+            "lvl": 28,
+            "img": "fly-snake28.PNG",
+            "habitat": [{
+                "location": "nelstadt",
+                "coordinates": "D, E-7,8",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake33",
+            "nameRU": "Гюрза",
+            "lvl": 23,
+            "img": "snake33.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "H-8,9,10 / L-10,11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "G, H-9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton35",
+            "nameRU": "Скелет боец",
+            "lvl": 35,
+            "img": "skeleton35.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "I, J-8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-6",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "I-9",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "human35",
+            "nameRU": "Головорез солдат",
+            "lvl": 35,
+            "img": "human35.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "I-8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-8",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "human36",
+            "nameRU": "Головорез охотник",
+            "lvl": 36,
+            "img": "human36.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "I-8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-8",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "human37",
+            "nameRU": "Головорез шаман",
+            "lvl": 37,
+            "img": "human37.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "I-8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-8",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "dingo38",
+            "nameRU": "Динго",
+            "lvl": 38,
+            "img": "dingo38.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "H, I-5,6,7 / K, L-9,10,11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-4,5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "J-10,11",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "hungry-ghost38",
+            "nameRU": "Голодный душелов",
+            "lvl": 38,
+            "img": "hungry-ghost38.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "H-5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "???",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "H, I, J-5,6",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "big-ghost60",
+            "nameRU": "Великий душелов",
+            "lvl": 60,
+            "img": "big-ghost60.PNG",
+            "habitat": [{
+                "location": "nelstadt",
+                "coordinates": "H-5",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "bat39",
+            "nameRU": "Носферату",
+            "lvl": 39,
+            "img": "bat39.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "I-9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "G-8,9 / H-9",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "bone-warrior42",
+            "nameRU": "Костяной воин",
+            "lvl": 42,
+            "img": "bone-warrior42.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "K, L, M-9,10,11, K-6",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-6",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "I, J-5,6",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "bone-warrior60",
+            "nameRU": "Костяной кузнец",
+            "lvl": 60,
+            "img": "bone-warrior60.PNG",
+            "habitat": [{
+                "location": "nelstadt",
+                "coordinates": "K-10",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "demon53",
+            "nameRU": "Гигантский бес",
+            "lvl": 53,
+            "img": "demon53.PNG",
+            "habitat": [{
+                "location": "nelstadt",
+                "coordinates": "J, K-7,8,9,10,11,12",
+                "day": false,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "fly-snake46",
+            "nameRU": "Огненный змей",
+            "lvl": 46,
+            "img": "fly-snake46.PNG",
+            "habitat": [{
+                "location": "nelstadt",
+                "coordinates": "D, E-7,8,9",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "ant40rb",
+            "nameRU": "Муравей защитник",
+            "lvl": 40,
+            "img": "ant40rb.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "D, E-7,8,9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "J-5",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "other", "name": "sweet-bile" }, { "type": "other", "name": "acid-bile" }, { "type": "other", "name": "volatile-bile" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "bat20",
+            "nameRU": "Кровавый нетопырь",
+            "lvl": 20,
+            "img": "bat20.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "C-9",
+                    "day": false,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H, I-15",
+                    "day": false,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "wolf60",
+            "nameRU": "Лесной волк",
+            "lvl": 60,
+            "img": "wolf60.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "L-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "H-5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "J-11",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "raptor66",
+            "nameRU": "Василиск",
+            "lvl": 66,
+            "img": "raptor66.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "H-6",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake56",
+            "nameRU": "Гигантская гадюка",
+            "lvl": 56,
+            "img": "snake56.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "H-6",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "yacher36",
+            "nameRU": "Панголин",
+            "lvl": 36,
+            "img": "yacher36.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "H-6",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "raptor50",
+            "nameRU": "Гигантский раптор",
+            "lvl": 50,
+            "img": "raptor50.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "H-13, J-10, I-4",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "spider35",
+            "nameRU": "Гигантский паук",
+            "lvl": 35,
+            "img": "spider35.PNG",
+            "habitat": [{
+                    "location": "gorda",
+                    "coordinates": "G-6,7",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "G, H-11,12",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake40",
+            "nameRU": "Золотистый питон",
+            "lvl": 40,
+            "img": "snake40.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "H, I-6",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake37",
+            "nameRU": "Аспид",
+            "lvl": 37,
+            "img": "snake37.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "G-8",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "raptor30",
+            "nameRU": "Птерозавр",
+            "lvl": 30,
+            "img": "raptor30.PNG",
+            "habitat": [{
+                    "location": "gorda",
+                    "coordinates": "I,J-10,12",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "H, I-9",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "cverg33",
+            "nameRU": "Грабитель",
+            "lvl": 33,
+            "img": "cverg33.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "J-9",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "cverg39",
+            "nameRU": "Грабитель вожак",
+            "lvl": 39,
+            "img": "cverg39.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "J-9",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "tree50",
+            "nameRU": "Древний дендроид",
+            "lvl": 50,
+            "img": "tree50.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "I-10,11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "spider28",
+            "nameRU": "Огненный паук",
+            "lvl": 28,
+            "img": "spider28.PNG",
+            "habitat": [{
+                    "location": "gorda",
+                    "coordinates": "I-10,11 / J-11",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "G, H-7",
+                    "day": true,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "spider22",
+            "nameRU": "Паук ткач",
+            "lvl": 22,
+            "img": "spider22.PNG",
+            "habitat": [{
+                    "location": "gorda",
+                    "coordinates": "I,J-13,14",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "I-2,3",
+                    "day": true,
+                    "night": true
+                }
+            ],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "mulakshi32",
+            "nameRU": "Мулакши",
+            "lvl": 32,
+            "img": "mulakshi32.PNG",
+            "habitat": [{
+                "location": "himurartu",
+                "coordinates": "G, H-10,11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "mulakshi53",
+            "nameRU": "Гигантская крыса",
+            "lvl": 53,
+            "img": "mulakshi53.PNG",
+            "habitat": [{
+                "location": "himurartu",
+                "coordinates": "G, H-10,11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "behema67",
+            "nameRU": "Бехема",
+            "lvl": 67,
+            "img": "behema67.PNG",
+            "habitat": [{
+                "location": "himurartu",
+                "coordinates": "G, H-10,11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "rat42",
+            "nameRU": "Крысолак воин",
+            "lvl": 42,
+            "img": "rat42.PNG",
+            "habitat": [{
+                "location": "himurartu",
+                "coordinates": "J-4 / I-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "enkidu40",
+            "nameRU": "Головорез вожак",
+            "lvl": 40,
+            "img": "enkidu40.PNG",
+            "habitat": [{
+                "location": "himurartu",
+                "coordinates": "H-8",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "small-pyroxene" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "ant60",
+            "nameRU": "Муравей патрульный",
+            "lvl": 60,
+            "img": "ant60.PNG",
+            "habitat": [{
+                "location": "himurartu",
+                "coordinates": "I-6",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "ant50",
+            "nameRU": "Муравей убийца",
+            "lvl": 50,
+            "img": "ant50.PNG",
+            "habitat": [{
+                "location": "himurartu",
+                "coordinates": "J,H,I-5,6",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "slug55",
+            "nameRU": "Великий слизень",
+            "lvl": 55,
+            "img": "slug55.PNG",
+            "habitat": [{
+                    "location": "nelstadt",
+                    "coordinates": "C, F-7 / O-13",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "gorda",
+                    "coordinates": "I-3,15",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "I-8 / H-14",
                     "day": true,
                     "night": true
                 }
