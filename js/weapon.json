@@ -151,7 +151,7 @@
             "nameRU": "Нож",
             "lvl": 1,
             "type": "dagger",
-            "drop": [{ "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
+            "drop": [{ "name": "maroder9", "slot": "0" }, { "name": "yalumi", "slot": "0" }, { "name": "galo", "slot": "0" }, { "name": "lu", "slot": "0" }]
         },
         {
             "name": "assassin-dagger6",

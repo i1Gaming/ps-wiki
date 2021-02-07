@@ -77,7 +77,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "alive-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "lightlvl2" }],
-                "hard": [{ "type": "soul", "name": "ranger-soul" }]
+                "hard": [{ "type": "soul", "name": "ranger-soul" }, { "type": "armor", "name": "metal-gloves30", "slots": "1" }]
             }
         },
         {
@@ -94,7 +94,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "alive-soul" }, { "type": "other", "name": "desperate-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "small-silver-pyroxene" }],
-                "hard": [{ "type": "other", "name": "rainbowlvl1" }]
+                "hard": [{ "type": "other", "name": "rainbowlvl1" }, { "type": "armor", "name": "clothes-life35", "slots": "0,1" }]
             }
         },
         {
@@ -1161,7 +1161,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "calm-soul" }]
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "calm-soul" }, { "type": "soul", "name": "guardian-soul" }]
             }
         },
         {
@@ -1178,7 +1178,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "reason-soul" }]
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "reason-soul" }, { "type": "soul", "name": "keen-soul" }]
             }
         },
         {
@@ -1212,7 +1212,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "obsessed-soul" }, { "type": "other", "name": "alive-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "firelvl2" }],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "smart-boots20", "slots": "1" }]
             }
         },
         {
@@ -1402,7 +1402,7 @@
                 }
             ],
             "drop": {
-                "easy": [],
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "viscous-bile" }, { "type": "other", "name": "painkiller" }],
                 "medium": [],
                 "hard": []
             }
@@ -1449,9 +1449,9 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "viscous-bile" }, { "type": "other", "name": "volatile-bile" }],
+                "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "meat" }],
+                "hard": [{ "type": "armor", "name": "quilt-boots1", "slots": "0" }]
             }
         },
         {
@@ -1473,8 +1473,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "meat" }],
+                "medium": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "empty-bottle" }],
                 "hard": []
             }
         },
@@ -1490,9 +1490,9 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "poisonous-grass" }],
+                "medium": [{ "type": "other", "name": "scratched-skin" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "hard": [{ "type": "other", "name": "poison" }, { "type": "other", "name": "poisonlvl1" }]
             }
         },
         {
@@ -1507,8 +1507,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "painkiller" }],
+                "medium": [{ "type": "weapon", "name": "knife1", "slots": "0,1" }],
                 "hard": []
             }
         },
@@ -1537,9 +1537,9 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "dirty-fur" }],
+                "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "meat" }],
+                "hard": [{ "type": "armor", "name": "durable-vest7", "slots": "1" }]
             }
         },
         {
@@ -1567,8 +1567,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "volatile-bile" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "meat" }, { "type": "other", "name": "pyroxene-whelk" }],
                 "hard": []
             }
         },
@@ -1597,8 +1597,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "offensive-bile" }],
+                "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "pyroxene" }],
                 "hard": []
             }
         },
@@ -1897,8 +1897,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [{ "type": "other", "name": "small-fangs" }],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "broken-fang" }, { "type": "other", "name": "poisonous-grass" }],
+                "medium": [{ "type": "other", "name": "antidot" }, { "type": "other", "name": "poisonlvl2" }, { "type": "other", "name": "poison" }],
                 "hard": []
             }
         },
@@ -2135,8 +2135,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "replenishment-potion" }],
+                "medium": [{ "type": "other", "name": "poison" }],
                 "hard": []
             }
         },

@@ -171,6 +171,15 @@
             "drop": [{ "name": "gilia48" }]
         },
         {
+            "name": "keen-soul",
+            "nameRU": "Зоркая душа",
+            "part": "Обувь",
+            "color": "aqua",
+            "img": "aqua-soul.JPG",
+            "effect": "За каждый уровень усовершенствования: сопротивляемость падению +3, уклонение +1",
+            "drop": [{ "name": "ghost55" }]
+        },
+        {
             "name": "reason-soul",
             "nameRU": "Душа Разума",
             "part": "Доспех, Ноги",
@@ -178,6 +187,15 @@
             "img": "blue-soul.JPG",
             "effect": "ОМ +25",
             "drop": [{ "name": "ghost55" }]
+        },
+        {
+            "name": "guardian-soul",
+            "nameRU": "Душа Стража",
+            "part": "Щит",
+            "color": "purple",
+            "img": "purple-soul.JPG",
+            "effect": "Защита +3, сопротивляемость прерыванию атаки блокированием +15",
+            "drop": [{ "name": "skeleton50" }]
         }
     ]
 }

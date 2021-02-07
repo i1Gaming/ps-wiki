@@ -11,7 +11,7 @@
             "nameRU": "Стеганые сапоги",
             "type": "foot",
             "lvl": 1,
-            "drop": [{ "name": "tushkanchik3", "slot": "0" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "tushkanchik3", "slot": "0" }, { "name": "fly7", "slot": "0" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
         },
 
         {
@@ -103,7 +103,7 @@
             "nameRU": "Прочный жилет",
             "type": "body",
             "lvl": 7,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "wolf10", "slot": "1" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
         },
         {
             "name": "leather-armor15",
@@ -278,7 +278,7 @@
             "nameRU": "Металлические рукавицы",
             "type": "arm",
             "lvl": 30,
-            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "ghost43", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "woolen-pants26",
@@ -299,7 +299,7 @@
             "nameRU": "Нарядные сапоги",
             "type": "foot",
             "lvl": 20,
-            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "ghost39", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "humanmbody35",
@@ -804,6 +804,13 @@
             "type": "foot",
             "lvl": 40,
             "drop": [{ "name": "djo", "slot": "1" }]
+        },
+        {
+            "name": "clothes-life35",
+            "nameRU": "Одежды жизни",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "ghost45", "slot": "0,1" }]
         }
     ]
 }
