@@ -57,6 +57,20 @@
             "drop": [{ "name": "gilia48", "slot": "1" }]
         },
         {
+            "name": "wizard-hat35",
+            "nameRU": "Шляпа волшебника",
+            "type": "helmet",
+            "lvl": 35,
+            "drop": [{ "name": "gilia48", "slot": "0" }]
+        },
+        {
+            "name": "half-closed-helmet35",
+            "nameRU": "Полузакрытый шлем",
+            "type": "helmet",
+            "lvl": 35,
+            "drop": [{ "name": "gilia48", "slot": "1" }]
+        },
+        {
             "name": "leather-helmet3",
             "nameRU": "Кожаный шлем",
             "type": "helmet",

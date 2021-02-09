@@ -42,7 +42,7 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "obsessed-soul" }],
-                "medium": [{ "type": "other", "name": "bat-feathers" }, { "type": "other", "name": "muldian-medal" }],
+                "medium": [{ "type": "other", "name": "bat-feathers" }, { "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "dark-pyroxene" }],
                 "hard": [{ "type": "soul", "name": "nightmare-soul" }]
             }
         },
@@ -110,8 +110,10 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }],
-                "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": [{ "type": "soul", "name": "dawn-soul" }, { "type": "armor", "name": "dark-crown35", "slots": "1" }, { "type": "armor", "name": "horse-helmet35", "slots": "1" }]
+                "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "dark-pyroxene" }, { "type": "other", "name": "bat-feathers" }],
+                "hard": [{ "type": "soul", "name": "dawn-soul" }, { "type": "armor", "name": "dark-crown35", "slots": "1" }, { "type": "armor", "name": "horse-helmet35", "slots": "1" }, { "type": "armor", "name": "wizard-hat35", "slots": "0" },
+                    { "type": "armor", "name": "half-closed-helmet35", "slots": "1" }
+                ]
             }
         },
         {
@@ -1451,7 +1453,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "viscous-bile" }, { "type": "other", "name": "volatile-bile" }],
                 "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "meat" }],
-                "hard": [{ "type": "armor", "name": "quilt-boots1", "slots": "0" }]
+                "hard": [{ "type": "armor", "name": "quilt-boots1", "slots": "0" }, { "type": "soul", "name": "hurry-soul" }]
             }
         },
         {
@@ -1627,8 +1629,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "broken-fang" }],
+                "medium": [{ "type": "other", "name": "hepatica" }],
                 "hard": []
             }
         },
@@ -1644,8 +1646,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "empty-bottle" }],
+                "medium": [{ "type": "other", "name": "healing-root" }],
                 "hard": []
             }
         },
@@ -1921,8 +1923,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "poisonlvl1" }],
                 "hard": []
             }
         },
@@ -1945,8 +1947,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "lightninglvl1" }],
                 "hard": []
             }
         },
@@ -1969,8 +1971,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "painkiller" }, { "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "icelvl1" }],
                 "hard": []
             }
         },

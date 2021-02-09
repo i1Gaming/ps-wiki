@@ -3,13 +3,13 @@
             "name": "small-fangs",
             "nameRU": "Маленький клык",
             "img": "small-fangs.PNG",
-            "drop": [{ "name": "snake6" }, { "name": "snake8" }, { "name": "snake12" }, { "name": "tushkanchik3" }, { "name": "snake17" }]
+            "drop": [{ "name": "tushkanchik3" }, { "name": "snake6" }, { "name": "snake8" }, { "name": "snake12" }, { "name": "tushkanchik16" }, { "name": "snake17" }]
         },
         {
             "name": "painkiller",
             "nameRU": "Легкое исцеляющее зелье",
             "img": "painkiller.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "tushkanchik3" }, { "name": "bat4" }, { "name": "snake6" }, { "name": "maroder9" }, { "name": "wolf10" }, { "name": "slug31" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "tushkanchik3" }, { "name": "bat4" }, { "name": "snake6" }, { "name": "maroder9" }, { "name": "wolf10" }, { "name": "razboinik-shaman15" }, { "name": "razboinik-hunter17" }, { "name": "razboinik-vojak19" }, { "name": "slug31" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "replenishment-potion",
@@ -21,7 +21,7 @@
             "name": "pyroxene-whelk",
             "nameRU": "Кусок жадеита",
             "img": "pyroxene-whelk.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "snake6" }, { "name": "snake8" }, { "name": "slug8" }, { "name": "zakl9" }, { "name": "wolf10" }, { "name": "spider14" }, { "name": "fly15" }, { "name": "slug31" }, { "name": "rat23" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "snake6" }, { "name": "snake8" }, { "name": "slug8" }, { "name": "zakl9" }, { "name": "wolf10" }, { "name": "spider14" }, { "name": "fly15" }, { "name": "razboinik-shaman15" }, { "name": "razboinik-hunter17" }, { "name": "razboinik-vojak19" }, { "name": "slug31" }, { "name": "rat23" }]
         },
         {
             "name": "poisonous-grass",
@@ -63,7 +63,7 @@
             "name": "bat-feathers",
             "nameRU": "Крылья летучей мыши",
             "img": "bat-feathers.PNG",
-            "drop": [{ "name": "bat4" }, { "name": "nightmare36" }]
+            "drop": [{ "name": "bat4" }, { "name": "nightmare36" }, { "name": "gilia48" }]
         },
         {
             "name": "muldian-medal",
@@ -79,13 +79,13 @@
         },
         {
             "name": "poisonlvl1",
-            "nameRU": "Самоцвет яда 1 уровня",
+            "nameRU": "Малахит",
             "img": "poisonlvl1.PNG",
-            "drop": [{ "name": "snake6" }, { "name": "snake8" }, { "name": "snake17" }]
+            "drop": [{ "name": "snake6" }, { "name": "snake8" }, { "name": "razboinik-shaman15" }, { "name": "snake17" }]
         },
         {
             "name": "poisonlvl2",
-            "nameRU": "Самоцвет яда 2 уровня",
+            "nameRU": "Нефрит",
             "img": "poisonlvl2.PNG",
             "drop": [{ "name": "snake12" }]
         },
@@ -96,10 +96,34 @@
             "drop": [{ "name": "ghost45" }]
         },
         {
+            "name": "lightninglvl1",
+            "nameRU": "Бирюза",
+            "img": "lightninglvl1.PNG",
+            "drop": [{ "name": "razboinik-hunter17" }]
+        },
+        {
+            "name": "lightninglvl2",
+            "nameRU": "Лазурит",
+            "img": "lightninglvl2.PNG",
+            "drop": []
+        },
+        {
+            "name": "icelvl1",
+            "nameRU": "Жемчуг",
+            "img": "icelvl1.PNG",
+            "drop": [{ "name": "razboinik-vojak19" }]
+        },
+        {
+            "name": "darklvl2",
+            "nameRU": "Розовый кварц",
+            "img": "darklvl2.PNG",
+            "drop": []
+        },
+        {
             "name": "сloudy-bile",
             "nameRU": "Мутная желчь",
             "img": "сloudy-bile.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant5" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "spider14" }, { "name": "fly15" }, { "name": "slug31" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant5" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "spider14" }, { "name": "fly15" }, { "name": "ant16" }, { "name": "slug31" }]
         },
         {
             "name": "viscous-bile",
@@ -111,13 +135,13 @@
             "name": "pyroxene",
             "nameRU": "Жадеит",
             "img": "pyroxene.PNG",
-            "drop": [{ "name": "fly2" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "fly15" }, { "name": "slug20" }, { "name": "spider31" }]
+            "drop": [{ "name": "fly2" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "fly15" }, { "name": "razboinik-shaman15" }, { "name": "razboinik-hunter17" }, { "name": "razboinik-vojak19" }, { "name": "slug20" }, { "name": "spider31" }]
         },
         {
             "name": "empty-bottle",
             "nameRU": "Пустая бутыль",
             "img": "empty-bottle.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "slug20" }, { "name": "slug31" }, { "name": "ant40" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "ant16" }, { "name": "slug20" }, { "name": "slug31" }, { "name": "ant40" }]
         },
         {
             "name": "acid-bile",
@@ -189,7 +213,7 @@
             "name": "broken-fang",
             "nameRU": "Сломанный клык",
             "img": "broken-fang.PNG",
-            "drop": [{ "name": "snake12" }, { "name": "snake17" }]
+            "drop": [{ "name": "snake12" }, { "name": "tushkanchik16" }, { "name": "snake17" }]
         },
         {
             "name": "dirty-fur",
@@ -202,6 +226,12 @@
             "nameRU": "Золотой жадеит",
             "img": "gold-pyroxene.PNG",
             "drop": [{ "name": "rat23" }]
+        },
+        {
+            "name": "dark-pyroxene",
+            "nameRU": "Темный жадеит",
+            "img": "dark-pyroxene.PNG",
+            "drop": [{ "name": "nightmare36" }, { "name": "gilia48" }]
         },
         {
             "name": "injury",
@@ -231,7 +261,7 @@
             "name": "healing-root",
             "nameRU": "Исцеляющий корень",
             "img": "healing-root.PNG",
-            "drop": [{ "name": "raptor24" }]
+            "drop": [{ "name": "ant5" }, { "name": "raptor24" }]
         },
         {
             "name": "little-claw",
@@ -376,6 +406,12 @@
             "nameRU": "Противоядие",
             "img": "antidot.PNG",
             "drop": [{ "name": "snake12" }]
+        },
+        {
+            "name": "hepatica",
+            "nameRU": "Подснежник",
+            "img": "hepatica.PNG",
+            "drop": [{ "name": "tushkanchik16" }]
         }
     ]
 }

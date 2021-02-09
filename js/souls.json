@@ -196,6 +196,15 @@
             "img": "purple-soul.JPG",
             "effect": "Защита +3, сопротивляемость прерыванию атаки блокированием +15",
             "drop": [{ "name": "skeleton50" }]
+        },
+        {
+            "name": "hurry-soul",
+            "nameRU": "Спешащая душа",
+            "part": "Оружие, Пояс",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Атака +3, скорость атаки +2%",
+            "drop": [{ "name": "fly7" }]
         }
     ]
 }
