@@ -1,6 +1,10 @@
 function sortByLvl(mobs) {
     mobs.sort(function(a, b) {
-
+        if (a.lvl == "NPC") {
+            return 1;
+        } else if (b.lvl == "NPC") {
+            return -1;
+        }
         return a.lvl - b.lvl;
     })
 

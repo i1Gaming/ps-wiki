@@ -138,7 +138,7 @@
             "nameRU": "Льняная туника",
             "type": "body",
             "lvl": 15,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "kapibara18", "slot": "2" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
         },
         {
             "name": "woolen-clothes26",

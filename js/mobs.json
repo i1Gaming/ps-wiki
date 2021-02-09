@@ -437,7 +437,7 @@
         {
             "name": "shin",
             "nameRU": "Торговец доспехами Шин",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "shin.PNG",
             "habitat": [{
                     "location": "astir",
@@ -468,7 +468,7 @@
         {
             "name": "kester",
             "nameRU": "Торговец доспехами Кестер",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "kester.PNG",
             "habitat": [{
                     "location": "astir",
@@ -499,7 +499,7 @@
         {
             "name": "david",
             "nameRU": "Торговец доспехами Давид",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "david.PNG",
             "habitat": [{
                     "location": "astir",
@@ -530,7 +530,7 @@
         {
             "name": "vargas",
             "nameRU": "Торговец доспехами Варгас",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "vargas.PNG",
             "habitat": [{
                     "location": "empire",
@@ -559,7 +559,7 @@
         {
             "name": "dip",
             "nameRU": "Торговец доспехами Дип",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "dip.PNG",
             "habitat": [{
                     "location": "union",
@@ -588,7 +588,7 @@
         {
             "name": "frederika",
             "nameRU": "Торговка доспехами Фредерика",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "frederika.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -617,7 +617,7 @@
         {
             "name": "yalumi",
             "nameRU": "Торговец оружием Ялуми",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "yalumi.PNG",
             "habitat": [{
                     "location": "astir",
@@ -650,7 +650,7 @@
         {
             "name": "galo",
             "nameRU": "Торговец оружием Гало",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "galo.PNG",
             "habitat": [{
                     "location": "astir",
@@ -683,7 +683,7 @@
         {
             "name": "lu",
             "nameRU": "Торговец оружием Лу",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "lu.PNG",
             "habitat": [{
                     "location": "astir",
@@ -716,7 +716,7 @@
         {
             "name": "kerring",
             "nameRU": "Торговец оружием Керринг",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "kerring.PNG",
             "habitat": [{
                     "location": "empire",
@@ -748,7 +748,7 @@
         {
             "name": "forks",
             "nameRU": "Торговец оружием Форкс",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "forks.PNG",
             "habitat": [{
                     "location": "union",
@@ -780,7 +780,7 @@
         {
             "name": "servia",
             "nameRU": "Торговка оружием Сервия",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "servia.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -812,7 +812,7 @@
         {
             "name": "flaren",
             "nameRU": "Торговец предметами Фларрен",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "flaren.PNG",
             "habitat": [{
                     "location": "astir",
@@ -837,7 +837,7 @@
         {
             "name": "rita",
             "nameRU": "Торговка предметами Рита",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "rita.PNG",
             "habitat": [{
                     "location": "astir",
@@ -862,7 +862,7 @@
         {
             "name": "uikki",
             "nameRU": "Торговец предметами Уикки",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "uikki.PNG",
             "habitat": [{
                     "location": "astir",
@@ -887,7 +887,7 @@
         {
             "name": "ben",
             "nameRU": "Торговец предметами Бен",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "ben.PNG",
             "habitat": [{
                     "location": "astir",
@@ -912,7 +912,7 @@
         {
             "name": "livvi",
             "nameRU": "Торговец предметами Ливви",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "livvi.PNG",
             "habitat": [{
                     "location": "union",
@@ -937,7 +937,7 @@
         {
             "name": "givern",
             "nameRU": "Торговец предметами Гиверн",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "givern.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -962,7 +962,7 @@
         {
             "name": "turena",
             "nameRU": "Торговка предметами Турена",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "turena.PNG",
             "habitat": [{
                     "location": "empire",
@@ -987,7 +987,7 @@
         {
             "name": "merchant",
             "nameRU": "Купец",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "merchant.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -1032,7 +1032,7 @@
         {
             "name": "weapon-master",
             "nameRU": "Мастер оружия",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "weapon-master.PNG",
             "habitat": [{
                     "location": "union",
@@ -1071,7 +1071,7 @@
         {
             "name": "saimon",
             "nameRU": "Саймон",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "saimon.PNG",
             "habitat": [{
                     "location": "union",
@@ -1098,7 +1098,7 @@
         {
             "name": "ogun8",
             "nameRU": "Огун VIII",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "ogun8.PNG",
             "habitat": [{
                     "location": "kingdom",
@@ -1125,7 +1125,7 @@
         {
             "name": "sodan",
             "nameRU": "Содан",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "sodan.PNG",
             "habitat": [{
                     "location": "empire",
@@ -1220,7 +1220,7 @@
         {
             "name": "mary",
             "nameRU": "Мэри",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "mary.PNG",
             "habitat": [{
                     "location": "astir",
@@ -1250,7 +1250,7 @@
         {
             "name": "djo",
             "nameRU": "Джо",
-            "lvl": "999",
+            "lvl": "NPC",
             "img": "djo.PNG",
             "habitat": [{
                     "location": "astir",
@@ -1434,7 +1434,7 @@
                 }
             ],
             "drop": {
-                "easy": [{ "type": "other", "name": "rotting-bone" }, { "type": "other", "name": "dilapidated-bone" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "cracked-skull" }],
+                "easy": [{ "type": "other", "name": "rotting-bone" }, { "type": "other", "name": "dilapidated-bone" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "crushed-skull" }],
                 "medium": [{ "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "painkiller" }],
                 "hard": []
             }
@@ -1646,8 +1646,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "empty-bottle" }],
-                "medium": [{ "type": "other", "name": "healing-root" }],
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "healing-root" }, { "type": "other", "name": "empty-bottle" }],
+                "medium": [{ "type": "other", "name": "sweet-bile" }],
                 "hard": []
             }
         },
@@ -1676,8 +1676,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "crushed-skull" }, { "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "rotting-bone" }],
+                "medium": [{ "type": "other", "name": "moonlight-grass" }],
                 "hard": []
             }
         },
@@ -1693,8 +1693,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "tiched-fur" }],
+                "medium": [{ "type": "other", "name": "crush-red-pyroxene" }],
                 "hard": []
             }
         },
@@ -1710,9 +1710,9 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "tiched-fur" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "small-fangs" }],
+                "hard": [{ "type": "armor", "name": "linen-tunic15", "slots": "2" }]
             }
         },
         {
@@ -1758,8 +1758,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "rotting-bone" }, { "type": "other", "name": "crushed-skull" }, { "type": "other", "name": "dilapidated-bone" }, { "type": "other", "name": "сrushed-bone" }],
+                "medium": [{ "type": "other", "name": "replenishment-potion" }],
                 "hard": []
             }
         },
@@ -1826,7 +1826,7 @@
         {
             "name": "kapibara32",
             "nameRU": "Огромная капибара",
-            "lvl": 20,
+            "lvl": 32,
             "img": "kapibara32.PNG",
             "habitat": [{
                 "location": "west-road",
@@ -1835,7 +1835,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
+                "easy": [{ "type": "other", "name": "cracked-skull" }],
                 "medium": [],
                 "hard": []
             }
@@ -2154,8 +2154,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "pyroxene" }],
+                "medium": [{ "type": "other", "name": "firelvl2" }],
                 "hard": []
             }
         },
@@ -2171,7 +2171,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
+                "easy": [{ "type": "other", "name": "wormy-meat" }, { "type": "other", "name": "rotten-meat" }, { "type": "other", "name": "saved-soul" }],
                 "medium": [],
                 "hard": []
             }
