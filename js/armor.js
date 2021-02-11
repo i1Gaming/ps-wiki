@@ -273,7 +273,6 @@ function filter() {
         $.each(itemLocations, function(key, location) {
             allLocations.push(location.dataset.location);
         });
-        console.log(allLocations);
         var showStatus = true;
         $.each(chosenArmor, function(key, curLoc) {
             if (!allLocations.includes(curLoc)) {

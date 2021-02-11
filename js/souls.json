@@ -54,6 +54,15 @@
             "drop": [{ "name": "hell-spider51" }]
         },
         {
+            "name": "berserk-soul",
+            "nameRU": "Душа Берсерка",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "СИЛ +1, ПРВ +1, ИНТ -3, Вероятность критического урона +1%",
+            "drop": [{ "name": "ghost45" }]
+        },
+        {
             "name": "witchcraft-soul",
             "nameRU": "Душа Колдовства",
             "part": "Оружие",

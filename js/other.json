@@ -3,25 +3,25 @@
             "name": "small-fangs",
             "nameRU": "Маленький клык",
             "img": "small-fangs.PNG",
-            "drop": [{ "name": "tushkanchik3" }, { "name": "snake6" }, { "name": "snake8" }, { "name": "snake12" }, { "name": "tushkanchik16" }, { "name": "snake17" }, { "name": "dikobraz17" }, { "name": "kapibara18" }]
+            "drop": [{ "name": "tushkanchik3" }, { "name": "snake6" }, { "name": "snake8" }, { "name": "snake12" }, { "name": "tushkanchik16" }, { "name": "snake17" }, { "name": "dikobraz17" }, { "name": "kapibara18" }, { "name": "chiko20" }]
         },
         {
             "name": "painkiller",
             "nameRU": "Легкое исцеляющее зелье",
             "img": "painkiller.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "tushkanchik3" }, { "name": "bat4" }, { "name": "snake6" }, { "name": "maroder9" }, { "name": "wolf10" }, { "name": "razboinik-shaman15" }, { "name": "razboinik-hunter17" }, { "name": "razboinik-vojak19" }, { "name": "slug31" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "tushkanchik3" }, { "name": "bat4" }, { "name": "snake6" }, { "name": "maroder9" }, { "name": "wolf10" }, { "name": "razboinik-shaman15" }, { "name": "razboinik-hunter17" }, { "name": "bat18" }, { "name": "razboinik-vojak19" }, { "name": "wolf20" }, { "name": "slug31" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "replenishment-potion",
             "nameRU": "Легкое восстонавливающее зелье",
             "img": "replenishment-potion.PNG",
-            "drop": [{ "name": "tushkanchik3" }, { "name": "bat4" }, { "name": "zakl9" }, { "name": "living-dead8" }, { "name": "skeleton17" }, { "name": "skeleton18" }, { "name": "zrica19" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "tushkanchik3" }, { "name": "bat4" }, { "name": "zakl9" }, { "name": "living-dead8" }, { "name": "skeleton17" }, { "name": "skeleton18" }, { "name": "bat18" }, { "name": "zrica19" }, { "name": "chiko20" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "pyroxene-whelk",
             "nameRU": "Кусок жадеита",
             "img": "pyroxene-whelk.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "snake6" }, { "name": "snake8" }, { "name": "slug8" }, { "name": "zakl9" }, { "name": "wolf10" }, { "name": "spider14" }, { "name": "fly15" }, { "name": "razboinik-shaman15" }, { "name": "razboinik-hunter17" }, { "name": "kapibara18" }, { "name": "zrica19" }, { "name": "razboinik-vojak19" }, { "name": "slug31" }, { "name": "rat23" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "snake6" }, { "name": "snake8" }, { "name": "slug8" }, { "name": "zakl9" }, { "name": "wolf10" }, { "name": "spider14" }, { "name": "fly15" }, { "name": "razboinik-shaman15" }, { "name": "razboinik-hunter17" }, { "name": "kapibara18" }, { "name": "zrica19" }, { "name": "wolf20" }, { "name": "razboinik-vojak19" }, { "name": "slug31" }, { "name": "rat23" }]
         },
         {
             "name": "poisonous-grass",
@@ -63,13 +63,13 @@
             "name": "bat-feathers",
             "nameRU": "Крылья летучей мыши",
             "img": "bat-feathers.PNG",
-            "drop": [{ "name": "bat4" }, { "name": "nightmare36" }, { "name": "gilia48" }]
+            "drop": [{ "name": "bat4" }, { "name": "bat18" }, { "name": "nightmare36" }, { "name": "gilia48" }]
         },
         {
             "name": "muldian-medal",
             "nameRU": "Имперская медаль Мальдии",
             "img": "muldian-medal.PNG",
-            "drop": [{ "name": "ghost31" }, { "name": "nightmare36" }, { "name": "hell-spider51" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }, { "name": "earth-demon53" }, { "name": "ghost33" }, { "name": "skeleton50" }, { "name": "ghost55" }]
+            "drop": [{ "name": "ghost31" }, { "name": "nightmare36" }, { "name": "hell-spider51" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }, { "name": "earth-demon53" }, { "name": "ghost33" }, { "name": "skeleton50" }, { "name": "ghost55" }, { "name": "isp55" }]
         },
         {
             "name": "lightlvl2",
@@ -141,7 +141,7 @@
             "name": "empty-bottle",
             "nameRU": "Пустая бутыль",
             "img": "empty-bottle.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "ant16" }, { "name": "slug20" }, { "name": "slug31" }, { "name": "ant40" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "ant7" }, { "name": "slug8" }, { "name": "ant16" }, { "name": "slug20" }, { "name": "chiko20" }, { "name": "slug31" }, { "name": "ant40" }]
         },
         {
             "name": "acid-bile",
@@ -171,7 +171,7 @@
             "name": "meat",
             "nameRU": "Мясо",
             "img": "meat.PNG",
-            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "zombie4" }, { "name": "living-dead8" }, { "name": "slug8" }, { "name": "wolf10" }, { "name": "spider14" }, { "name": "slug20" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
+            "drop": [{ "name": "slug1" }, { "name": "fly2" }, { "name": "zombie4" }, { "name": "living-dead8" }, { "name": "slug8" }, { "name": "wolf10" }, { "name": "spider14" }, { "name": "wolf20" }, { "name": "slug20" }, { "name": "flaren" }, { "name": "rita" }, { "name": "uikki" }, { "name": "ben" }, { "name": "livvi" }, { "name": "givern" }, { "name": "turena" }]
         },
         {
             "name": "wormy-meat",
@@ -225,7 +225,13 @@
             "name": "dirty-fur",
             "nameRU": "Грязный мех",
             "img": "dirty-fur.PNG",
-            "drop": [{ "name": "wolf10" }, { "name": "rat23" }, { "name": "dikobraz17" }, { "name": "kapibara18" }]
+            "drop": [{ "name": "wolf10" }, { "name": "rat23" }, { "name": "wolf20" }, { "name": "dikobraz17" }, { "name": "kapibara18" }]
+        },
+        {
+            "name": "little-dirty-fur",
+            "nameRU": "Слегка загрязненный мех",
+            "img": "little-dirty-fur.PNG",
+            "drop": [{ "name": "wolf20" }]
         },
         {
             "name": "gold-pyroxene",
@@ -279,13 +285,13 @@
             "name": "little-claw",
             "nameRU": "Маленький коготь",
             "img": "little-claw.PNG",
-            "drop": [{ "name": "raptor24" }]
+            "drop": [{ "name": "bat18" }, { "name": "raptor24" }, { "name": "bat26" }]
         },
         {
             "name": "rounded-claw",
             "nameRU": "Закругленный коготь",
             "img": "rounded-claw.PNG",
-            "drop": [{ "name": "raptor24" }]
+            "drop": [{ "name": "raptor24" }, { "name": "bat26" }]
         },
         {
             "name": "decaying-meat",
@@ -375,7 +381,7 @@
             "name": "cracked-claw",
             "nameRU": "Треснувший коготь",
             "img": "cracked-claw.PNG",
-            "drop": [{ "name": "bat4" }]
+            "drop": [{ "name": "bat4" }, { "name": "bat18" }]
         },
         {
             "name": "offensive-bile",
@@ -435,7 +441,7 @@
             "name": "hepatica",
             "nameRU": "Подснежник",
             "img": "hepatica.PNG",
-            "drop": [{ "name": "tushkanchik16" }]
+            "drop": [{ "name": "tushkanchik16" }, { "name": "chiko20" }]
         }
     ]
 }

@@ -61,7 +61,14 @@
             "nameRU": "Шляпа волшебника",
             "type": "helmet",
             "lvl": 35,
-            "drop": [{ "name": "gilia48", "slot": "0" }]
+            "drop": [{ "name": "gilia48", "slot": "0" }, { "name": "earth-demon53", "slot": "1" }]
+        },
+        {
+            "name": "kardinalka35",
+            "nameRU": "Кардинальская шапка",
+            "type": "helmet",
+            "lvl": 35,
+            "drop": [{ "name": "earth-demon53", "slot": "1" }]
         },
         {
             "name": "half-closed-helmet35",

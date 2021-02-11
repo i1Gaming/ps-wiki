@@ -94,7 +94,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "alive-soul" }, { "type": "other", "name": "desperate-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "small-silver-pyroxene" }],
-                "hard": [{ "type": "other", "name": "rainbowlvl1" }, { "type": "armor", "name": "clothes-life35", "slots": "0,1" }]
+                "hard": [{ "type": "other", "name": "rainbowlvl1" }, { "type": "armor", "name": "clothes-life35", "slots": "0,1" }, { "type": "soul", "name": "berserk-soul" }]
             }
         },
         {
@@ -147,7 +147,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "soul", "name": "witchcraft-soul" }]
+                "hard": [{ "type": "soul", "name": "witchcraft-soul" }, { "type": "armor", "name": "wizard-hat35", "slots": "1" }, { "type": "armor", "name": "kardinalka35", "slots": "1" }]
             }
         },
         {
@@ -1788,8 +1788,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "little-dirty-fur" }],
+                "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "painkiller" }],
                 "hard": []
             }
         },
@@ -1846,11 +1846,18 @@
             "lvl": 33,
             "img": "rat33.PNG",
             "habitat": [{
-                "location": "west-road",
-                "coordinates": "D-5",
-                "day": true,
-                "night": true
-            }],
+                    "location": "west-road",
+                    "coordinates": "D-5",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "himurartu",
+                    "coordinates": "F, G-4,5 / J-4 / H, I-12,13 / I-11",
+                    "day": true,
+                    "night": true
+                }
+            ],
             "drop": {
                 "easy": [],
                 "medium": [],
@@ -2000,8 +2007,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "empty-bottle" }],
+                "medium": [{ "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "hepatica" }],
                 "hard": []
             }
         },
@@ -2096,8 +2103,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "cracked-claw" }, { "type": "other", "name": "little-claw" }, { "type": "other", "name": "painkiller" }],
+                "medium": [{ "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "bat-feathers" }],
                 "hard": []
             }
         },
@@ -2115,12 +2122,12 @@
                 {
                     "location": "east-road",
                     "coordinates": "J-7",
-                    "day": true,
+                    "day": false,
                     "night": true
                 }
             ],
             "drop": {
-                "easy": [],
+                "easy": [{ "type": "other", "name": "little-claw" }, { "type": "other", "name": "rounded-claw" }],
                 "medium": [],
                 "hard": []
             }
@@ -3170,6 +3177,23 @@
             ],
             "drop": {
                 "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "isp55",
+            "nameRU": "Каменный голем",
+            "lvl": 55,
+            "img": "isp55.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "E-14 / I-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
                 "hard": []
             }
