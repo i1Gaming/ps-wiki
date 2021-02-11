@@ -1693,7 +1693,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "tiched-fur" }],
+                "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "ticked-fur" }],
                 "medium": [{ "type": "other", "name": "crush-red-pyroxene" }],
                 "hard": []
             }
@@ -1710,7 +1710,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [{ "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "tiched-fur" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "easy": [{ "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "ticked-fur" }, { "type": "other", "name": "pyroxene-whelk" }],
                 "medium": [{ "type": "other", "name": "small-fangs" }],
                 "hard": [{ "type": "armor", "name": "linen-tunic15", "slots": "2" }]
             }

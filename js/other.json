@@ -216,9 +216,9 @@
             "drop": [{ "name": "snake12" }, { "name": "tushkanchik16" }, { "name": "snake17" }]
         },
         {
-            "name": "tiched-fur",
+            "name": "ticked-fur",
             "nameRU": "Порченый мех",
-            "img": "tiched-fur.PNG",
+            "img": "ticked-fur.PNG",
             "drop": [{ "name": "dikobraz17" }, { "name": "kapibara18" }]
         },
         {
