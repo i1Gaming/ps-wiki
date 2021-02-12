@@ -381,8 +381,8 @@
                 }
             ],
             "drop": {
-                "easy": [{ "type": "other", "name": "wormy-meat" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "rotten-meat" }, { "type": "other", "name": "replenishment-potion-60" }],
-                "medium": [{ "type": "other", "name": "decaying-meat" }],
+                "easy": [{ "type": "other", "name": "wormy-meat" }],
+                "medium": [{ "type": "other", "name": "decaying-meat" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "replenishment-potion-60" }],
                 "hard": [{ "type": "soul", "name": "needle-soul" }, { "type": "soul", "name": "fountain-soul" }]
             }
         },
@@ -2208,9 +2208,9 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "rotting-bone" }, { "type": "other", "name": "сrushed-bone" }, { "type": "other", "name": "old-bone" }],
+                "medium": [{ "type": "other", "name": "replenishment-potion" }],
+                "hard": [{ "type": "other", "name": "darklvl1" }]
             }
         },
         {
@@ -2297,8 +2297,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "viscous-bile" }, { "type": "other", "name": "acid-bile" }, { "type": "other", "name": "small-pyroxene" }, { "type": "other", "name": "empty-bottle" }],
+                "medium": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "firelvl1" }],
                 "hard": []
             }
         },
@@ -2327,8 +2327,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "acid-bile" }, { "type": "other", "name": "meat" }],
+                "medium": [{ "type": "other", "name": "gold-pyroxene" }, { "type": "other", "name": "painkiller" }],
                 "hard": []
             }
         },
@@ -2351,8 +2351,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "helpless-soul" }, { "type": "other", "name": "saved-soul" }],
+                "medium": [{ "type": "other", "name": "red-pyroxene" }, { "type": "other", "name": "fire-root" }],
                 "hard": []
             }
         },
@@ -2375,8 +2375,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "bloody-fur" }, { "type": "other", "name": "dirty-fur" }],
+                "medium": [{ "type": "other", "name": "big-claw" }, { "type": "bijouterie", "name": "magic-earring20" }],
                 "hard": []
             }
         },
@@ -2400,7 +2400,7 @@
         {
             "name": "snake33",
             "nameRU": "Гюрза",
-            "lvl": 23,
+            "lvl": 33,
             "img": "snake33.PNG",
             "habitat": [{
                     "location": "nelstadt",
@@ -2748,8 +2748,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "jagged-claw" }, { "type": "other", "name": "little-claw" }, { "type": "other", "name": "big-claw" }, { "type": "other", "name": "replenishment-potion" }],
+                "medium": [{ "type": "other", "name": "painkiller" }, { "type": "other", "name": "bat-feathers" }],
                 "hard": []
             }
         },
@@ -3143,6 +3143,23 @@
                 "location": "himurartu",
                 "coordinates": "J,H,I-5,6",
                 "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "branic48",
+            "nameRU": "Браниц",
+            "lvl": 48,
+            "img": "branic48.PNG",
+            "habitat": [{
+                "location": "nelstadt",
+                "coordinates": "E-9 / F-10",
+                "day": false,
                 "night": true
             }],
             "drop": {

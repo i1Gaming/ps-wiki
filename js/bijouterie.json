@@ -49,6 +49,13 @@
             "drop": [{ "name": "merchant" }]
         },
         {
+            "name": "magic-earring20",
+            "nameRU": "Волшебная серьга",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "wolf26" }]
+        },
+        {
             "name": "earring30",
             "nameRU": "Серьга",
             "type": "earring",
