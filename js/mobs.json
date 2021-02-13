@@ -2232,8 +2232,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "sharpened-claw" }],
+                "medium": [{ "type": "other", "name": "sharp-claw" }, { "type": "other", "name": "small-yellow-pyroxene" }, { "type": "other", "name": "injury" }],
                 "hard": []
             }
         },
@@ -2256,8 +2256,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "sharpened-claw" }, { "type": "other", "name": "little-claw" }],
+                "medium": [{ "type": "other", "name": "crush-yellow-pyroxene" }],
                 "hard": []
             }
         },
@@ -2392,7 +2392,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
+                "easy": [{ "type": "other", "name": "multicolored-bile" }, { "type": "other", "name": "pyroxene" }, { "type": "other", "name": "fresh-meat" }],
                 "medium": [],
                 "hard": []
             }
@@ -2416,8 +2416,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "sharpened-fang" }, { "type": "other", "name": "sharp-fang" }, { "type": "other", "name": "curved-fang" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "poison" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "lightlvl1" }],
                 "hard": []
             }
         },
@@ -2446,8 +2446,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "thick-bone" }, { "type": "other", "name": "strong-bone" }, { "type": "other", "name": "dried-bone" }],
+                "medium": [{ "type": "other", "name": "suffering-soul" }],
                 "hard": []
             }
         },
@@ -2470,9 +2470,9 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }],
+                "medium": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "antidot" }],
+                "hard": [{ "type": "other", "name": "icelvl1" }]
             }
         },
         {
@@ -2494,9 +2494,9 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "trap" }],
+                "medium": [{ "type": "other", "name": "injury" }],
+                "hard": [{ "type": "other", "name": "lightninglvl1" }]
             }
         },
         {
@@ -2518,9 +2518,9 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "holy-water" }],
+                "medium": [{ "type": "other", "name": "injury" }],
+                "hard": [{ "type": "other", "name": "poisonlvl1" }]
             }
         },
         {
@@ -2548,8 +2548,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "bloody-fur" }, { "type": "other", "name": "ticked-fur" }, { "type": "other", "name": "little-dirty-fur" }, { "type": "other", "name": "meat" }, { "type": "other", "name": "painkiller" }],
+                "medium": [{ "type": "other", "name": "pyroxene" }],
                 "hard": []
             }
         },
@@ -2578,8 +2578,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "suffering-soul" }, { "type": "other", "name": "wandering-soul" }, { "type": "other", "name": "saved-soul" }],
+                "medium": [{ "type": "other", "name": "fire-root" }, { "type": "other", "name": "replenishment-potion" }],
                 "hard": []
             }
         },
@@ -2619,8 +2619,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "cracked-claw" }, { "type": "other", "name": "broken-fang" }, { "type": "other", "name": "sharpened-claw" }],
+                "medium": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "replenishment-potion-60" }, { "type": "other", "name": "dark-pyroxene" }, { "type": "other", "name": "bat-feathers" }],
                 "hard": []
             }
         },
@@ -2649,8 +2649,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "dried-bone" }, { "type": "other", "name": "big-bone" }, { "type": "other", "name": "strong-bone" }],
+                "medium": [{ "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "red-pyroxene" }],
                 "hard": []
             }
         },
