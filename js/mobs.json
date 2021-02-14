@@ -1859,8 +1859,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "bloody-fur" }, { "type": "other", "name": "little-dirty-fur" }, { "type": "other", "name": "dirty-fur" }],
+                "medium": [{ "type": "other", "name": "poison-fang" }, { "type": "other", "name": "small-pyroxene" }, { "type": "other", "name": "injury" }],
                 "hard": []
             }
         },
@@ -2009,7 +2009,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "small-fangs" }, { "type": "other", "name": "empty-bottle" }],
                 "medium": [{ "type": "other", "name": "replenishment-potion" }, { "type": "other", "name": "hepatica" }],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "crown5", "slots": "1" }]
             }
         },
         {
@@ -2870,8 +2870,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "volatile-bile" }, { "type": "other", "name": "sweet-bile" }, { "type": "other", "name": "pyroxene" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "empty-bottle" }, { "type": "other", "name": "poisonlvl1" }],
                 "hard": []
             }
         },
@@ -2928,8 +2928,8 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "cracked-claw" }, { "type": "other", "name": "rounded-claw" }, { "type": "other", "name": "curved-claw" }],
+                "medium": [{ "type": "other", "name": "small-red-pyroxene" }, { "type": "other", "name": "crush-red-pyroxene" }, { "type": "other", "name": "antidot" }],
                 "hard": []
             }
         },
@@ -3003,9 +3003,9 @@
                 }
             ],
             "drop": {
-                "easy": [],
-                "medium": [],
-                "hard": []
+                "easy": [{ "type": "other", "name": "volatile-bile" }, { "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "multicolored-bile" }],
+                "medium": [{ "type": "other", "name": "sweet-bile" }, { "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "poisonlvl1" }],
+                "hard": [{ "type": "soul", "name": "fire-soul" }]
             }
         },
         {
@@ -3027,9 +3027,9 @@
                 }
             ],
             "drop": {
-                "easy": [],
+                "easy": [{ "type": "other", "name": "viscous-bile" }, { "type": "other", "name": "sweet-bile" }, { "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "poisonous-grass" }],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "other", "name": "poison" }]
             }
         },
         {
@@ -3044,8 +3044,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "bloody-fur" }],
+                "medium": [{ "type": "other", "name": "ticked-fur" }, { "type": "other", "name": "healing-root" }, { "type": "other", "name": "little-claw" }],
                 "hard": []
             }
         },
@@ -3095,8 +3095,8 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
-                "medium": [],
+                "easy": [{ "type": "other", "name": "hard-fur" }, { "type": "other", "name": "bloody-fur" }],
+                "medium": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "gold-pyroxene" }],
                 "hard": []
             }
         },
@@ -3112,7 +3112,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "small-pyroxene" }],
+                "easy": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "small-pyroxene" }, { "type": "other", "name": "pyroxene" }],
                 "medium": [],
                 "hard": []
             }
@@ -3146,7 +3146,7 @@
                 "night": true
             }],
             "drop": {
-                "easy": [],
+                "easy": [{ "type": "other", "name": "acid-bile" }, { "type": "other", "name": "sweet-bile" }, { "type": "other", "name": "volatile-bile" }, { "type": "other", "name": "empty-bottle" }],
                 "medium": [],
                 "hard": []
             }

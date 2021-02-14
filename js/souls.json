@@ -207,6 +207,15 @@
             "drop": [{ "name": "skeleton50" }]
         },
         {
+            "name": "fire-soul",
+            "nameRU": "Душа Огня",
+            "part": "Щит",
+            "color": "purple",
+            "img": "purple-soul.JPG",
+            "effect": "Сопротивляемость магии огня +40, магии льда -25",
+            "drop": [{ "name": "spider28" }]
+        },
+        {
             "name": "hurry-soul",
             "nameRU": "Спешащая душа",
             "part": "Оружие, Пояс",

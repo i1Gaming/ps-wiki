@@ -103,7 +103,7 @@
             "nameRU": "Венец",
             "type": "helmet",
             "lvl": 5,
-            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "chiko20", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "plain-tunic1",
