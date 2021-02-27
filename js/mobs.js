@@ -73,6 +73,9 @@ function getRuLocation(locationName) {
         case 'el-bed':
             locationRU = 'Эль Ведд'
             break;
+        case 'roscha':
+            locationRU = 'Забытая роща'
+            break;
         case 'east-road':
             locationRU = 'Восточная дорога ветров'
             break;

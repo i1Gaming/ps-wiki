@@ -27,6 +27,15 @@
             "drop": [{ "name": "ghost41" }]
         },
         {
+            "name": "strong-soul",
+            "nameRU": "Сильная душа",
+            "part": "Оружие",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Атака +6",
+            "drop": [{ "name": "snake48" }]
+        },
+        {
             "name": "ranger-soul",
             "nameRU": "Душа Следопыта",
             "part": "Оружие",
@@ -43,6 +52,15 @@
             "img": "red-soul.JPG",
             "effect": "ИНТ +1, Ом +80",
             "drop": [{ "name": "hell-spider51" }]
+        },
+        {
+            "name": "knight-soul",
+            "nameRU": "Душа Рыцаря",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "Оз +8%, Ом +8%",
+            "drop": [{ "name": "skeleton51" }]
         },
         {
             "name": "gladiator-soul",
@@ -79,6 +97,15 @@
             "img": "blue-soul.JPG",
             "effect": "Ом +6",
             "drop": [{ "name": "tushkanchik3" }]
+        },
+        {
+            "name": "wolf-soul",
+            "nameRU": "Душа Волка",
+            "part": "Доспех, Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Уклонение +1, сопротивляемость заморозке +3",
+            "drop": [{ "name": "wolf10" }, { "name": "wolf20" }]
         },
         {
             "name": "labor-soul",
@@ -160,6 +187,15 @@
             "img": "blue-soul.JPG",
             "effect": "Защита +1, уклонение -1",
             "drop": [{ "name": "ant40" }]
+        },
+        {
+            "name": "sage-soul",
+            "nameRU": "Душа Мудреца",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "ОМ +50",
+            "drop": [{ "name": "ghost53" }]
         },
         {
             "name": "calm-soul",

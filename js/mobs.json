@@ -36,7 +36,7 @@
             "img": "nightmare36.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
@@ -53,7 +53,7 @@
             "img": "ghost41.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
@@ -70,14 +70,14 @@
             "img": "ghost43.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "evil-soul" }, { "type": "other", "name": "alive-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "lightlvl2" }],
-                "hard": [{ "type": "soul", "name": "ranger-soul" }, { "type": "armor", "name": "metal-gloves30", "slots": "1" }]
+                "hard": [{ "type": "soul", "name": "ranger-soul" }, { "type": "armor", "name": "metal-gloves30", "slots": "1" }, { "type": "armor", "name": "long-crags26", "slots": "1" }]
             }
         },
         {
@@ -87,7 +87,7 @@
             "img": "ghost45.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
@@ -104,7 +104,7 @@
             "img": "gilia48.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
@@ -122,8 +122,8 @@
             "lvl": 51,
             "img": "hell-spider51.PNG",
             "habitat": [{
-                "location": "muldian",
-                "coordinates": "E-14 / F-11 / H-7 / I-7,10,11 / J-11",
+                "location": "roscha",
+                "coordinates": "J-14",
                 "day": true,
                 "night": true
             }],
@@ -139,8 +139,8 @@
             "lvl": 53,
             "img": "earth-demon53.PNG",
             "habitat": [{
-                "location": "muldian",
-                "coordinates": "F-13 / G-7 / I-12",
+                "location": "roscha",
+                "coordinates": "G-12",
                 "day": true,
                 "night": true
             }],
@@ -322,7 +322,7 @@
             "img": "ghost33.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
@@ -1156,7 +1156,7 @@
             "img": "skeleton50.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "F-7,12 / I-11",
+                "coordinates": "F-8,12 / I-10",
                 "day": true,
                 "night": true
             }],
@@ -1173,7 +1173,7 @@
             "img": "ghost55.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "F-7,12 / I-11",
+                "coordinates": "F-8,12 / I-10",
                 "day": true,
                 "night": true
             }],
@@ -1190,7 +1190,7 @@
             "img": "ghost31.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
@@ -1207,7 +1207,7 @@
             "img": "ghost39.PNG",
             "habitat": [{
                 "location": "muldian",
-                "coordinates": "D-13 / E-12,13,14 / F-11 / G-7,11 / H-7,12 / I-7,9,10,11,12 / J-11",
+                "coordinates": "F - 8,9 / F, G-11 / I-7",
                 "day": true,
                 "night": true
             }],
@@ -1541,7 +1541,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "dirty-fur" }],
                 "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "meat" }],
-                "hard": [{ "type": "armor", "name": "durable-vest7", "slots": "1" }]
+                "hard": [{ "type": "armor", "name": "durable-vest7", "slots": "1" }, { "type": "soul", "name": "wolf-soul" }]
             }
         },
         {
@@ -1790,7 +1790,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "meat" }, { "type": "other", "name": "dirty-fur" }, { "type": "other", "name": "little-dirty-fur" }],
                 "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "painkiller" }],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "regular-boots16", "slots": "1" }, { "type": "soul", "name": "wolf-soul" }]
             }
         },
         {
@@ -3169,6 +3169,23 @@
             }
         },
         {
+            "name": "ogr50",
+            "nameRU": "Огр",
+            "lvl": 50,
+            "img": "ogr50.PNG",
+            "habitat": [{
+                "location": "nelstadt",
+                "coordinates": "C-8, K-10, D-9, F-5,6, J-7",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
             "name": "slug55",
             "nameRU": "Великий слизень",
             "lvl": 55,
@@ -3204,14 +3221,269 @@
             "lvl": 55,
             "img": "isp55.PNG",
             "habitat": [{
-                "location": "muldian",
-                "coordinates": "E-14 / I-11",
+                "location": "roscha",
+                "coordinates": "H-11",
                 "day": true,
                 "night": true
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
+                "hard": [{ "type": "armor", "name": "defender-shield35", "slots": "1" }]
+            }
+        },
+        {
+            "name": "spider63",
+            "nameRU": "Большой паук",
+            "lvl": 63,
+            "img": "spider63.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "K-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "spider62",
+            "nameRU": "Белый паук",
+            "lvl": 62,
+            "img": "spider62.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "L-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "viverna61",
+            "nameRU": "Виверна",
+            "lvl": 61,
+            "img": "viverna61.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "K-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake60",
+            "nameRU": "Пещерная змея",
+            "lvl": 60,
+            "img": "snake60.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "J-14",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "komodo51",
+            "nameRU": "Комодо",
+            "lvl": 51,
+            "img": "komodo51.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "I-14",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "snake48",
+            "nameRU": "Гигантский питон",
+            "lvl": 48,
+            "img": "snake48.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "H-13",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": [{ "type": "soul", "name": "strong-soul" }]
+            }
+        },
+        {
+            "name": "snake45",
+            "nameRU": "Кошачья змея",
+            "lvl": 45,
+            "img": "snake45.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "H-13",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "isp-green55",
+            "nameRU": "Страж леса",
+            "lvl": 55,
+            "img": "isp-green55.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "H-11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton51",
+            "nameRU": "Скелет стражник",
+            "lvl": 51,
+            "img": "skeleton51.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "G-14",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": [{ "type": "soul", "name": "knight-soul" }]
+            }
+        },
+        {
+            "name": "ant51",
+            "nameRU": "Термит",
+            "lvl": 51,
+            "img": "ant51.PNG",
+            "habitat": [{
+                "location": "roscha",
+                "coordinates": "G-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "ghost51",
+            "nameRU": "Призрак",
+            "lvl": 51,
+            "img": "ghost51.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / G-7 / H-7 / I-11 / L-4,5 / M-5",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "ghost53",
+            "nameRU": "Призрачный боец",
+            "lvl": 53,
+            "img": "ghost53.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / G-7 / H-7 / I-11 / L-4,5 / M-5",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": [{ "type": "soul", "name": "sage-soul" }]
+            }
+        },
+        {
+            "name": "ghost-kop55",
+            "nameRU": "Призрак копейщика",
+            "lvl": 55,
+            "img": "ghost-kop55.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / G-7 / H-7 / I-11 / L-4,5 / M-5",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "ghost57",
+            "nameRU": "Темный воин",
+            "lvl": 57,
+            "img": "ghost57.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / G-7 / H-7 / I-11 / L-4,5 / M-5",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "gilia55",
+            "nameRU": "Жестокий палач",
+            "lvl": 55,
+            "img": "gilia55.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "D-13 / E-12,13,14 / G-7 / H-7 / I-11 / L-4,5 / M-5",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "pure-soul" }],
+                "medium": [{ "type": "other", "name": "muldian-medal" }],
                 "hard": []
             }
         }

@@ -26,7 +26,7 @@
             "nameRU": "Обычные сапоги",
             "type": "foot",
             "lvl": 16,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "wolf20", "slot": "1" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
         },
         {
             "name": "light-shield3",
@@ -271,7 +271,7 @@
             "nameRU": "Длинные краги",
             "type": "arm",
             "lvl": 26,
-            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "ghost43", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "iron-leggings35",
@@ -292,7 +292,7 @@
             "nameRU": "Щит защитника",
             "type": "shield",
             "lvl": 35,
-            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "isp55", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "metal-gloves30",

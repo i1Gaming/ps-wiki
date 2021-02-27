@@ -33,7 +33,7 @@
             "name": "pure-soul",
             "nameRU": "Чистая душа",
             "img": "pure-soul.PNG",
-            "drop": [{ "name": "ghost31" }, { "name": "ghost33" }, { "name": "nightmare36" }, { "name": "ghost39" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }]
+            "drop": [{ "name": "ghost31" }, { "name": "ghost33" }, { "name": "nightmare36" }, { "name": "ghost39" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }, { "name": "ghost51" }, { "name": "ghost53" }, { "name": "ghost-kop55" }, { "name": "gilia55" }, { "name": "ghost57" }]
         },
         {
             "name": "desperate-soul",
@@ -69,7 +69,7 @@
             "name": "muldian-medal",
             "nameRU": "Имперская медаль Мальдии",
             "img": "muldian-medal.PNG",
-            "drop": [{ "name": "ghost31" }, { "name": "nightmare36" }, { "name": "hell-spider51" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }, { "name": "earth-demon53" }, { "name": "ghost33" }, { "name": "skeleton50" }, { "name": "ghost55" }, { "name": "isp55" }]
+            "drop": [{ "name": "ghost31" }, { "name": "ghost33" }, { "name": "nightmare36" }, { "name": "ghost41" }, { "name": "ghost43" }, { "name": "ghost45" }, { "name": "gilia48" }, { "name": "skeleton50" }, { "name": "hell-spider51" }, { "name": "ghost51" }, { "name": "ghost53" }, { "name": "earth-demon53" }, { "name": "ghost55" }, { "name": "isp55" }, { "name": "ghost-kop55" }, { "name": "gilia55" }, { "name": "ghost57" }]
         },
         {
             "name": "lightlvl1",
