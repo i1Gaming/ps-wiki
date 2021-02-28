@@ -54,6 +54,15 @@
             "drop": [{ "name": "hell-spider51" }]
         },
         {
+            "name": "warrior-soul",
+            "nameRU": "Душа Воина",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "Скорость атаки +10%",
+            "drop": [{ "name": "ghost-kop55" }]
+        },
+        {
             "name": "knight-soul",
             "nameRU": "Душа Рыцаря",
             "part": "Руки",
