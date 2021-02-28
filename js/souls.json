@@ -99,6 +99,15 @@
             "drop": [{ "name": "tushkanchik3" }]
         },
         {
+            "name": "turtle-soul",
+            "nameRU": "Душа Черепахи",
+            "part": "Доспех, Ноги, Обувь",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Скорость передвижения -3%, защита +4",
+            "drop": [{ "name": "ghost57" }]
+        },
+        {
             "name": "wolf-soul",
             "nameRU": "Душа Волка",
             "part": "Доспех, Ноги",
