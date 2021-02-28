@@ -257,7 +257,7 @@
             "nameRU": "Бойцовские перчатки",
             "type": "arm",
             "lvl": 11,
-            "drop": [{ "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
+            "drop": [{ "name": "ghost41", "slot": "1" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
         },
         {
             "name": "fur-gloves18",

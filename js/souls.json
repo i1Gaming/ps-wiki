@@ -144,6 +144,24 @@
             "drop": [{ "name": "rat23" }]
         },
         {
+            "name": "defend-soul",
+            "nameRU": "Душа Защиты",
+            "part": "Пояс",
+            "color": "black",
+            "img": "black-soul.JPG",
+            "effect": "Понижает получаемый физический и магический урон на 2%",
+            "drop": [{ "name": "isp-green55" }]
+        },
+        {
+            "name": "thorny-soul",
+            "nameRU": "Колючая душа",
+            "part": "Пояс",
+            "color": "black",
+            "img": "black-soul.JPG",
+            "effect": "ЛВК +2",
+            "drop": [{ "name": "ghost51" }]
+        },
+        {
             "name": "wizard-soul",
             "nameRU": "Волшебная душа",
             "part": "Оружие",

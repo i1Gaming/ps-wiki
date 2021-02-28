@@ -60,7 +60,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "obsessed-soul" }, { "type": "other", "name": "alive-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": [{ "type": "soul", "name": "defense-soul" }]
+                "hard": [{ "type": "soul", "name": "defense-soul" }, { "type": "armor", "name": "fighting-gloves11", "slots": "1" }]
             }
         },
         {
@@ -3365,7 +3365,7 @@
             "drop": {
                 "easy": [],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "soul", "name": "defend-soul" }]
             }
         },
         {
@@ -3416,7 +3416,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": []
+                "hard": [{ "type": "soul", "name": "thorny-soul" }]
             }
         },
         {
@@ -3484,6 +3484,57 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
+                "hard": []
+            }
+        },
+        {
+            "name": "hell-demon65",
+            "nameRU": "Адская горгулья",
+            "lvl": 65,
+            "img": "hell-demon65.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "N-4",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "cerber60",
+            "nameRU": "Цербер",
+            "lvl": 60,
+            "img": "cerber60.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "I-7",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "berserk63",
+            "nameRU": "Берсерк",
+            "lvl": 63,
+            "img": "berserk63.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "I-12",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
                 "hard": []
             }
         }
