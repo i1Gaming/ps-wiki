@@ -99,6 +99,15 @@
             "drop": [{ "name": "tushkanchik3" }]
         },
         {
+            "name": "riddle-soul",
+            "nameRU": "Загадочная душа",
+            "part": "Доспех, Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Ом +40 Оз -20",
+            "drop": [{ "name": "ghost51" }]
+        },
+        {
             "name": "turtle-soul",
             "nameRU": "Душа Черепахи",
             "part": "Доспех, Ноги, Обувь",

@@ -3416,7 +3416,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": [{ "type": "soul", "name": "thorny-soul" }]
+                "hard": [{ "type": "soul", "name": "thorny-soul" }, { "type": "soul", "name": "riddle-soul" }]
             }
         },
         {
