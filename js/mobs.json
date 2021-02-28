@@ -3501,7 +3501,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "weapon", "name": "moonlight-wand21", "slots": "3" }]
             }
         },
         {
@@ -3536,6 +3536,57 @@
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
                 "hard": []
+            }
+        },
+        {
+            "name": "demon67",
+            "nameRU": "Архидемон",
+            "lvl": 67,
+            "img": "demon67.PNG",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "G-7",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "skeleton62",
+            "nameRU": "Храмовник",
+            "lvl": 62,
+            "img": "no-img.jpg",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "I-11, N-4",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": []
+            }
+        },
+        {
+            "name": "isp68",
+            "nameRU": "Исполин",
+            "lvl": 68,
+            "img": "no-img.jpg",
+            "habitat": [{
+                "location": "muldian",
+                "coordinates": "F-7, N-3",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [{ "type": "other", "name": "muldian-medal" }],
+                "medium": [],
+                "hard": [{ "type": "other", "name": "hero-charm" }]
             }
         }
     ]

@@ -361,7 +361,7 @@
             "nameRU": "Жезл лунного света",
             "lvl": 21,
             "type": "one-hand-cane",
-            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+            "drop": [{ "name": "hell-demon65", "slot": "3" }, { "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
         },
         {
             "name": "sage-staff21",
