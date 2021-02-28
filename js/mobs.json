@@ -3559,7 +3559,7 @@
             "name": "skeleton62",
             "nameRU": "Храмовник",
             "lvl": 62,
-            "img": "no-img.jpg",
+            "img": "skeleton62.PNG",
             "habitat": [{
                 "location": "muldian",
                 "coordinates": "I-11, N-4",
