@@ -3433,7 +3433,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": [{ "type": "soul", "name": "sage-soul" }]
+                "hard": []
             }
         },
         {
@@ -3467,7 +3467,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": [{ "type": "soul", "name": "turtle-soul" }]
+                "hard": [{ "type": "soul", "name": "turtle-soul" }, { "type": "soul", "name": "sage-soul" }]
             }
         },
         {

@@ -240,7 +240,7 @@
             "color": "yellow",
             "img": "yellow-soul.JPG",
             "effect": "ОМ +50",
-            "drop": [{ "name": "ghost53" }]
+            "drop": [{ "name": "ghost57" }]
         },
         {
             "name": "calm-soul",
