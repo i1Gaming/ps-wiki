@@ -285,7 +285,7 @@
             "nameRU": "Железные сапоги",
             "type": "foot",
             "lvl": 26,
-            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "ghost39", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "defender-shield35",

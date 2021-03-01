@@ -1214,7 +1214,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }, { "type": "other", "name": "obsessed-soul" }, { "type": "other", "name": "alive-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }, { "type": "other", "name": "firelvl2" }],
-                "hard": [{ "type": "armor", "name": "smart-boots20", "slots": "1" }]
+                "hard": [{ "type": "armor", "name": "smart-boots20", "slots": "1" }, { "type": "armor", "name": "iron-boots26", "slots": "1" }]
             }
         },
         {
@@ -3416,7 +3416,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": [{ "type": "soul", "name": "thorny-soul" }, { "type": "soul", "name": "riddle-soul" }]
+                "hard": [{ "type": "soul", "name": "thorny-soul" }, { "type": "soul", "name": "riddle-soul" }, { "type": "soul", "name": "dawning-soul" }]
             }
         },
         {
@@ -3433,7 +3433,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": []
+                "hard": [{ "type": "soul", "name": "riddle-soul" }]
             }
         },
         {

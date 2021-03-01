@@ -114,7 +114,7 @@
             "color": "blue",
             "img": "blue-soul.JPG",
             "effect": "Ом +40 Оз -20",
-            "drop": [{ "name": "ghost51" }]
+            "drop": [{ "name": "ghost51" }, { "name": "ghost53" }]
         },
         {
             "name": "turtle-soul",
@@ -253,12 +253,21 @@
         },
         {
             "name": "dawn-soul",
-            "nameRU": "Душа рассвета",
+            "nameRU": "Душа Рассвета",
             "part": "Обувь",
             "color": "aqua",
             "img": "aqua-soul.JPG",
             "effect": "Скорость восстановления ОМ +10%",
             "drop": [{ "name": "gilia48" }]
+        },
+        {
+            "name": "dawning-soul",
+            "nameRU": "Душа Зари",
+            "part": "Обувь",
+            "color": "aqua",
+            "img": "aqua-soul.JPG",
+            "effect": "Скорость восстановления ОМ +20%",
+            "drop": [{ "name": "ghost51" }]
         },
         {
             "name": "keen-soul",
