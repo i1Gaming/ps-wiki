@@ -2780,7 +2780,7 @@
             "drop": {
                 "easy": [],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "weapon", "name": "moonlight-bow40", "slots": "2" }]
             }
         },
         {
@@ -3535,7 +3535,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "other", "name": "hero-charm" }]
             }
         },
         {
@@ -3552,7 +3552,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "weapon", "name": "sage-staff21", "slots": "3" }]
             }
         },
         {
@@ -3569,7 +3569,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "other", "name": "hero-charm" }]
             }
         },
         {

@@ -430,7 +430,7 @@
             "name": "hero-charm",
             "nameRU": "Оберег героя",
             "img": "hero-charm.PNG",
-            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }, { "name": "isp68" }]
+            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }, { "name": "skeleton62" }, { "name": "berserk63" }, { "name": "isp68" }]
         },
         {
             "name": "holy-water",

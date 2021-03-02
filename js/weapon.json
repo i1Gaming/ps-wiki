@@ -368,7 +368,7 @@
             "nameRU": "Посох мудреца",
             "lvl": 21,
             "type": "two-hand-cane",
-            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+            "drop": [{ "name": "demon67", "slot": "3" }, { "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
         },
         {
             "name": "saber40",
@@ -410,7 +410,7 @@
             "nameRU": "Лук лунного света",
             "lvl": 40,
             "type": "bow",
-            "drop": [{ "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
+            "drop": [{ "name": "wolf60", "slot": "2" }, { "name": "kerring", "slot": "0" }, { "name": "forks", "slot": "0" }, { "name": "servia", "slot": "0" }]
         },
         {
             "name": "star-wand40",
