@@ -3330,7 +3330,7 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "poison-fang" }, { "type": "other", "name": "huge-fang" }],
-                "medium": [{ "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "poison" }],
+                "medium": [{ "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "poison" }, { "type": "other", "name": "lightlvl1" }],
                 "hard": [{ "type": "soul", "name": "strong-soul" }]
             }
         },
