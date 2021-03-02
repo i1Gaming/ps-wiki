@@ -75,13 +75,13 @@
             "name": "lightlvl1",
             "nameRU": "Янтарь",
             "img": "lightlvl1.PNG",
-            "drop": [{ "name": "snake33" }, { "name": "snake48" }]
+            "drop": [{ "name": "snake33" }]
         },
         {
             "name": "lightlvl2",
             "nameRU": "Цитрин",
             "img": "lightlvl2.PNG",
-            "drop": [{ "name": "ghost43" }]
+            "drop": [{ "name": "ghost43" }, { "name": "snake48" }]
         },
         {
             "name": "poisonlvl1",
