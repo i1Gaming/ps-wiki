@@ -49,11 +49,88 @@
             "drop": [{ "name": "merchant" }]
         },
         {
+            "name": "light-necklace20",
+            "nameRU": "Светлый амулет",
+            "type": "amulet",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "keeper-necklace20",
+            "nameRU": "Ожерелье хранителя",
+            "type": "amulet",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "pain-necklace20",
+            "nameRU": "Ожерелье боли",
+            "type": "amulet",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
             "name": "magic-earring20",
             "nameRU": "Волшебная серьга",
             "type": "earring",
             "lvl": 20,
             "drop": [{ "name": "wolf26" }]
+        },
+        {
+            "name": "kobalt-earring20",
+            "nameRU": "Кобальтовые серьги",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "vojd-earring20",
+            "nameRU": "Серьги вождя",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "titan-earring20",
+            "nameRU": "Титановые серьги",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "killer-earring20",
+            "nameRU": "Украшение убийцы",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "gold-earring20",
+            "nameRU": "Золотая серьга",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "bronze-earring20",
+            "nameRU": "Бронзовое украшение",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "soul-earring20",
+            "nameRU": "Украшение души",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "focus-earring20",
+            "nameRU": "Украшение сосредоточенности",
+            "type": "earring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
         },
         {
             "name": "earring30",
@@ -101,6 +178,62 @@
             "name": "tear30",
             "nameRU": "Слеза",
             "type": "earring",
+            "lvl": 30,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "rage-ring1",
+            "nameRU": "Кольцо ярости",
+            "type": "ring",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "ancient-ring1",
+            "nameRU": "Древнее кольцо",
+            "type": "ring",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "ghost-ring1",
+            "nameRU": "Кольцо призрака",
+            "type": "ring",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "bird-ring20",
+            "nameRU": "Птичье кольцо",
+            "type": "ring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "voltek-ring20",
+            "nameRU": "Кольцо Вольтека",
+            "type": "ring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "redhot-ring40",
+            "nameRU": "Раскаленное кольцо",
+            "type": "ring",
+            "lvl": 40,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "blizzard-ring20",
+            "nameRU": "Кольцо метели",
+            "type": "ring",
+            "lvl": 20,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "deffender-ring30",
+            "nameRU": "Кольцо защитника",
+            "type": "ring",
             "lvl": 30,
             "drop": [{ "name": "merchant" }]
         },
@@ -154,6 +287,20 @@
             "drop": [{ "name": "merchant" }]
         },
         {
+            "name": "magician-belt20",
+            "nameRU": "Пояс чародей",
+            "type": "belt",
+            "lvl": 20,
+            "drop": [{ "name": "merchant", "slot": "2" }]
+        },
+        {
+            "name": "guard-belt20",
+            "nameRU": "Пояс стража",
+            "type": "belt",
+            "lvl": 20,
+            "drop": [{ "name": "merchant", "slot": "2" }]
+        },
+        {
             "name": "belt30",
             "nameRU": "Пояс",
             "type": "belt",
@@ -179,14 +326,63 @@
             "nameRU": "Пояс скорости",
             "type": "belt",
             "lvl": 30,
-            "drop": [{ "name": "merchant", "slot": "1" }]
+            "drop": [{ "name": "merchant", "slot": "1,2" }]
+        },
+        {
+            "name": "lionheart-belt20",
+            "nameRU": "Пояс львиного сердца",
+            "type": "belt",
+            "lvl": 20,
+            "drop": [{ "name": "merchant", "slot": "2" }]
         },
         {
             "name": "hunter-belt30",
             "nameRU": "Охотничий пояс",
             "type": "belt",
             "lvl": 30,
-            "drop": [{ "name": "merchant", "slot": "1" }]
+            "drop": [{ "name": "merchant", "slot": "1,2" }]
+        },
+        {
+            "name": "eagle-cloak1",
+            "nameRU": "Орлиная мантия",
+            "type": "cloak",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "fire-cloak1",
+            "nameRU": "Огненная мантия",
+            "type": "cloak",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "earth-cloak1",
+            "nameRU": "Мантия земли",
+            "type": "cloak",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "eternity-cloak1",
+            "nameRU": "Мантия вечности",
+            "type": "cloak",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "coolbreeze-cloak1",
+            "nameRU": "Мантия прохладного ветра",
+            "type": "cloak",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
+        },
+        {
+            "name": "fairwind-cloak1",
+            "nameRU": "Плащ попутного ветра",
+            "type": "cloak",
+            "lvl": 1,
+            "drop": [{ "name": "merchant" }]
         },
         {
             "name": "fire-cloak30",

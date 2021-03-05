@@ -1023,9 +1023,18 @@
                     { "type": "bijouterie", "name": "indifference-earring30" }, { "type": "bijouterie", "name": "tear30" }, { "type": "bijouterie", "name": "gold-ring30" },
                     { "type": "bijouterie", "name": "crystal-ring30" }, { "type": "bijouterie", "name": "fire-cloak30" }, { "type": "bijouterie", "name": "skill-cloak30" },
                     { "type": "bijouterie", "name": "beast-ring30" }, { "type": "bijouterie", "name": "bug-ring30" }, { "type": "bijouterie", "name": "sacred-ring30" },
-                    { "type": "bijouterie", "name": "raptor-ring30" }, { "type": "bijouterie", "name": "magic-belt30", "slots": "2" }, { "type": "bijouterie", "name": "speed-belt30", "slots": "1" },
-                    { "type": "bijouterie", "name": "hunter-belt30", "slots": "1" }, { "type": "bijouterie", "name": "fire-heat-cloak30" }, { "type": "bijouterie", "name": "celestial-mantle30" },
-                    { "type": "bijouterie", "name": "darkness-cloak30" }, { "type": "bijouterie", "name": "gold-cloak30" }
+                    { "type": "bijouterie", "name": "raptor-ring30" }, { "type": "bijouterie", "name": "magic-belt30", "slots": "2" }, { "type": "bijouterie", "name": "speed-belt30", "slots": "1,2" },
+                    { "type": "bijouterie", "name": "hunter-belt30", "slots": "1,2" }, { "type": "bijouterie", "name": "fire-heat-cloak30" }, { "type": "bijouterie", "name": "celestial-mantle30" },
+                    { "type": "bijouterie", "name": "darkness-cloak30" }, { "type": "bijouterie", "name": "gold-cloak30" }, { "type": "bijouterie", "name": "light-necklace20" },
+                    { "type": "bijouterie", "name": "keeper-necklace20" }, { "type": "bijouterie", "name": "pain-necklace20" }, { "type": "bijouterie", "name": "kobalt-earring20" },
+                    { "type": "bijouterie", "name": "vojd-earring20" }, { "type": "bijouterie", "name": "titan-earring20" }, { "type": "bijouterie", "name": "killer-earring20" },
+                    { "type": "bijouterie", "name": "gold-earring20" }, { "type": "bijouterie", "name": "bronze-earring20" }, { "type": "bijouterie", "name": "soul-earring20" },
+                    { "type": "bijouterie", "name": "focus-earring20" }, { "type": "bijouterie", "name": "rage-ring1" }, { "type": "bijouterie", "name": "ancient-ring1" },
+                    { "type": "bijouterie", "name": "ghost-ring1" }, { "type": "bijouterie", "name": "bird-ring20" }, { "type": "bijouterie", "name": "voltek-ring20" },
+                    { "type": "bijouterie", "name": "redhot-ring40" }, { "type": "bijouterie", "name": "blizzard-ring20" }, { "type": "bijouterie", "name": "deffender-ring30" },
+                    { "type": "bijouterie", "name": "magician-belt20", "slots": "2" }, { "type": "bijouterie", "name": "guard-belt20", "slots": "2" }, { "type": "bijouterie", "name": "lionheart-belt20", "slots": "2" },
+                    { "type": "bijouterie", "name": "eagle-cloak1" }, { "type": "bijouterie", "name": "fire-cloak1" }, { "type": "bijouterie", "name": "earth-cloak1" },
+                    { "type": "bijouterie", "name": "eternity-cloak1" }, { "type": "bijouterie", "name": "coolbreeze-cloak1" }
                 ]
             }
         },
