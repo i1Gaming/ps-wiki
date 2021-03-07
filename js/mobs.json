@@ -1073,7 +1073,19 @@
                     { "type": "weapon", "name": "darkness-blade40", "slots": "1" }, { "type": "weapon", "name": "military-crossbow40", "slots": "1" }, { "type": "weapon", "name": "spata40", "slots": "1" },
                     { "type": "weapon", "name": "claymor40", "slots": "1" }, { "type": "weapon", "name": "viking-ax40", "slots": "1" }, { "type": "weapon", "name": "viking-blunt40", "slots": "1" },
                     { "type": "weapon", "name": "piercing-lance40", "slots": "1" }, { "type": "weapon", "name": "mithril-claws40", "slots": "1" }, { "type": "weapon", "name": "wedge-hammer40", "slots": "1" },
-                    { "type": "weapon", "name": "heavy-spear40", "slots": "1" }, { "type": "weapon", "name": "graceful-wand40", "slots": "1" }, { "type": "weapon", "name": "skeleton-staff40", "slots": "1" }
+                    { "type": "weapon", "name": "heavy-spear40", "slots": "1" }, { "type": "weapon", "name": "graceful-wand40", "slots": "1" }, { "type": "weapon", "name": "skeleton-staff40", "slots": "1" },
+                    { "type": "weapon", "name": "razwide-ax45", "slots": "1" }, { "type": "weapon", "name": "silwide-ax45", "slots": "1" }, { "type": "weapon", "name": "runwide-ax45", "slots": "2" },
+                    { "type": "weapon", "name": "razguardian-bow45", "slots": "1" }, { "type": "weapon", "name": "silguardian-bow45", "slots": "1" }, { "type": "weapon", "name": "runguardian-bow45", "slots": "2" },
+                    { "type": "weapon", "name": "silmeteor-knife45", "slots": "1" }, { "type": "weapon", "name": "runmeteor-knife45", "slots": "2" }, { "type": "weapon", "name": "sildarkness-blade45", "slots": "1" },
+                    { "type": "weapon", "name": "rundarkness-blade45", "slots": "2" }, { "type": "weapon", "name": "razmilitary-crossbow45", "slots": "1" }, { "type": "weapon", "name": "silmilitary-crossbow45", "slots": "1" },
+                    { "type": "weapon", "name": "runmilitary-crossbow45", "slots": "2" }, { "type": "weapon", "name": "razspata45", "slots": "1" }, { "type": "weapon", "name": "silspata45", "slots": "1" },
+                    { "type": "weapon", "name": "runspata45", "slots": "2" }, { "type": "weapon", "name": "razclaymor45", "slots": "1" }, { "type": "weapon", "name": "silclaymor45", "slots": "1" },
+                    { "type": "weapon", "name": "runclaymor45", "slots": "2" }, { "type": "weapon", "name": "silviking-ax45", "slots": "1" }, { "type": "weapon", "name": "runviking-ax45", "slots": "2" },
+                    { "type": "weapon", "name": "silviking-blunt45", "slots": "1" }, { "type": "weapon", "name": "runviking-blunt45", "slots": "2" }, { "type": "weapon", "name": "razpiercing-lance45", "slots": "1" },
+                    { "type": "weapon", "name": "runpiercing-lance45", "slots": "2" }, { "type": "weapon", "name": "razmithril-claws45", "slots": "1" }, { "type": "weapon", "name": "silmithril-claws45", "slots": "1" },
+                    { "type": "weapon", "name": "runmithril-claws45", "slots": "2" }, { "type": "weapon", "name": "razwedge-hammer45", "slots": "1" }, { "type": "weapon", "name": "silwedge-hammer45", "slots": "1" },
+                    { "type": "weapon", "name": "runwedge-hammer45", "slots": "2" }, { "type": "weapon", "name": "runheavy-spear45", "slots": "2" }, { "type": "weapon", "name": "silgraceful-wand45", "slots": "1" },
+                    { "type": "weapon", "name": "rungraceful-wand45", "slots": "2" }, { "type": "weapon", "name": "silskeleton-staff45", "slots": "1" }, { "type": "weapon", "name": "runskeleton-staff45", "slots": "2" }
                 ]
             }
         },
@@ -3323,7 +3335,7 @@
             "drop": {
                 "easy": [],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "soul", "name": "severe-soul" }]
             }
         },
         {
@@ -3561,7 +3573,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "weapon", "name": "sage-staff21", "slots": "3" }]
+                "hard": [{ "type": "weapon", "name": "sage-staff21", "slots": "3" }, { "type": "armor", "name": "eclipce45", "slots": "1" }]
             }
         },
         {
@@ -3595,7 +3607,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "hero-charm" }]
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "armor", "name": "knightrune-shield45", "slots": "1" }]
             }
         }
     ]

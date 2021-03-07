@@ -29,6 +29,20 @@
             "drop": [{ "name": "wolf20", "slot": "1" }, { "name": "shin", "slot": "0" }, { "name": "kester", "slot": "0" }, { "name": "david", "slot": "0" }]
         },
         {
+            "name": "eclipce45",
+            "nameRU": "Затмение",
+            "type": "shield",
+            "lvl": 45,
+            "drop": [{ "name": "demon67", "slot": "1" }]
+        },
+        {
+            "name": "knightrune-shield45",
+            "nameRU": "Рыцарский рунный щит",
+            "type": "shield",
+            "lvl": 45,
+            "drop": [{ "name": "isp68", "slot": "1" }]
+        },
+        {
             "name": "light-shield3",
             "nameRU": "Легкий щит",
             "type": "shield",

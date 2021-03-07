@@ -455,6 +455,27 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "razwide-ax45",
+            "nameRU": "Разящий широкий топор",
+            "lvl": 45,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silwide-ax45",
+            "nameRU": "Сильный широкий топор",
+            "lvl": 45,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runwide-ax45",
+            "nameRU": "Рунный широкий топор",
+            "lvl": 45,
+            "type": "one-hand-ax",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "ax-crusher35",
             "nameRU": "Топор крушитель",
             "lvl": 35,
@@ -532,11 +553,46 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "razguardian-bow45",
+            "nameRU": "Разящий лук стража",
+            "lvl": 45,
+            "type": "bow",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silguardian-bow45",
+            "nameRU": "Сильный лук стража",
+            "lvl": 45,
+            "type": "bow",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runguardian-bow45",
+            "nameRU": "Рунный лук стража",
+            "lvl": 45,
+            "type": "bow",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "meteor-knife40",
             "nameRU": "Метеоритный нож",
             "lvl": 40,
             "type": "dagger",
             "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silmeteor-knife45",
+            "nameRU": "Сильный метеоритный нож",
+            "lvl": 45,
+            "type": "dagger",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runmeteor-knife45",
+            "nameRU": "Рунный метеоритный нож",
+            "lvl": 45,
+            "type": "dagger",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
         },
         {
             "name": "darkness-blade40",
@@ -546,11 +602,46 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "sildarkness-blade45",
+            "nameRU": "Сильный клинок тьмы",
+            "lvl": 45,
+            "type": "dagger",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "rundarkness-blade45",
+            "nameRU": "Рунный клинок тьмы",
+            "lvl": 45,
+            "type": "dagger",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "military-crossbow40",
             "nameRU": "Военный арбалет",
             "lvl": 40,
             "type": "crossbow",
             "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "razmilitary-crossbow45",
+            "nameRU": "Разящий военный арбалет",
+            "lvl": 45,
+            "type": "crossbow",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silmilitary-crossbow45",
+            "nameRU": "Сильный военный арбалет",
+            "lvl": 45,
+            "type": "crossbow",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runmilitary-crossbow45",
+            "nameRU": "Рунный военный арбалет",
+            "lvl": 45,
+            "type": "crossbow",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
         },
         {
             "name": "spata40",
@@ -560,11 +651,53 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "razspata45",
+            "nameRU": "Разящая спата",
+            "lvl": 45,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silspata45",
+            "nameRU": "Сильная спата",
+            "lvl": 45,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runspata45",
+            "nameRU": "Рунная спата",
+            "lvl": 45,
+            "type": "one-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "claymor40",
             "nameRU": "Клеймор",
             "lvl": 40,
             "type": "two-hand-sword",
             "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "razclaymor45",
+            "nameRU": "Разящий клеймор",
+            "lvl": 45,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silclaymor45",
+            "nameRU": "Сильный клеймор",
+            "lvl": 45,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runclaymor45",
+            "nameRU": "Рунный клеймор",
+            "lvl": 45,
+            "type": "two-hand-sword",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
         },
         {
             "name": "viking-ax40",
@@ -574,11 +707,39 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "silviking-ax45",
+            "nameRU": "Сильный топор викинга",
+            "lvl": 45,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runviking-ax45",
+            "nameRU": "Рунный топор викинга",
+            "lvl": 45,
+            "type": "two-hand-ax",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "viking-blunt40",
             "nameRU": "Палица викинга",
             "lvl": 40,
             "type": "one-hand-blunt",
             "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silviking-blunt45",
+            "nameRU": "Сильная палица викинга",
+            "lvl": 45,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runviking-blunt45",
+            "nameRU": "Рунная палица викинга",
+            "lvl": 45,
+            "type": "one-hand-blunt",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
         },
         {
             "name": "piercing-lance40",
@@ -588,11 +749,46 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "razpiercing-lance45",
+            "nameRU": "Разящая пронзающая пика",
+            "lvl": 45,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runpiercing-lance45",
+            "nameRU": "Рунная пронзающая пика",
+            "lvl": 45,
+            "type": "two-hand-spear",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "mithril-claws40",
             "nameRU": "Мифриловые когти",
             "lvl": 40,
             "type": "fighting",
             "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "razmithril-claws45",
+            "nameRU": "Разящие мифриловые когти",
+            "lvl": 45,
+            "type": "fighting",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silmithril-claws45",
+            "nameRU": "Сильные мифриловые когти",
+            "lvl": 45,
+            "type": "fighting",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runmithril-claws45",
+            "nameRU": "Рунные мифриловые когти",
+            "lvl": 45,
+            "type": "fighting",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
         },
         {
             "name": "wedge-hammer40",
@@ -602,11 +798,39 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "razwedge-hammer45",
+            "nameRU": "Разящий клиновидный молот",
+            "lvl": 45,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silwedge-hammer45",
+            "nameRU": "Сильный клиновидный молот",
+            "lvl": 45,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runwedge-hammer45",
+            "nameRU": "Рунный клиновидный молот",
+            "lvl": 45,
+            "type": "two-hand-blunt",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "heavy-spear40",
             "nameRU": "Тяжелое копье",
             "lvl": 40,
             "type": "one-hand-spear",
             "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runheavy-spear45",
+            "nameRU": "Рунное тяжелое копье",
+            "lvl": 45,
+            "type": "one-hand-spear",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
         },
         {
             "name": "graceful-wand40",
@@ -616,11 +840,39 @@
             "drop": [{ "name": "weapon-master", "slot": "1" }]
         },
         {
+            "name": "silgraceful-wand45",
+            "nameRU": "Сильный изящный жезл",
+            "lvl": 45,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "rungraceful-wand45",
+            "nameRU": "Рунный изящный жезл",
+            "lvl": 45,
+            "type": "one-hand-cane",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
+        },
+        {
             "name": "skeleton-staff40",
             "nameRU": "Посох скелета",
             "lvl": 40,
             "type": "two-hand-cane",
             "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "silskeleton-staff45",
+            "nameRU": "Сильный посох скелета",
+            "lvl": 45,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "weapon-master", "slot": "1" }]
+        },
+        {
+            "name": "runskeleton-staff45",
+            "nameRU": "Рунный посох скелета",
+            "lvl": 45,
+            "type": "two-hand-cane",
+            "drop": [{ "name": "weapon-master", "slot": "2" }]
         }
     ]
 }

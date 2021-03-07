@@ -9,6 +9,15 @@
             "drop": [{ "name": "snake6" }]
         },
         {
+            "name": "severe-soul",
+            "nameRU": "Суровая душа",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "За каждый уровень усовершенствования: сопротивляемость заморозке +3, ожогам +3, оглушению +1",
+            "drop": [{ "name": "komodo51" }]
+        },
+        {
             "name": "nightmare-soul",
             "nameRU": "Душа Кошмара",
             "part": "Шлем",
