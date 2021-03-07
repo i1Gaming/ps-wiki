@@ -64,6 +64,55 @@
             "drop": [{ "name": "gilia48", "slot": "1" }]
         },
         {
+            "name": "nightmare-helmet45",
+            "nameRU": "Кошмарный шлем",
+            "type": "helmet",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "wing-helmet45",
+            "nameRU": "Крылатый шлем",
+            "type": "helmet",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "ajur-crown45",
+            "nameRU": "Ажурный венец",
+            "type": "helmet",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "korona45",
+            "nameRU": "Корона",
+            "type": "helmet",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "magic-hat45",
+            "nameRU": "Магическая шляпа",
+            "type": "helmet",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "glasses45",
+            "nameRU": "Очки",
+            "type": "helmet",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "aim45",
+            "nameRU": "Прицел",
+            "type": "helmet",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
             "name": "dark-crown35",
             "nameRU": "Темный венец",
             "type": "helmet",

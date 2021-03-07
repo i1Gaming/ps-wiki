@@ -1090,6 +1090,43 @@
             }
         },
         {
+            "name": "armor-exchanger",
+            "nameRU": "Обмен доспехов",
+            "lvl": "NPC",
+            "img": "armor-exchanger.PNG",
+            "habitat": [{
+                    "location": "union",
+                    "coordinates": "K-9",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "empire",
+                    "coordinates": "G-8",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "kingdom",
+                    "coordinates": "I-10",
+                    "day": true,
+                    "night": true
+                },
+                {
+                    "location": "other",
+                    "coordinates": "NPC",
+                    "day": false,
+                    "night": false
+                }
+            ],
+            "drop": {
+                "easy": [{ "type": "armor", "name": "nightmare-helmet45", "slots": "1" }, { "type": "armor", "name": "wing-helmet45", "slots": "1" }, { "type": "armor", "name": "ajur-crown45", "slots": "1" },
+                    { "type": "armor", "name": "korona45", "slots": "1" }, { "type": "armor", "name": "magic-hat45", "slots": "1" }, { "type": "armor", "name": "glasses45", "slots": "1" },
+                    { "type": "armor", "name": "aim45", "slots": "1" }
+                ]
+            }
+        },
+        {
             "name": "saimon",
             "nameRU": "Саймон",
             "lvl": "NPC",
