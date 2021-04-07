@@ -102,6 +102,12 @@
             "drop": [{ "name": "ghost45" }]
         },
         {
+            "name": "rainbowlvl3",
+            "nameRU": "Турмалин",
+            "img": "rainbowlvl3.PNG",
+            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }]
+        },
+        {
             "name": "lightninglvl1",
             "nameRU": "Бирюза",
             "img": "lightninglvl1.PNG",
@@ -352,6 +358,18 @@
             "nameRU": "Кусок желтого жадеита",
             "img": "crush-yellow-pyroxene.PNG",
             "drop": [{ "name": "demon28" }, { "name": "snake60" }]
+        },
+        {
+            "name": "crush-rainbow-pyroxene",
+            "nameRU": "Кусок радужного жадеита",
+            "img": "crush-rainbow-pyroxene.PNG",
+            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }]
+        },
+        {
+            "name": "rainbow-pyroxene",
+            "nameRU": "Радужный жадеит",
+            "img": "rainbow-pyroxene.PNG",
+            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }]
         },
         {
             "name": "healing-root",

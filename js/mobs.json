@@ -1220,7 +1220,7 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
-                "medium": [],
+                "medium": [{ "type": "other", "name": "crush-rainbow-pyroxene" }, { "type": "other", "name": "rainbow-pyroxene" }, { "type": "other", "name": "rainbowlvl3" }],
                 "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "calm-soul" }, { "type": "soul", "name": "guardian-soul" }]
             }
         },
@@ -1237,7 +1237,7 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
-                "medium": [],
+                "medium": [{ "type": "other", "name": "crush-rainbow-pyroxene" }, { "type": "other", "name": "rainbow-pyroxene" }, { "type": "other", "name": "rainbowlvl3" }],
                 "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "reason-soul" }, { "type": "soul", "name": "keen-soul" }]
             }
         },
@@ -3576,7 +3576,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "glory-orden" }]
+                "hard": [{ "type": "other", "name": "glory-orden" }, { "type": "armor", "name": "iron-leggings35", "slots": "3" }]
             }
         },
         {

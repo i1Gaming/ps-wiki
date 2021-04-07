@@ -341,7 +341,7 @@
             "nameRU": "Железные поножи",
             "type": "leg",
             "lvl": 35,
-            "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "cerber60", "slot": "3" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "iron-boots26",
