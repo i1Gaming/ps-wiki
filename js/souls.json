@@ -9,6 +9,15 @@
             "drop": [{ "name": "snake6" }]
         },
         {
+            "name": "wish-soul",
+            "nameRU": "Душа Желания",
+            "part": "Оружие, Пояс",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Время перезарядки умений -5%",
+            "drop": [{ "name": "hell-demon65" }]
+        },
+        {
             "name": "severe-soul",
             "nameRU": "Суровая душа",
             "part": "Шлем",
@@ -25,6 +34,15 @@
             "img": "yellow-soul.JPG",
             "effect": "Сопротивляемость сну +25",
             "drop": [{ "name": "nightmare36" }]
+        },
+        {
+            "name": "sleepless-soul",
+            "nameRU": "Бессонная душа",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "Сопротивляемость сну +50",
+            "drop": [{ "name": "wolf60" }]
         },
         {
             "name": "defense-soul",
@@ -78,7 +96,7 @@
             "color": "red",
             "img": "red-soul.JPG",
             "effect": "Оз +8%, Ом +8%",
-            "drop": [{ "name": "skeleton51" }]
+            "drop": [{ "name": "skeleton51" }, { "name": "skeleton62" }]
         },
         {
             "name": "gladiator-soul",
@@ -88,6 +106,15 @@
             "img": "red-soul.JPG",
             "effect": "ВЫН +1, Оз +100",
             "drop": [{ "name": "hell-spider51" }]
+        },
+        {
+            "name": "knowledge-soul",
+            "nameRU": "Душа Знания",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "Магическая атака +5%",
+            "drop": [{ "name": "isp68" }]
         },
         {
             "name": "berserk-soul",
@@ -115,6 +142,15 @@
             "img": "blue-soul.JPG",
             "effect": "Ом +6",
             "drop": [{ "name": "tushkanchik3" }]
+        },
+        {
+            "name": "potion-soul",
+            "nameRU": "Душа Зелий",
+            "part": "Доспех, Ноги",
+            "color": "blue",
+            "img": "blue-soul.JPG",
+            "effect": "Восстанавливающие действие зелий +8%",
+            "drop": [{ "name": "isp68" }]
         },
         {
             "name": "riddle-soul",

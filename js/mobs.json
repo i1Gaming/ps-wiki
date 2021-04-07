@@ -1362,7 +1362,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "сloudy-bile" }, { "type": "other", "name": "meat" }],
                 "medium": [{ "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "empty-bottle" }],
-                "hard": [{ "type": "weapon", "name": "wooden-club1", "slots": "0" }]
+                "hard": [{ "type": "weapon", "name": "wooden-club1", "slots": "0,2" }]
             }
         },
         {
@@ -1919,7 +1919,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "bloody-fur" }, { "type": "other", "name": "little-dirty-fur" }, { "type": "other", "name": "dirty-fur" }],
                 "medium": [{ "type": "other", "name": "poison-fang" }, { "type": "other", "name": "small-pyroxene" }, { "type": "other", "name": "injury" }],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "clothes-resonance35", "slots": "0,1" }]
             }
         },
         {
@@ -2679,7 +2679,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "cracked-claw" }, { "type": "other", "name": "broken-fang" }, { "type": "other", "name": "sharpened-claw" }],
                 "medium": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "replenishment-potion-60" }, { "type": "other", "name": "dark-pyroxene" }, { "type": "other", "name": "bat-feathers" }],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "clothes-resonance35", "slots": "0,1" }]
             }
         },
         {
@@ -2838,7 +2838,7 @@
             "drop": {
                 "easy": [],
                 "medium": [],
-                "hard": [{ "type": "weapon", "name": "moonlight-bow40", "slots": "2" }]
+                "hard": [{ "type": "weapon", "name": "moonlight-bow40", "slots": "2" }, { "type": "soul", "name": "sleepless-soul" }]
             }
         },
         {
@@ -3155,7 +3155,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "hard-fur" }, { "type": "other", "name": "bloody-fur" }],
                 "medium": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "gold-pyroxene" }],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "clothes-resonance35", "slots": "0,1" }]
             }
         },
         {
@@ -3559,7 +3559,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "weapon", "name": "moonlight-wand21", "slots": "3" }]
+                "hard": [{ "type": "weapon", "name": "moonlight-wand21", "slots": "3" }, { "type": "soul", "name": "wish-soul" }]
             }
         },
         {
@@ -3576,7 +3576,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "other", "name": "glory-orden" }]
             }
         },
         {
@@ -3627,7 +3627,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "hero-charm" }]
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "knight-soul" }]
             }
         },
         {
@@ -3644,7 +3644,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "armor", "name": "knightrune-shield45", "slots": "1" }]
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "armor", "name": "knightrune-shield45", "slots": "1" }, { "type": "soul", "name": "knowledge-soul" }, { "type": "soul", "name": "potion-soul" }]
             }
         }
     ]

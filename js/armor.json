@@ -895,6 +895,13 @@
             "type": "body",
             "lvl": 35,
             "drop": [{ "name": "ghost45", "slot": "0,1" }]
+        },
+        {
+            "name": "clothes-resonance35",
+            "nameRU": "Одежды резонанса",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "rat33", "slot": "0,1" }, { "name": "bat39", "slot": "0,1" }, { "name": "rat42", "slot": "0,1" }]
         }
     ]
 }

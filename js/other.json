@@ -571,6 +571,12 @@
             "drop": [{ "name": "snake12" }, { "name": "human35" }, { "name": "raptor30" }]
         },
         {
+            "name": "glory-orden",
+            "nameRU": "Орден славы",
+            "img": "glory-orden.PNG",
+            "drop": [{ "name": "cerber60" }]
+        },
+        {
             "name": "hepatica",
             "nameRU": "Подснежник",
             "img": "hepatica.PNG",
