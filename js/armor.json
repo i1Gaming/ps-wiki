@@ -113,6 +113,181 @@
             "drop": [{ "name": "armor-exchanger", "slot": "1" }]
         },
         {
+            "name": "plate-armor45",
+            "nameRU": "Латный доспех",
+            "type": "body",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "monastic-cassock45",
+            "nameRU": "Монашеская ряса",
+            "type": "body",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "durable-tunic45",
+            "nameRU": "Прочная туника",
+            "type": "body",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "2" }]
+        },
+        {
+            "name": "plate-breastplate45",
+            "nameRU": "Латный нагрудник",
+            "type": "body",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "moon-clothes45",
+            "nameRU": "Лунные одежды",
+            "type": "body",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "mentor-clothes45",
+            "nameRU": "Одежды наставника",
+            "type": "body",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "gloves-shadow45",
+            "nameRU": "Перчатки тени",
+            "type": "arm",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "gloves-wizard45",
+            "nameRU": "Колдовские перчатки",
+            "type": "arm",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "chrome-gloves45",
+            "nameRU": "Хромовые краги",
+            "type": "arm",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "glorious-gauntlets45",
+            "nameRU": "Славные рукавицы",
+            "type": "arm",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "gold-bracelet45",
+            "nameRU": "Золотой браслет",
+            "type": "arm",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "plate-greaves45",
+            "nameRU": "Латные наголенники",
+            "type": "leg",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "acolyte-pants45",
+            "nameRU": "Штаны послушника",
+            "type": "leg",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "fabric-pants45",
+            "nameRU": "Штаны послушника",
+            "type": "leg",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "moon-pants45",
+            "nameRU": "Лунные штаны",
+            "type": "leg",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "pants-shadow45",
+            "nameRU": "Штаны тени",
+            "type": "leg",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "sacred-pants45",
+            "nameRU": "Священные штаны",
+            "type": "leg",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "eternal-night-pants45",
+            "nameRU": "Штаны вечной ночи",
+            "type": "leg",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "elusive-boots45",
+            "nameRU": "Неуязвимые сапоги",
+            "type": "foot",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "tailor-shoes45",
+            "nameRU": "Башмаки портного",
+            "type": "foot",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "ghost-boots45",
+            "nameRU": "Сапоги призрака",
+            "type": "foot",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "traveler-boots45",
+            "nameRU": "Сапоги путника",
+            "type": "foot",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "suede-boots45",
+            "nameRU": "Замшевые сапоги",
+            "type": "foot",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "vitality-boots45",
+            "nameRU": "Сапоги жизненной силы",
+            "type": "foot",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
+            "name": "plate-shoes45",
+            "nameRU": "Латные башмаки",
+            "type": "foot",
+            "lvl": 45,
+            "drop": [{ "name": "armor-exchanger", "slot": "1" }]
+        },
+        {
             "name": "dark-crown35",
             "nameRU": "Темный венец",
             "type": "helmet",

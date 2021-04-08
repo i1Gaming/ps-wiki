@@ -1122,7 +1122,15 @@
             "drop": {
                 "easy": [{ "type": "armor", "name": "nightmare-helmet45", "slots": "1" }, { "type": "armor", "name": "wing-helmet45", "slots": "1" }, { "type": "armor", "name": "ajur-crown45", "slots": "1" },
                     { "type": "armor", "name": "korona45", "slots": "1" }, { "type": "armor", "name": "magic-hat45", "slots": "1" }, { "type": "armor", "name": "glasses45", "slots": "1" },
-                    { "type": "armor", "name": "aim45", "slots": "1" }
+                    { "type": "armor", "name": "aim45", "slots": "1" }, { "type": "armor", "name": "plate-armor45", "slots": "1" }, { "type": "armor", "name": "monastic-cassock45", "slots": "1" },
+                    { "type": "armor", "name": "durable-tunic45", "slots": "2" }, { "type": "armor", "name": "plate-breastplate45", "slots": "1" }, { "type": "armor", "name": "moon-clothes45", "slots": "1" },
+                    { "type": "armor", "name": "mentor-clothes45", "slots": "1" }, { "type": "armor", "name": "gloves-shadow45", "slots": "1" }, { "type": "armor", "name": "gloves-wizard45", "slots": "1" },
+                    { "type": "armor", "name": "chrome-gloves45", "slots": "1" }, { "type": "armor", "name": "glorious-gauntlets45", "slots": "1" }, { "type": "armor", "name": "gold-bracelet45", "slots": "1" },
+                    { "type": "armor", "name": "plate-greaves45", "slots": "1" }, { "type": "armor", "name": "acolyte-pants45", "slots": "1" }, { "type": "armor", "name": "fabric-pants45", "slots": "1" },
+                    { "type": "armor", "name": "moon-pants45", "slots": "1" }, { "type": "armor", "name": "pants-shadow45", "slots": "1" }, { "type": "armor", "name": "sacred-pants45", "slots": "1" },
+                    { "type": "armor", "name": "eternal-night-pants45", "slots": "1" }, { "type": "armor", "name": "elusive-boots45", "slots": "1" }, { "type": "armor", "name": "tailor-shoes45", "slots": "1" },
+                    { "type": "armor", "name": "ghost-boots45", "slots": "1" }, { "type": "armor", "name": "traveler-boots45", "slots": "1" }, { "type": "armor", "name": "suede-boots45", "slots": "1" },
+                    { "type": "armor", "name": "vitality-boots45", "slots": "1" }, { "type": "armor", "name": "plate-shoes45", "slots": "1" }
                 ]
             }
         },
@@ -3592,7 +3600,7 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
-                "medium": [],
+                "medium": [{ "type": "other", "name": "rainbow-pyroxene" }],
                 "hard": [{ "type": "other", "name": "hero-charm" }]
             }
         },
@@ -3626,7 +3634,7 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
-                "medium": [],
+                "medium": [{ "type": "other", "name": "rainbow-pyroxene" }],
                 "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "knight-soul" }]
             }
         },
@@ -3643,7 +3651,7 @@
             }],
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
-                "medium": [],
+                "medium": [{ "type": "other", "name": "rainbow-pyroxene" }],
                 "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "armor", "name": "knightrune-shield45", "slots": "1" }, { "type": "soul", "name": "knowledge-soul" }, { "type": "soul", "name": "potion-soul" }]
             }
         }

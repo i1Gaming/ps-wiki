@@ -369,7 +369,7 @@
             "name": "rainbow-pyroxene",
             "nameRU": "Радужный жадеит",
             "img": "rainbow-pyroxene.PNG",
-            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }]
+            "drop": [{ "name": "skeleton50" }, { "name": "ghost55" }, { "name": "skeleton62" }, { "name": "berserk63" }, { "name": "isp68" }]
         },
         {
             "name": "healing-root",
