@@ -168,7 +168,7 @@
             "color": "blue",
             "img": "blue-soul.JPG",
             "effect": "Скорость передвижения -3%, защита +4",
-            "drop": [{ "name": "ghost57" }]
+            "drop": [{ "name": "gilia55" }, { "name": "ghost57" }]
         },
         {
             "name": "wolf-soul",

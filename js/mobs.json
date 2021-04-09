@@ -3550,7 +3550,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": []
+                "hard": [{ "type": "soul", "name": "turtle-soul" }]
             }
         },
         {
