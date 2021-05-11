@@ -2538,7 +2538,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }],
                 "medium": [{ "type": "other", "name": "injury" }, { "type": "other", "name": "antidot" }],
-                "hard": [{ "type": "other", "name": "icelvl1" }]
+                "hard": [{ "type": "other", "name": "icelvl1" }, { "type": "armor", "name": "defender-shield35", "slots": "0,1" }]
             }
         },
         {
@@ -2562,7 +2562,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pyroxene" }, { "type": "other", "name": "pyroxene-whelk" }, { "type": "other", "name": "trap" }],
                 "medium": [{ "type": "other", "name": "injury" }],
-                "hard": [{ "type": "other", "name": "lightninglvl1" }]
+                "hard": [{ "type": "other", "name": "lightninglvl1" }, { "type": "armor", "name": "defender-shield35", "slots": "0,1" }]
             }
         },
         {
@@ -3533,7 +3533,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "pure-soul" }],
                 "medium": [{ "type": "other", "name": "muldian-medal" }],
-                "hard": [{ "type": "soul", "name": "turtle-soul" }, { "type": "soul", "name": "sage-soul" }]
+                "hard": [{ "type": "soul", "name": "turtle-soul" }, { "type": "soul", "name": "sage-soul" }, { "type": "soul", "name": "ice-soul" }]
             }
         },
         {
@@ -3584,7 +3584,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "other", "name": "glory-orden" }, { "type": "armor", "name": "iron-leggings35", "slots": "3" }]
+                "hard": [{ "type": "other", "name": "glory-orden" }, { "type": "soul", "name": "careful-soul" }, { "type": "armor", "name": "iron-leggings35", "slots": "3" }]
             }
         },
         {
@@ -3601,7 +3601,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [{ "type": "other", "name": "rainbow-pyroxene" }],
-                "hard": [{ "type": "other", "name": "hero-charm" }]
+                "hard": [{ "type": "other", "name": "hero-charm" }, { "type": "soul", "name": "high-soul" }, { "type": "soul", "name": "beast-soul" }, { "type": "bijouterie", "name": "belt30", "slots": "3" }]
             }
         },
         {
@@ -3618,7 +3618,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "weapon", "name": "sage-staff21", "slots": "3" }, { "type": "armor", "name": "eclipce45", "slots": "1" }]
+                "hard": [{ "type": "soul", "name": "spell-soul" }, { "type": "soul", "name": "eagle-soul" }, { "type": "weapon", "name": "sage-staff21", "slots": "3" }, { "type": "armor", "name": "eclipce45", "slots": "1" }]
             }
         },
         {

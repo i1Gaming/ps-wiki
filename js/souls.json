@@ -18,6 +18,15 @@
             "drop": [{ "name": "hell-demon65" }]
         },
         {
+            "name": "spell-soul",
+            "nameRU": "Душа Заклятия",
+            "part": "Оружие, Пояс",
+            "color": "green",
+            "img": "green-soul.JPG",
+            "effect": "Скорость применения умений +5%",
+            "drop": [{ "name": "demon67" }]
+        },
+        {
             "name": "severe-soul",
             "nameRU": "Суровая душа",
             "part": "Шлем",
@@ -25,6 +34,15 @@
             "img": "yellow-soul.JPG",
             "effect": "За каждый уровень усовершенствования: сопротивляемость заморозке +3, ожогам +3, оглушению +1",
             "drop": [{ "name": "komodo51" }]
+        },
+        {
+            "name": "careful-soul",
+            "nameRU": "Осторожная душа",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "Точность +10",
+            "drop": [{ "name": "cerber60" }]
         },
         {
             "name": "nightmare-soul",
@@ -79,6 +97,33 @@
             "img": "red-soul.JPG",
             "effect": "ИНТ +1, Ом +80",
             "drop": [{ "name": "hell-spider51" }]
+        },
+        {
+            "name": "high-soul",
+            "nameRU": "Высокая душа",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "ИНТ +1, СД+1, Ом +8%",
+            "drop": [{ "name": "berserk63" }]
+        },
+        {
+            "name": "eagle-soul",
+            "nameRU": "Душа Орла",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "Атака +5%",
+            "drop": [{ "name": "demon67" }]
+        },
+        {
+            "name": "beast-soul",
+            "nameRU": "Звериная душа",
+            "part": "Руки",
+            "color": "red",
+            "img": "red-soul.JPG",
+            "effect": "ВЫН +1, ПРВ+1, Оз +8%",
+            "drop": [{ "name": "berserk63" }]
         },
         {
             "name": "warrior-soul",
@@ -349,6 +394,15 @@
             "img": "purple-soul.JPG",
             "effect": "Сопротивляемость магии огня +40, магии льда -25",
             "drop": [{ "name": "spider28" }]
+        },
+        {
+            "name": "ice-soul",
+            "nameRU": "Душа Льда",
+            "part": "Щит",
+            "color": "purple",
+            "img": "purple-soul.JPG",
+            "effect": "Сопротивляемость магии огня +20, магии льда +40, магии молнии -50",
+            "drop": [{ "name": "ghost57" }]
         },
         {
             "name": "hurry-soul",

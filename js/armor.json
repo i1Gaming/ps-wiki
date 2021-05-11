@@ -530,7 +530,7 @@
             "nameRU": "Щит защитника",
             "type": "shield",
             "lvl": 35,
-            "drop": [{ "name": "isp55", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+            "drop": [{ "name": "human35", "slot": "0,1" }, { "name": "human36", "slot": "0,1" }, { "name": "isp55", "slot": "1" }, { "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
         },
         {
             "name": "metal-gloves30",

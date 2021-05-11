@@ -305,7 +305,7 @@
             "nameRU": "Пояс",
             "type": "belt",
             "lvl": 30,
-            "drop": [{ "name": "merchant", "slot": "2" }]
+            "drop": [{ "name": "merchant", "slot": "2" }, { "name": "berserk63", "slot": "3" }]
         },
         {
             "name": "leather-belt30",
