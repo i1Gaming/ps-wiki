@@ -383,7 +383,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "wormy-meat" }],
                 "medium": [{ "type": "other", "name": "decaying-meat" }, { "type": "other", "name": "moonlight-grass" }, { "type": "other", "name": "replenishment-potion-60" }],
-                "hard": [{ "type": "soul", "name": "needle-soul" }, { "type": "soul", "name": "fountain-soul" }]
+                "hard": [{ "type": "soul", "name": "needle-soul" }, { "type": "soul", "name": "fountain-soul" }, { "type": "armor", "name": "dark-crown35", "slots": "0,1" }]
             }
         },
         {
@@ -2484,7 +2484,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "sharpened-fang" }, { "type": "other", "name": "sharp-fang" }, { "type": "other", "name": "curved-fang" }],
                 "medium": [{ "type": "other", "name": "poisonous-grass" }, { "type": "other", "name": "poison" }, { "type": "other", "name": "painkiller" }, { "type": "other", "name": "lightlvl1" }],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "killer-armor35", "slots": "0,1" }]
             }
         },
         {
@@ -2663,7 +2663,7 @@
             "drop": {
                 "easy": [],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "soul", "name": "lightning-soul" }, { "type": "soul", "name": "stronghold-soul" }]
             }
         },
         {
@@ -2751,7 +2751,7 @@
             "drop": {
                 "easy": [],
                 "medium": [],
-                "hard": []
+                "hard": [{ "type": "armor", "name": "dark-crown35", "slots": "1" }]
             }
         },
         {
@@ -3031,6 +3031,23 @@
                 "easy": [],
                 "medium": [],
                 "hard": []
+            }
+        },
+        {
+            "name": "tree46",
+            "nameRU": "Дендроид",
+            "lvl": 46,
+            "img": "tree46.PNG",
+            "habitat": [{
+                "location": "gorda",
+                "coordinates": "I-10,11",
+                "day": true,
+                "night": true
+            }],
+            "drop": {
+                "easy": [],
+                "medium": [],
+                "hard": [{ "type": "other", "name": "jour-hammer" }]
             }
         },
         {
@@ -3567,7 +3584,7 @@
             "drop": {
                 "easy": [{ "type": "other", "name": "muldian-medal" }],
                 "medium": [],
-                "hard": [{ "type": "weapon", "name": "moonlight-wand21", "slots": "3" }, { "type": "soul", "name": "wish-soul" }]
+                "hard": [{ "type": "weapon", "name": "moonlight-wand21", "slots": "3" }, { "type": "soul", "name": "wish-soul" }, { "type": "soul", "name": "mighty-soul" }]
             }
         },
         {

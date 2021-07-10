@@ -292,7 +292,7 @@
             "nameRU": "Темный венец",
             "type": "helmet",
             "lvl": 35,
-            "drop": [{ "name": "gilia48", "slot": "1" }]
+            "drop": [{ "name": "ghoul28", "slot": "0,1" }, { "name": "gilia48", "slot": "1" }, { "name": "demon53", "slot": "1" }]
         },
         {
             "name": "wizard-hat35",
@@ -412,6 +412,13 @@
             "type": "body",
             "lvl": 28,
             "drop": [{ "name": "vargas", "slot": "0" }, { "name": "dip", "slot": "0" }, { "name": "frederika", "slot": "0" }]
+        },
+        {
+            "name": "killer-armor35",
+            "nameRU": "Доспех убийцы",
+            "type": "body",
+            "lvl": 35,
+            "drop": [{ "name": "snake33", "slot": "0,1" }]
         },
         {
             "name": "adventurer-armor22",

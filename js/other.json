@@ -599,6 +599,12 @@
             "nameRU": "Подснежник",
             "img": "hepatica.PNG",
             "drop": [{ "name": "tushkanchik16" }, { "name": "chiko20" }]
+        },
+        {
+            "name": "jour-hammer",
+            "nameRU": "Молоток подмастерья",
+            "img": "jour-hammer.PNG",
+            "drop": [{ "name": "tree46" }]
         }
     ]
 }

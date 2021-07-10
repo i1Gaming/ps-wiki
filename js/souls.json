@@ -36,6 +36,15 @@
             "drop": [{ "name": "komodo51" }]
         },
         {
+            "name": "stronghold-soul",
+            "nameRU": "Душа оплота",
+            "part": "Шлем",
+            "color": "yellow",
+            "img": "yellow-soul.JPG",
+            "effect": "Сопротивляемость чарам +20",
+            "drop": [{ "name": "big-ghost60" }]
+        },
+        {
             "name": "careful-soul",
             "nameRU": "Осторожная душа",
             "part": "Шлем",
@@ -261,6 +270,15 @@
             "drop": [{ "name": "rat23" }]
         },
         {
+            "name": "mighty-soul",
+            "nameRU": "Могучая душа",
+            "part": "Пояс",
+            "color": "black",
+            "img": "black-soul.JPG",
+            "effect": "СИЛ +2",
+            "drop": [{ "name": "hell-demon65" }]
+        },
+        {
             "name": "defend-soul",
             "nameRU": "Душа Защиты",
             "part": "Пояс",
@@ -403,6 +421,15 @@
             "img": "purple-soul.JPG",
             "effect": "Сопротивляемость магии огня +20, магии льда +40, магии молнии -50",
             "drop": [{ "name": "ghost57" }]
+        },
+        {
+            "name": "lightning-soul",
+            "nameRU": "Душа Молнии",
+            "part": "Щит",
+            "color": "purple",
+            "img": "purple-soul.JPG",
+            "effect": "Сопротивляемость магии огня -25, магии льда -25, магии молнии +75",
+            "drop": [{ "name": "big-ghost60" }]
         },
         {
             "name": "hurry-soul",
